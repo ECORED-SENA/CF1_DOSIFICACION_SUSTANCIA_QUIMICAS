@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span.text-white 3
-      h1 Estudios Ambientales
+      h1 Buenas prácticas de laboratorio
     
     .row
       p Las Buenas Prácticas de Laboratorio (BPL) están definidas como un conjunto de reglas, procedimientos operativos y operacionales que están determinados por la Organization for Economic Cooperation and Development (OCDE), y se consideran como obligatorias para asegurar la calidad e integridad de los datos producidos en los procesos del laboratorio, esto con la finalidad de armonizar los protocolos, la información y la documentación de los procedimientos operativos del laboratorio. 
