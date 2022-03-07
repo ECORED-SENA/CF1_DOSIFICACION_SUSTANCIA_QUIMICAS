@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1229.457" height="348.287" viewBox="0 0 1229.457 348.287">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="0.803" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b3d9c6"/>
+      <stop offset="1" stop-color="#ddf8ea"/>
+    </linearGradient>
+    <filter id="Trazado_190580" x="0" y="0" width="1229.457" height="348.287" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Trazado_190580)">
+    <path id="Trazado_190580-2" data-name="Trazado 190580" d="M16.892,0H1149.565c9.329,0,16.892,4.482,16.892,10.01V275.277c0,5.528-7.563,10.01-16.892,10.01H16.892C7.563,285.287,0,280.8,0,275.277V10.01C0,4.482,7.563,0,16.892,0Z" transform="translate(31.5 16.5)" opacity="0.682" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

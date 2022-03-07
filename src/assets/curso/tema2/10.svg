@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="341" height="318" viewBox="0 0 341 318">
+  <defs>
+    <filter id="Línea_278" x="64.506" y="249.404" width="180.981" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_108429" data-name="Grupo 108429" transform="translate(-627 -5179)">
+    <rect id="Background" width="341" height="318" transform="translate(627 5179)" fill="#477fa2" opacity="0.892"/>
+    <text id="Servicio_Nacional_de_Aprendizaje_SENA_._2020._Practica_de_laboratorio_alistamiento_y_esterilización_de_materiales_para_el_muestreo_de_agua_para_análisis_microbiológico._Centro_de_gestión_industrial_CGI_." data-name="Servicio Nacional de Aprendizaje (SENA). 2020. 
+Practica de laboratorio alistamiento y esterilización de materiales para el muestreo de agua para análisis microbiológico. Centro de gestión industrial (CGI)." transform="translate(663.063 5234.58)" fill="#fff" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="19">Servicio Nacional de Aprendizaje </tspan><tspan x="0" y="44">(SENA). 2020. </tspan><tspan font-size="16" font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="69">Practica de laboratorio alistamiento y </tspan><tspan x="0" y="94">esterilización de materiales para el </tspan><tspan x="0" y="119">muestreo de agua para análisis </tspan><tspan x="0" y="144">microbiológico. Centro de gestión </tspan><tspan x="0" y="169">industrial (CGI).</tspan></tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 627, 5179)" filter="url(#Línea_278)">
+      <line id="Línea_278-2" data-name="Línea 278" x2="162.981" transform="translate(73.51 257.4)" fill="none" stroke="#f6f6f6" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

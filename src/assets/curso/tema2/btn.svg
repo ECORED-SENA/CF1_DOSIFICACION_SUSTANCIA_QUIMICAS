@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144.867" height="48.255" viewBox="0 0 144.867 48.255">
+  <g id="Grupo_108284" data-name="Grupo 108284" transform="translate(-0.462)">
+    <rect id="Rectángulo_687" data-name="Rectángulo 687" width="134.941" height="48.255" rx="5" transform="translate(10.388 0)" fill="#d9e6f5"/>
+    <text id="Enlace_web._" data-name="Enlace web. " transform="translate(56.185 12.968)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="15">Enlace web. </tspan></text>
+    <rect id="Rectángulo_4788" data-name="Rectángulo 4788" width="48.077" height="48.077" transform="translate(0.462)" fill="#ffd947"/>
+    <g id="Icon_feather-link-2" data-name="Icon feather-link-2" transform="translate(8.808 25.711) rotate(-45)">
+      <path id="Trazado_1842" data-name="Trazado 1842" d="M18.5,0h3.963a6.606,6.606,0,1,1,0,13.211H18.5m-7.927,0H6.606A6.606,6.606,0,1,1,6.606,0h3.963" transform="translate(-2.828 2.828)" fill="none" stroke="#0f2440" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_1843" data-name="Trazado 1843" d="M0,0H10.569" transform="translate(6.419 9.434)" fill="none" stroke="#0f2440" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

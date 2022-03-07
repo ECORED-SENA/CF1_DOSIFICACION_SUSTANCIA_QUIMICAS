@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1228" height="554" viewBox="0 0 1228 554">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#68a58a"/>
+      <stop offset="1" stop-color="#477fa2"/>
+    </linearGradient>
+  </defs>
+  <g id="Tabla_2" data-name="Tabla 2" transform="translate(226 -260)">
+    <rect id="Rectángulo_4935" data-name="Rectángulo 4935" width="1228" height="97" transform="translate(-226 374)" fill="#f6f6f6"/>
+    <rect id="Rectángulo_4936" data-name="Rectángulo 4936" width="1228" height="97" transform="translate(-226 471)" fill="#fff"/>
+    <rect id="Rectángulo_4937" data-name="Rectángulo 4937" width="1228" height="97" transform="translate(-226 568)" fill="#f6f6f6"/>
+    <rect id="Rectángulo_4938" data-name="Rectángulo 4938" width="1228" height="97" transform="translate(-226 665)" fill="#fff"/>
+    <text id="Grifos" transform="translate(-193 409)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="19">Grifos</tspan></text>
+    <text id="Lagos_y_ríos" data-name="Lagos y ríos" transform="translate(-193 601)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="19">Lagos y ríos</tspan></text>
+    <text id="Pozos_y_depósitos" data-name="Pozos y depósitos" transform="translate(-193 491)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="19">Pozos y </tspan><tspan x="0" y="44">depósitos</tspan></text>
+    <text id="Piscinas" transform="translate(-193 700)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="19">Piscinas</tspan></text>
+    <text id="Cuando_se_trata_de_grifos_de_agua_es_necesario_retirar_los_filtros_que_tenga_posteriormente_se_limpia_con_alcohol_y_se_flamea_el_grifo_mientras_está_cerrado_antes_de_tomar_la_muestra_se_debe_dejar_correr_el_agua_por_al_menos_cinco_5_minutos_luego_se_d" data-name="Cuando se trata de grifos de agua es necesario retirar los filtros que tenga, posteriormente se limpia con alcohol y se flamea el grifo mientras está cerrado, antes de tomar la muestra se debe dejar correr el agua por al menos cinco (5) minutos, luego se d" transform="translate(53 391)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Cuando se trata de grifos de agua es necesario retirar los filtros que tenga, posteriormente se limpia con alcohol y se flamea </tspan><tspan x="0" y="38">el grifo mientras está cerrado, antes de tomar la muestra se debe dejar correr el agua por al menos cinco (5) minutos, luego </tspan><tspan x="0" y="59">se destapa el frasco se llena se cierra.</tspan></text>
+    <text id="La_muestra_se_debe_tomar_lo_más_lejos_posible_de_la_orilla_procurando_no_remover_el_fondo_para_liberar_sedimentos_y_se_deben_evitar_las_zonas_de_estancamiento." data-name="La muestra se debe tomar lo más lejos posible de la orilla, procurando no remover el fondo para liberar sedimentos y se deben evitar las zonas de estancamiento." transform="translate(53 592)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">La muestra se debe tomar lo más lejos posible de la orilla, procurando no remover el fondo para liberar sedimentos y se </tspan><tspan x="0" y="38">deben evitar las zonas de estancamiento.</tspan></text>
+    <text id="Se_introduce_en_el_agua_el_frasco_de_muestreo_sostenido_con_una_cuerda_y_se_toma_la_muestra_luego_de_haber_agitado_la_superficie_del_cuerpo_de_agua._" data-name="Se introduce en el agua el frasco de muestreo sostenido con una cuerda y se toma la muestra luego de haber agitado la superficie del cuerpo de agua. " transform="translate(53 495)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Se introduce en el agua el frasco de muestreo sostenido con una cuerda y se toma la muestra luego de haber agitado la </tspan><tspan x="0" y="38">superficie del cuerpo de agua. </tspan></text>
+    <text id="La_muestra_debe_ser_tomada_en_los_puntos_en_los_cuales_se_sospeche_una_más_lenta_renovación._" data-name="La muestra debe ser tomada en los puntos en los cuales se sospeche una más lenta renovación. " transform="translate(53 702)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">La muestra debe ser tomada en los puntos en los cuales se sospeche una más lenta renovación. </tspan></text>
+    <path id="Trazado_2380" data-name="Trazado 2380" d="M0,0H1228V60.672H0Z" transform="translate(-226 313.324)" opacity="0.924" fill="url(#linear-gradient)"/>
+    <text id="PUNTOS_DE_MUESTREO" data-name="PUNTOS DE MUESTREO" transform="translate(-95 351)" fill="#fff" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-98.227" y="0">PUNTOS DE MUESTREO</tspan></text>
+    <rect id="Rectángulo_4940" data-name="Rectángulo 4940" width="1228" height="46" transform="translate(-226 768)" fill="#f6f6f6"/>
+    <text id="Nota._SENA_2021_." data-name="Nota. SENA (2021)." transform="translate(-211 780)" fill="#636363" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="14">Nota. SENA (2021).</tspan></text>
+    <rect id="Rectángulo_5109" data-name="Rectángulo 5109" width="4" height="25" transform="translate(-226 260)" fill="#8fd4b9"/>
+    <text id="Tabla_2." data-name="Tabla 2." transform="translate(-211 277)" fill="#12263f" font-size="13" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Tabla 2.</tspan></text>
+    <text id="Técnicas_de_muestreo" data-name="Técnicas de muestreo" transform="translate(-160 278)" fill="#12263f" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Técnicas de muestreo</tspan></text>
+    <line id="Línea_132" data-name="Línea 132" y2="452" transform="translate(32 316)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+    <text id="TÉCNICAS_DE_MUESTREO-2" data-name="TÉCNICAS DE MUESTREO" transform="translate(175 351)" fill="#fff" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-105.992" y="0">TÉCNICAS DE MUESTREO</tspan></text>
+  </g>
+</svg>
