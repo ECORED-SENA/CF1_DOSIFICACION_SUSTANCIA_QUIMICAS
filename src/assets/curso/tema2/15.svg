@@ -18,14 +18,12 @@
     </linearGradient>
   </defs>
   <g id="Grupo_108433" data-name="Grupo 108433" transform="translate(-1019.545 -5744.994)">
-    <g id="Grupo_108434" data-name="Grupo 108434">
-      <g id="Grupo_108287" data-name="Grupo 108287">
-        <g id="Enmascarar_grupo_54" data-name="Enmascarar grupo 54" transform="translate(14892.627 11105.164)" clip-path="url(#clip-path)">
-          <rect id="female-doctor-in-white-coat-opening-the-fridge-with-blood-samples-in-the-lab" width="443" height="295" transform="translate(-13987.085 -5366)" opacity="0.999" fill="url(#pattern)"/>
-        </g>
-        <path id="Trazado_189029" data-name="Trazado 189029" d="M380.079,152.737c-302.4,1.2-263.507,10.568-263.507,296.253l140.612,79.177a40.04,40.04,0,0,0,40.262,0L435.4,448.018h0c0-73.82-.814-295.281-.814-295.281Z" transform="translate(904.601 5770.404)" fill="url(#linear-gradient-2)"/>
+    <g id="Grupo_108287" data-name="Grupo 108287">
+      <g id="Enmascarar_grupo_54" data-name="Enmascarar grupo 54" transform="translate(14892.627 11105.164)" clip-path="url(#clip-path)">
+        <rect id="female-doctor-in-white-coat-opening-the-fridge-with-blood-samples-in-the-lab" width="443" height="295" transform="translate(-13987.085 -5366)" opacity="0.999" fill="url(#pattern)"/>
       </g>
-      <text id="Asegurar_la_tapa_de_la_nevera_para_que_en_su_recorrido_no_se_altere_el_resultado_de_la_muestra." data-name="Asegurar la tapa de la nevera para que en su recorrido no se altere el resultado de la muestra." transform="translate(1035.272 6051.031)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Asegurar la tapa de la nevera para que </tspan><tspan x="0" y="41">en su recorrido no se altere el resultado </tspan><tspan x="0" y="65">de la muestra.</tspan></text>
+      <path id="Trazado_189029" data-name="Trazado 189029" d="M380.079,152.737c-302.4,1.2-263.507,10.568-263.507,296.253l140.612,79.177a40.04,40.04,0,0,0,40.262,0L435.4,448.018h0c0-73.82-.814-295.281-.814-295.281Z" transform="translate(904.601 5770.404)" fill="url(#linear-gradient-2)"/>
     </g>
+    <text id="Asegurar_la_tapa_de_la_nevera_para_que_en_su_recorrido_no_se_altere_el_resultado_de_la_muestra." data-name="Asegurar la tapa de la nevera para que en su recorrido no se altere el resultado de la muestra." transform="translate(1035.272 6051.031)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Asegurar la tapa de la nevera para que </tspan><tspan x="0" y="38">en su recorrido no se altere el resultado </tspan><tspan x="0" y="62">de la muestra.</tspan></text>
   </g>
 </svg>

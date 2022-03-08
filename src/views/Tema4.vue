@@ -100,15 +100,69 @@
               .col-sm-2.mt-4
               .col-sm-8.mt-4
                 img.mb-4(src='@/assets/curso/tema4/13.svg', alt='Texto que describa la imagen')  
+      separador
       h2.mt-4 Pasos prácticos para la toma de la muestra para análisis físico-químico:
-      img.mb-4(src='@/assets/curso/tema4/14.png', alt='Texto que describa la imagen')  
-      p Dentro de los análisis fisicoquímicos que se le realizan al agua se encuentran los siguientes junto con sus métodos de determinación como son:
+      img.mt-4(src='@/assets/curso/tema4/14.png', alt='Texto que describa la imagen')  
+      
+      separador
+      p.mt-4 Dentro de los análisis fisicoquímicos que se le realizan al agua se encuentran los siguientes junto con sus métodos de determinación como son:
 
       p Parámetros físicos que cuenta con 7 características:
+      .col-md-1
+      .col-md-10
+        TabsC.color-acento-contenido.mt-4
+          .py-3.py-md-4(titulo="Color")
+            .row
+              .col-md-11.mb-4.mb-md-0.p-4
+                p  Método espectrofotométrico, que se usa principalmente en aguas industriales contaminadas que tienen colores poco usuales, y que no pueden ser igualados por el método colorimétrico.
+                p El método del platino-cobalto: por comparación visual de la muestra con soluciones coloreadas de concentraciones conocidas.
+                <br><br><br>
+          .py-3.py-md-4(titulo="Olor")
+            .row
+              .col-md-11.mb-4.mb-md-0.p-4
+                p  Se cuantifica mediante un test de dilución hasta desaparición del olor.
+                <br><br><br><br><br><br>         
+          .py-3.py-md-4(titulo="Turbidez")
+            .row
+              .col-md-11.mb-4.mb-md-0.p-4
+                p  El método más utilizado para determinar la turbidez en el agua es la nefelometría la cual se basa en incidir un rayo luminoso en la muestra, así las partículas en suspensión dispersan parte de esta luz, posteriormente esa luz dispersada se recoge sobre una célula fotoeléctrica la cual genera una corriente eléctrica que influye en la intensidad y por lo tanto influye en el grado de turbidez de la muestra. 
+                <br><br><br>          
+          .py-3.py-md-4(titulo="Temperatura")
+            .row
+              .col-md-11.mb-4.mb-md-0.p-4
+                p La medida de este parámetro se puede hacer de manera sencilla y exacta mediante el empleo de sensores basados en el cambio de la resistencia de un resistor metálico. La termometría de resistencia esta basada en el cambio que se genera en la resistencia de los elementos conductores y semiconductores metálicos presentes en la muestra.
+                <br><br><br><br>
+          .py-3.py-md-4(titulo="Densidad")
+            .row
+              .col-md-11.mb-4.mb-md-0.p-4
+                p Para esta medición se utiliza un densímetro el cual sirve para calcular la densidad relativa de algún líquido. 
+                 <br><br><br><br><br><br><br>     
+          .py-3.py-md-4(titulo="Sólidos en suspensión")
+            .row
+              .col-md-11.mb-4.mb-md-0.p-4
+                p Para la determinación de este parámetro se filtra la muestra a través de un papel de filtro de 0.45 μm que se seca a una temperatura de 105ºC, posteriormente se pesa el filtro antes y después de pasar la muestra y así indicara el contenido de materiales en suspensión
+                <br><br><br><br>    
+          .py-3.py-md-4(titulo="Conductividad")
+            .row
+              .col-md-11.mb-4.mb-md-0.p-4
+                p La conductividad en el agua se mide a través de un sistema amperimétrico o potenciométrico. Cuanta mayor intensidad pase o mayor potencia se genere, mayor será la conductividad.                              
+                <br><br><br><br><br>
+    <br><br><br>
+    
+    p Para el caso de los parámetros químicos cuenta con 4 características:
+    .row
+      .col-md-3.mt-4
+        img.mb-4(src='@/assets/curso/tema4/15.svg', alt='Texto que describa la imagen')  
+      .col-md-3.mt-4
+        img.mb-4(src='@/assets/curso/tema4/16.svg', alt='Texto que describa la imagen')  
+      .col-md-3.mt-4
+        img.mb-4(src='@/assets/curso/tema4/17.svg', alt='Texto que describa la imagen')  
+      .col-md-3.mt-4
+        img.mb-4(src='@/assets/curso/tema4/18.svg', alt='Texto que describa la imagen')  
 
 
-      
-    separador
+
+    
 </template>
 <script>
 export default {

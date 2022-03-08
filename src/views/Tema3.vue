@@ -42,12 +42,13 @@
         .col-md-10  
           img(src='@/assets/curso/tema3/5.svg')
           img(src='@/assets/curso/tema3/6.svg')
+    separador
     .row.p-4.mb-4
       .col-md-1
       .col-md-10
         img.mb-4(src='@/assets/curso/tema3/7.svg' alt='AvatarTop')
         .col-md-3
-          a.anexo.mb-2.mb-lg-0(href="https://drive.google.com/open?id=1-0DBW0V7b86svVyc35atqrHHdsMOyW5u" target="_blank")
+          a.anexo.mb-2.mb-lg-0.p-0(href="https://drive.google.com/open?id=1-0DBW0V7b86svVyc35atqrHHdsMOyW5u" target="_blank")
             img(src="@/assets/curso/tema2/btn.svg", style="width:150px").m-auto
     separador
     .row

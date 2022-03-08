@@ -17,13 +17,13 @@
       <stop offset="1" stop-color="#ffeda7"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_108436" data-name="Grupo 108436" transform="translate(11037.728 5505.716)">
+  <g id="Grupo_108447" data-name="Grupo 108447" transform="translate(11037.728 5505.716)">
     <g id="Grupo_108097" data-name="Grupo 108097" transform="translate(2512.354 -184.886)">
       <g id="Enmascarar_grupo_56" data-name="Enmascarar grupo 56" clip-path="url(#clip-path)">
         <rect id="reagents-in-test-tubes-with-yellow-samples-at-chemistry-laboratory-in-special-fridge" width="427" height="285" transform="translate(-13594 -5326)" fill="url(#pattern)"/>
       </g>
       <path id="Trazado_189029" data-name="Trazado 189029" d="M380.079,152.737c-302.4,1.2-263.507,10.568-263.507,296.253l140.612,79.177a40.04,40.04,0,0,0,40.262,0L435.4,448.018h0c0-73.82-.814-295.281-.814-295.281Z" transform="translate(-13665.026 -5295.42)" fill="url(#linear-gradient-2)"/>
     </g>
-    <text id="La_nevera_se_debe_cuidar_de_no_ser_maltratada_y_conservar_su_posición_horizontal_mantener_la_nevera_lejos_de_calor_para_evitar_su_alteración." data-name="La nevera  se debe cuidar de no ser maltratada y conservar su posición horizontal, mantener la nevera   lejos de calor para evitar su alteración." transform="translate(-11016.272 -5207.567)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17" xml:space="preserve">La nevera  se debe cuidar de no ser </tspan><tspan x="0" y="41">maltratada y conservar su posición </tspan><tspan x="0" y="65" xml:space="preserve">horizontal, mantener la nevera   lejos de </tspan><tspan x="0" y="89">calor para evitar su alteración.</tspan></text>
+    <text id="La_nevera_se_debe_cuidar_de_no_ser_maltratada_y_conservar_su_posición_horizontal_mantener_la_nevera_lejos_de_calor_para_evitar_su_alteración." data-name="La nevera  se debe cuidar de no ser maltratada y conservar su posición horizontal, mantener la nevera   lejos de calor para evitar su alteración." transform="translate(-11016.272 -5207.567)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14" xml:space="preserve">La nevera  se debe cuidar de no ser </tspan><tspan x="0" y="38">maltratada y conservar su posición </tspan><tspan x="0" y="62" xml:space="preserve">horizontal, mantener la nevera   lejos de </tspan><tspan x="0" y="86">calor para evitar su alteración.</tspan></text>
   </g>
 </svg>

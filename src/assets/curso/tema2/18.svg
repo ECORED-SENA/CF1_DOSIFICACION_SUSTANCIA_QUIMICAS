@@ -17,13 +17,13 @@
       <stop offset="1" stop-color="#ffeda7"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_108437" data-name="Grupo 108437" transform="translate(10659 5508.302)">
+  <g id="Grupo_108446" data-name="Grupo 108446" transform="translate(10659 5508.302)">
     <g id="Grupo_108098" data-name="Grupo 108098" transform="translate(-21 -123)">
       <g id="Enmascarar_grupo_57" data-name="Enmascarar grupo 57" clip-path="url(#clip-path)">
         <rect id="young-female-doctor-in-mask-and-in-white-coat-using-digital-tablet-at-work-she-pointing-at-fridge-while-working-at-the-lab" width="403" height="268.667" transform="translate(-10689 -5385.799)" fill="url(#pattern)"/>
       </g>
       <path id="Trazado_189029" data-name="Trazado 189029" d="M380.079,152.737c-302.4,1.2-263.507,10.568-263.507,296.253l140.612,79.177a40.04,40.04,0,0,0,40.262,0L435.4,448.018h0c0-73.82-.814-295.281-.814-295.281Z" transform="translate(-10752.944 -5359.892)" fill="url(#linear-gradient-2)"/>
     </g>
-    <text id="Vigilar_la_nevera_para_evitar_ser_manipuladas_por_personas_extrañas_al_muestreo." data-name="Vigilar la nevera para evitar ser manipuladas por personas extrañas al muestreo." transform="translate(-10636.214 -5207.567)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Vigilar la nevera para evitar ser </tspan><tspan x="0" y="41">manipuladas por personas extrañas al </tspan><tspan x="0" y="65">muestreo.</tspan></text>
+    <text id="Vigilar_la_nevera_para_evitar_ser_manipuladas_por_personas_extrañas_al_muestreo." data-name="Vigilar la nevera para evitar ser manipuladas por personas extrañas al muestreo." transform="translate(-10636.214 -5207.567)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Vigilar la nevera para evitar ser </tspan><tspan x="0" y="38">manipuladas por personas extrañas al </tspan><tspan x="0" y="62">muestreo.</tspan></text>
   </g>
 </svg>

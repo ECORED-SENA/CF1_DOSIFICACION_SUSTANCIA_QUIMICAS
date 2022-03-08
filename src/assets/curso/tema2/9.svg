@@ -8,10 +8,10 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_108428" data-name="Grupo 108428" transform="translate(-285 -5179)">
+  <g id="Grupo_108452" data-name="Grupo 108452" transform="translate(-285 -5179)">
     <path id="Background" d="M20,0H342a0,0,0,0,1,0,0V318a0,0,0,0,1,0,0H20A20,20,0,0,1,0,298V20A20,20,0,0,1,20,0Z" transform="translate(285 5179)" fill="#355f7a" opacity="0.888"/>
     <text id="Servicio_Nacional_de_Aprendizaje_SENA_._2020._Practica_de_laboratorio_Reconocimiento_de_material_de_laboratorio._Centro_de_gestión_industrial_CGI_." data-name="Servicio Nacional de Aprendizaje (SENA). 2020.
-Practica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI)." transform="translate(322.377 5234.58)" fill="#fff" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="19">Servicio Nacional de Aprendizaje </tspan><tspan x="0" y="44">(SENA). 2020.</tspan><tspan font-size="16" font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="69">Practica de laboratorio Reconocimiento </tspan><tspan x="0" y="94">de material de laboratorio. Centro de </tspan><tspan x="0" y="119">gestión industrial (CGI).</tspan></tspan></text>
+Practica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI)." transform="translate(322.377 5234.58)" fill="#fff" font-size="18" font-family="Arial-Black, Arial" font-weight="800"><tspan x="0" y="20">Servicio Nacional de </tspan><tspan x="0" y="45">Aprendizaje (SENA). 2020.</tspan><tspan font-size="16" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="70">Practica de laboratorio Reconocimiento </tspan><tspan x="0" y="95">de material de laboratorio. Centro de </tspan><tspan x="0" y="120">gestión industrial (CGI).</tspan></tspan></text>
     <g transform="matrix(1, 0, 0, 1, 285, 5179)" filter="url(#Línea_277)">
       <line id="Línea_277-2" data-name="Línea 277" x2="162.981" transform="translate(89.21 256.24)" fill="none" stroke="#f6f6f6" stroke-width="4"/>
     </g>

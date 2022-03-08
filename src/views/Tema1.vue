@@ -50,7 +50,7 @@
     <br>
     h2 Importancia del alistamiento de la toma de muestras
 
-    .row.mt-4.p-4.BGI2
+    .row.mt-4.p-4
 
       .col-sm-8.mt-4
         p.mb-4 Las principales razones de la importancia del alistamiento de las tomas de muestras tienen que ver con la necesidad de verificar si se cuenta con todos los implementos para lograr identificar la calidad del recurso objeto de análisis, bien sea cuencas de agua dulce, salada, agua para consumo humano y la estimación de los flujos de contaminantes y nutrientes vertidos a los ríos o aguas subterráneas, lagos y océanos, o a través de fronteras internacionales.
@@ -63,12 +63,14 @@
 
     
 
-      row.p-4
-        img.mb-4.mt-4(src='@/assets/curso/tema1/6.svg')
-        <br>
-        img.mb-4(src='@/assets/curso/tema1/7.svg')
+    .row.BGI2  
+      .col-sm-1
+      .col-sm-10
+          img.mb-4.mt-4(src='@/assets/curso/tema1/6.svg')
+          <br>
+          img.mb-4(src='@/assets/curso/tema1/7.svg')
 
-    p Además, un plan de muestreo debe tener en cuenta lo siguiente:
+      p Además, un plan de muestreo debe tener en cuenta lo siguiente:
       
       img.mb-4.p-4.mt-4(src='@/assets/curso/tema1/8.svg')
       .row.justify-content-center.mb-4

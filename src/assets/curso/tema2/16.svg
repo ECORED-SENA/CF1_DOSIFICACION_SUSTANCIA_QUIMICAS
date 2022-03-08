@@ -17,13 +17,13 @@
       <stop offset="1" stop-color="#ffeda7"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_108435" data-name="Grupo 108435" transform="translate(11410.728 5502.887)">
+  <g id="Grupo_108448" data-name="Grupo 108448" transform="translate(11410.728 5502.887)">
     <g id="Grupo_108096" data-name="Grupo 108096" transform="translate(2462.354 -142.717)">
       <g id="Enmascarar_grupo_55" data-name="Enmascarar grupo 55" clip-path="url(#clip-path)">
         <rect id="man-in-mask-receipt-of-goods-for-coronavirus-stop-coronavirus" width="427" height="285" transform="translate(-13947 -5367)" fill="url(#pattern)"/>
       </g>
       <path id="Trazado_189029" data-name="Trazado 189029" d="M380.079,152.737c-302.4,1.2-263.507,10.568-263.507,296.253l140.612,79.177a40.04,40.04,0,0,0,40.262,0L435.4,448.018h0c0-73.82-.814-295.281-.814-295.281Z" transform="translate(-13988.026 -5334.76)" fill="url(#linear-gradient-2)"/>
     </g>
-    <text id="Que_el_vehículo_cumpla_con_las_condiciones_seguras_para_el_transporte_de_la_muestra." data-name="Que el vehículo cumpla con las condiciones seguras para el transporte de la muestra." transform="translate(-11395 -5195.567)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Que el vehículo cumpla con las </tspan><tspan x="0" y="41">condiciones seguras para el transporte </tspan><tspan x="0" y="65">de la muestra.</tspan></text>
+    <text id="Que_el_vehículo_cumpla_con_las_condiciones_seguras_para_el_transporte_de_la_muestra." data-name="Que el vehículo cumpla con las condiciones seguras para el transporte de la muestra." transform="translate(-11395 -5195.567)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Que el vehículo cumpla con las </tspan><tspan x="0" y="38">condiciones seguras para el transporte </tspan><tspan x="0" y="62">de la muestra.</tspan></text>
   </g>
 </svg>
