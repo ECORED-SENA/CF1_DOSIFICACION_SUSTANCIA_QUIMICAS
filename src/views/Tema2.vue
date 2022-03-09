@@ -10,23 +10,85 @@
     
     .row.mb-12
       p.mb-4 Las técnicas de muestreo se dividen de la siguiente manera, las que son tomadas directamente en el recipiente que se va a enviar al laboratorio y están aquellas que son tomadas mediante el uso de equipos. A continuación, se describen las técnicas utilizadas según los puntos de muestreo, ver tabla 2.
-      img.mt-4.mb-4(src='@/assets/curso/tema2/1.svg')
+    <br><br><br>
+    t <strong>Tabla 2.</strong> Técnicas de muestreo
+    .tabla-b.color-acento-contenido.mt-4
+      .tabla-b__header
+        .row
+          .col-md-2
+            h5.mb-0.text-white.cssa PUNTOS DE MUESTREO
+          .col-md-10  
+            h5.mb-0.text-white.cssd TÉCNICAS DE MUESTREO
+      table
+        caption Nota. SENA (2021).
+        tr
+          th Grifos
+          td Cuando se trata de grifos de agua es necesario retirar los filtros que tenga, posteriormente se limpia con alcohol y se flamea el grifo mientras está cerrado, antes de tomar la muestra se debe dejar correr el agua por al menos cinco (5) minutos, luego se destapa el frasco se llena se cierra.
+        tr
+          th Pozos y depósitos
+          td Se introduce en el agua el frasco de muestreo sostenido con una cuerda y se toma la muestra luego de haber agitado la superficie del cuerpo de agua. 
+        tr
+          th Lagos y ríos
+          td La muestra se debe tomar lo más lejos posible de la orilla, procurando no remover el fondo para liberar sedimentos y se deben evitar las zonas de estancamiento.
+        tr
+          th Piscinas
+          td La muestra debe ser tomada en los puntos en los cuales se sospeche una más lenta renovación. 
 
+      <br><br>
       p.mb-4.mt-4 Existen tres formas de recoger muestras de agua dependiendo de cuál sea el tipo de análisis que se quiere realizar.
-      .row.mb-12.p-4
-        img(src='@/assets/curso/tema2/2.svg')
+      <br>
+    .row
+      .col-md-1
+      .col-md-10
+        PasosA.color-primario.mb-5(tipo="n")
+          .row
+            .col-md-6.mb-4.mb-md-0
+              <br><br><br>
+              p En primer lugar, están las muestras simples, que son aquellas que son obtenidas en el lugar y momento preestablecido para su análisis de manera individual, estas muestras se obtienen en su mayoría cuando son aguas de suministro o efluentes residuales. 
+
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema2/mg1.svg', alt='Texto que describa la imagen')
+
+          .row
+            .col-md-6.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/tema2/mg3.svg', alt='Texto que describa la imagen')
+            .col-md-6
+              <br><br><br>
+              p Segundo, encontramos las muestras compuestas que están determinadas por la mezcla y homogeneización de muestras simples que fueron recolectadas en el mismo lugar, pero en diferentes momentos. Estas muestras son utilizadas para calcular, por ejemplo, el funcionamiento eficaz de una planta de tratamiento de aguas
+              
+
+          .row
+            .col-md-6.mb-4.mb-md-0
+              <br><br><br>
+              p Por tercer y  último, encontramos las muestras integradas, que son aquellas que se obtienen por mezclar y homogeneizar muestras simples que han sido obtenidas en diferentes puntos, pero simultáneamente. 
+          
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema2/mg2.svg', alt='Texto que describa la imagen')
+
+
+
     <br>
     <br>
     .row.BGI2
       h2.mt-4 Técnicas de almacenamiento
-        .row.p-4.mt-4
-          .col-md-1
-          .col-md-10
-            figure(data-aos="flip-up")
-              img(src='@/assets/curso/tema2/3.svg')    
-      <br>
-      <br>
+      .row.mt-4
+        .col-md-1
+        .col-md-10
+          .bloque-texto-g.color-primario.p-3.p-sm-5.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/tema2/mg4.jpg')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              p.mb-0 Para el almacenamiento de la muestra es necesario utilizar recipientes plásticos o de vidrio según los parámetros que se vayan a analizar para evitar la contaminación con microorganismos ajenos a la muestra. Los recipientes de vidrio se deben ser utilizados cuando se trata de muestras destinadas al análisis de metales traza ya que el vidrio libera silicio y además puede absorber trazas de metales que se encuentren en la muestra. Por otra parte, los recipientes plásticos deberán ser descartados cuando las muestras contengan compuestos orgánicos ya que estos liberan sustancias del plástico y pueden disolver algunos compuestos orgánicos que se encuentren en la muestra. 
+                br
+                br
+                | Es necesario que la muestra se almacene a una temperatura de 4ºC y en ausencia de luz, esto debe realizarse en el momento de la toma de la muestra. 
 
+
+      separador
       h2.mt-4 Rotulación de la muestra
       p Para identificar la muestra se debe tener en cuenta lo siguiente:
 
@@ -81,7 +143,23 @@
             img.mb-4(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
           .col-md-5
             h3.mb-3 Características de los rótulos 
-            img.mb-4(src='@/assets/curso/tema2/6.svg' alt='AvatarTop')
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-angle-right
+                | Deben ser diligenciados justo antes o inmediatamente después de la toma de muestras.
+              li 
+                i.fas.fa-angle-right
+                | Deben fijarse en el recipiente de tal forma que se asegure que no se borrará o perderá la información.
+              li 
+                i.fas.fa-angle-right
+                | Debe ser totalmente legible (no realizar tachones).
+              li 
+                i.fas.fa-angle-right
+                | La información mínima que debe contener según el ICONTEC GTC 100 es: si aplica, se debe especificar el código del proyecto, las consideraciones de seguridad y el código del cronograma, por otro lado siempre debe contener, el nombre de identificación de la muestra, la identificación de la ubicación del muestreo, el punto de muestreo y el intervalo de tiempo del mismo (fecha y hora), tipo de muestreo, la empresa o nombre de la persona que realiza la toma, parámetros medidos in situ (p.5)
+              li 
+                i.fas.fa-angle-right
+                | Para muestras microbiológicas aparte de los mencionado anteriormente se debe complementar la información con la preservación realizada (se debe consignar en el momento del alistamiento de los recipientes en el laboratorio, ya que la adición del preservante se adiciona antes del proceso de esterilización de los frascos).
+
 
         .row.justify-content-center.mb-4
           .col-lg-10.cajon.bg33.mb-4.p-4
@@ -92,7 +170,16 @@
         .row
           .col-md-1
           .col-md-7
-            img.mb-4(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
+            ul.lista-ul
+              li 
+                i.fas.fa-angle-right
+                | Práctica de reconocimiento de materiales y equipos de laboratorio: en esta práctica se realizará todo un recorrido por el espacio de laboratorio donde podrá interactuar con los diferentes materiales (vidrio, plástico), los diferentes instrumentos y equipos con los que se puede trabajar en el mismo y los riesgos que debe tener claros antes de realizar cualquier práctica. A continuación podrá profundizar dicha información. 
+              li 
+                i.fas.fa-angle-right
+                | Práctica de medición de masa y volumen: con base en el material teórico se iniciará su aplicación en laboratorio. Su finalidad es aprender a utilizar los equipos e instrumentos del laboratorio que son requeridos para la determinación de masa y volumen de diferentes elementos según indicaciones de su instructor.
+              li 
+                i.fas.fa-angle-right
+                | Práctica de preparación de soluciones: su instructor le brindara el apoyo requerido para que pueda realizar diferentes soluciones en el laboratorio.
           .col-md-4
             img.mb-4(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
 
@@ -112,32 +199,91 @@
       
     h2.mt-4 Transporte de la muestra
     p.mt-4 Para que el transporte de la muestra sea el indicado se deben tener en cuenta los siguientes criterios:
+    <br> 
+      SlyderF.mt-4(columnas="col-lg-6 col-xl-4")
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop')
 
-      .col-sm-12.mt-4
-        SlyderF(columnas="col-12")
-              .row.p-4
-                .col-4
-                  img.mb-4(src='@/assets/curso/tema2/13.svg')
-                .col-4
-                  img.mb-4(src='@/assets/curso/tema2/14.svg')
-                .col-4
-                  img.mb-4(src='@/assets/curso/tema2/15.svg')     
-              .row.p-4
-                .col-3
-                  img.mb-4(src='@/assets/curso/tema2/16.svg')
-                .col-3
-                  img.mb-4(src='@/assets/curso/tema2/17.svg')
-                .col-3
-                  img.mb-4(src='@/assets/curso/tema2/18.svg')
-                .col-3
-                  img.mb-4(src='@/assets/curso/tema2/19.svg')             
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop')
+
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop')
+
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/16.svg' alt='AvatarTop')
+
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop')
+
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop')
+
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop')
+
+   
     h2.mt-4 Registro de la muestra
     p.mt-4 Para un registro adecuado de la muestra es necesario tener en cuenta lo siguiente: 
     .row 
       .col-md-1
       .col-md-10
-        img.mb-4(src='@/assets/curso/tema2/20.png')             
+        .row.mt-4
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
+              .tarjeta.color-acento-contenido
+                .p-2
+                  <br><br>   
+                  p Los recipientes que contengan muestras deben marcarse en forma clara y durable para permitir su identificación en el laboratorio sin ninguna ambigüedad.
+                  <br>      
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema2/i2.png' alt='AvatarTop')
+              .tarjeta.color-acento-contenido
+                .p-2
+                  p Al momento del muestreo es necesario observar numerosos detalles que permitirán una interpretación correcta de la información obtenida. Estos detalles se pueden lograr mediante el diligenciamiento de las etiquetas o formatos diseñados para tal fin, inmediatamente después de la recolección de la muestra, de modo que sea fácilmente identificada.
 
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema2/i3.png' alt='AvatarTop')
+              .tarjeta.color-acento-contenido
+                .p-4
+                  p Es importante registrar el tipo de mediciones efectuadas y las variaciones ambientales del sitio tales como condiciones del clima y observaciones inusuales. 
+                  <br>
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema2/i4.png' alt='AvatarTop')
+              .tarjeta.color-acento-contenido
+                .p-4
+                  p Se puede pegar al recipiente, la tarjeta o etiqueta con la información requerida; pero con frecuencia se mojan al transportar las muestras refrigeradas al laboratorio y la información puede quedar ilegible.
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema2/i5.png' alt='AvatarTop')
+              .tarjeta.color-acento-contenido
+                .p-4
+                  p Identificar el recipiente con un número, deseablemente escrito con lápiz No.2 y que consigne la información necesaria en el acta de toma de muestras, la cual debe ser diligenciada completamente.
+
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema2/i6.png' alt='AvatarTop')
+              .tarjeta.color-acento-contenido
+                .p-4
+                  <br>
+                  p Para asegurarse de no perder la información puede resultar mejor identificar la muestra, tanto por medio de una etiqueta o tarjeta como por una hoja de identificación de muestra.
 
 
     

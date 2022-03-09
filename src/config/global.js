@@ -4,6 +4,7 @@ export default {
     descripcionCurso:
       'En este componente formativo se abordan temas que le permitirán tomar muestras de agua adecuadamente y procesarlas para su análisis fisicoquímico para una acertada dosificación de sustancias que permitan su potabilización. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+    fondoBannerInterno: require('@/assets/curso/fondo-banner__interno.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {

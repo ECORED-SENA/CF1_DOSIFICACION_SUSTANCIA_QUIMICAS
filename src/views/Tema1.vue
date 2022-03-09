@@ -12,10 +12,28 @@
 
         .row.mb-4 
           .col-lg-2
-          .col-lg-8
-            figure(data-aos="flip-up")
-              img(src='@/assets/curso/tema1/1.svg')
-          .col-lg-2
+          .col-lg-3
+            img(src='@/assets/curso/tema1/1.svg')
+          .col-lg-6.p-2
+            <br><br><br><br>
+            ul.lista-ul.sss
+              <br>
+              li.ss 
+                i.fas.fa-check
+                | Establecer el plan de muestreo.
+              li.ss 
+                i.fas.fa-check
+                | Identificar el lugar de la toma de muestra.                   
+              li.ss 
+                i.fas.fa-check
+                | Determinar las características de la corriente de agua.
+              li.ss 
+                i.fas.fa-check
+                | Variación de las características de la corriente en el tiempo.
+              li.ss 
+                i.fas.fa-check
+                | Variaciones de temperatura.
+              <br>
 
     p.mt-4 Los planes de muestreo están diseñados para determinar las características físicas, químicas y microbiológicas de algún cuerpo de agua específico, con el uso de este plan se proporciona un modelo de guía para las personas que van a realizar la muestra y de esta manera reducir errores en ella, además de que minimiza la posibilidad de que los resultados salgan mal.
     .row.mb-5
@@ -33,10 +51,8 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5        
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.1.png')})`}") 
-              <br>
-              <br>
-              <br>
-              <br>
+              <br><br><br><br><br>
+
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario.mt-4.mb-4(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -63,16 +79,147 @@
 
     
 
-    .row.BGI2  
-      .col-sm-1
-      .col-sm-10
-          img.mb-4.mt-4(src='@/assets/curso/tema1/6.svg')
-          <br>
-          img.mb-4(src='@/assets/curso/tema1/7.svg')
+    .row.BGI2 
+      .row 
+        .col-md-1
+        .col-md-10
+          .row.mt-4
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/i1.svg' alt='AvatarTop')
+                .tarjeta.lll
+                  .p-4
+                    <br>
+                    p Las posibles variables químicas o biológicas presentes en el agua que puedan generar un deterioro en el recurso.
+       
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/i2.svg' alt='AvatarTop')
+                .tarjeta.lll
+                  .p-4
+                    <br>
+                    p La relación existente entre la calidad y la cantidad de agua en el cuerpo de agua a estudiar.
+
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/i3.svg' alt='AvatarTop')
+                .tarjeta.lll
+                  .p-4
+                    p El establecimiento de límites permisibles, teniendo en cuenta normatividad aplicable a la región.
+
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/i4.svg' alt='AvatarTop')
+                .tarjeta.lll
+                  .p-4
+                    <br>
+                    p Observación histórica de la afectación de la calidad del agua por procesos naturales.
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/i5.svg' alt='AvatarTop')
+                .tarjeta.lll
+                  .p-4
+                    p La capacidad del cuerpo de agua para asimilar el incremento de vertimientos puntuales sin causar altos niveles de contaminación.
+
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/i6.svg' alt='AvatarTop')
+                .tarjeta.lll
+                  .p-4
+                    <br>
+                    p Las comunidades cercanas a la zona.
+                    <br>
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/i7.svg' alt='AvatarTop')
+                .tarjeta.lll
+                  .p-4
+                    <br>
+                    p Si han existido estrategias de control y de las acciones de gestión en el manejo de la calidad del agua.
+
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/i8.svg' alt='AvatarTop')
+                .tarjeta.lll
+                  .p-4
+                    <br>
+                    p Si existe algún riesgo asociado a delincuencia o violencia que pueda afectar la toma de la muestra.
+      
+      .row.mt-4
+        .col-sm-1
+        .col-sm-10
+          p <strong>Tabla 1.</strong> Equipo de muestreo
+          .tabla-a.color-acento-contenido.mb-5 
+            table
+              caption Nota. SENA, (2021).
+              thead.rs
+                tr
+                  th AGUAS SUBTERRÁNEAS
+                  th AGUAS SUPERFICIALES
+                  th SEDIMENTOS
+                  th PRECIPITACIÓN
+              tbody
+                tr
+                  td <strong>Bomba peristáltica:</strong> Estas bombas están diseñadas para utilizar en campo ya que son impermeables. Se pueden utilizar en todas las posiciones y se han desarrollado para ser usadas a largo plazo y en las condiciones menos favorables. 
+                  td <strong>Muestreador de agua Van Dorn:</strong> Este dispositivo se ha desarrollado para toma de muestras en aguas abiertas, pero aun así la poca profundidad de agua no provoca aparición de contaminantes que presenten riesgos a la muestra. 
+                  td <strong>Disco de Secchi:</strong> Es un sistema sencillo el cual se utiliza para medir la turbidez del agua, el disco desciende en el agua atado a un hilo y cuando ya no es visible se lee la profundidad que marca el hilo. 
+                  td <strong>Pluviómetro:</strong> Es un instrumento que es utilizado para medir el agua precipitada en algún sitio determinado.  
+
+                tr
+                  td <strong>Bomba de bolas motorizada:</strong> Estos instrumentos son utilizados para bombear agua subterránea que será analizada. Están formadas por un tubo con una válvula de retención con válvula esférica en el extremo inferior.
+                  td <strong>Muestreador de agua Kemmerer: </strong> Este muestreador es utilizado para la toma de muestras en lagos, canales, balsas y también en el mar. Está formado únicamente por plástico para asegurar que la muestra no esté en contacto con ningún metal. 
+                  td <strong>Recipiente de detección de cieno:</strong> Este recipiente nos permite determinar la profundidad de una capa de residuos o sedimentos. 
+                  td <strong>Pluviógrafo:</strong> En este dispositivo se registra gráficamente la cantidad de agua que se precipita en un periodo de tiempo específico lo cual permite conocer la distribución e intensidad de las lluvias. 
+
+                tr
+                  td <strong>Conjunto de bomba sumergible:</strong> La gran capacidad de esta bomba permite bombear un punto de medición rápidamente. 
+                  td <strong>Muestreador continuo portátil automático:</strong> Este muestreador puede ser utilizado de manera continua o en intervalos en arroyos, ríos y lagos. 
+                  td <strong>Dragas Van Veen:</strong> Son utilizadas para tomar muestras de los fondos de lagos, ríos y demás cuerpos de agua. Se compone de una draga la cual desciende abierta y al tomar el fondo se cierra permitiendo así la toma de la muestra.
+                  td 
+
 
       p Además, un plan de muestreo debe tener en cuenta lo siguiente:
       
-      img.mb-4.p-4.mt-4(src='@/assets/curso/tema1/8.svg')
+      .row
+        .col-md-4
+          img.mb-4.p-4.mt-4(src='@/assets/curso/tema1/8.svg')
+        .col-md-8
+          <br><br><br><br>
+            ul.lista-ul.sss
+              <br>
+              li.ss 
+                i.fas.fa-check
+                | La ubicación del POA: dónde y cómo se tomará la muestra. 
+
+              li.ss 
+                i.fas.fa-check
+                | El procedimiento o método de muestreo a llevar a cabo. 
+                 
+              li.ss 
+                i.fas.fa-check
+                | Los equipos de muestreo que se utilizarán y su respectiva calibración. 
+
+              li.ss 
+                i.fas.fa-check
+                | Se deben proveer los recipientes de muestreo de acuerdo con las necesidades de la muestra.
+
+              li.ss 
+                i.fas.fa-check
+                | El almacenamiento de las muestras tomadas. 
+              li.ss
+                i.fas.fa-check
+                | Es necesario la identificación y etiquetado de las muestras. 
+
+              <br>
+
       .row.justify-content-center.mb-4
         .col-lg-9.cajon.color-primario.p-4
           p Para la correcta elaboración de este plan es necesario comprender la Norma Técnica Colombiana NTC-5667 de 1995 en donde especifican las directrices a tener en cuenta para el diseño de los programas de muestreo.

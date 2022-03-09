@@ -35,7 +35,28 @@
       .col-md-8
         img(src='@/assets/curso/tema3/3.svg')
       p.mt-4 Cuando se menciona tomar un “Rol activo” hace referencia a seguir siempre las siguientes recomendaciones: 
-      img(src='@/assets/curso/tema3/4.svg')
+      .row.mt-4.asa
+        .col-md-4
+          img(src='@/assets/curso/tema3/ttt.svg')
+        .col-md-1
+        .col-md-7
+            <br><br>
+            ul.lista-ul
+              li 
+                i.fa.fa-angle-right
+                | Seguir las reglas de seguridad
+              li 
+                i.fas.fa-angle-right
+                | No jugar bromas mientras realiza actividades de toma de muestras o de laboratorio
+
+              li 
+                i.fas.fa-angle-right
+                | Familiarizarse con los equipos de seguridad
+              li 
+                i.fas.fa-angle-right
+                | Siempre indagar antes sobre los peligrosos si va a manejar sustancias químicas (p.3)
+
+
       p.mt-4 Para realizar la actividad de toma de muestras de aguas se debe garantizar que las personas cuenten con unos implementos de seguridad mínimos:
       .row
         .col-md-1
@@ -64,7 +85,23 @@
     .row.mt-4
       h2.mb-4 Peligros químicos  
       p.mb-4 Las sustancias químicas pueden causar daño si no son manipuladas de forma adecuada y según protocolos, lo más importante por resaltar es que estas sustancias tienen diferentes características (tóxicas, inflamables, corrosivas y reactivas) y debe reconocerlas y saber cómo reaccionar en caso de accidentes.
-      img(src='@/assets/curso/tema3/9.svg')
+      .row.saps
+        .col-md-8.p-2
+          p Sin embargo, existen sustancias que cuentan con más de un peligro, por lo cual se considera que el grado de peligrosidad de las sustancias químicas puede variar, por ello siempre trabajar de forma segura es la manera correcta de desarrollar actividades con estos implementos.
+          p Se recomienda ampliar la información en sesiones en línea con su instructor y con el material de apoyo, pero se dejan las siguientes acciones como tips necesarios para contrarrestar los peligros químicos:
+          ul.lista-ul
+            <br><br>
+            li 
+              i.fa.fa-angle-right
+              | Siempre lea detenidamente las etiquetas de las sustancias químicas antes de usarlas.
+            li 
+              i.fas.fa-angle-right
+              | Siga las recomendaciones dadas en las hojas de seguridad de los productos.
+            li 
+              i.fas.fa-angle-right
+              | Siempre siga las recomendaciones de su instructor. (Sociedad Americana de química, 2003, p.10)     
+        .col-md-4
+          img.mb-4(src='@/assets/curso/tema3/l1.svg')
       
 
 

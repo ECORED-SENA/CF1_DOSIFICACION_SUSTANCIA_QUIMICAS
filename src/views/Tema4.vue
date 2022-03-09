@@ -54,7 +54,7 @@
     
     .row.bg333
       .col-md-7
-        p.p-4.sss Estas mediciones se realizan generalmente haciendo uso de equipos portátiles como sondas multiparamétricas, pHmetros y conductímetros, sin embargo, se debe resaltar que para hacer estos análisis siempre se debe llevar a cabo bajo las indicaciones de revisión y calibración de los equipos.
+        p.p-4.sssa Estas mediciones se realizan generalmente haciendo uso de equipos portátiles como sondas multiparamétricas, pHmetros y conductímetros, sin embargo, se debe resaltar que para hacer estos análisis siempre se debe llevar a cabo bajo las indicaciones de revisión y calibración de los equipos.
       .col-md-5
     .row
       .col-md-7
@@ -150,17 +150,43 @@
     <br><br><br>
     
     p Para el caso de los parámetros químicos cuenta con 4 características:
-    .row
-      .col-md-3.mt-4
-        img.mb-4(src='@/assets/curso/tema4/15.svg', alt='Texto que describa la imagen')  
-      .col-md-3.mt-4
-        img.mb-4(src='@/assets/curso/tema4/16.svg', alt='Texto que describa la imagen')  
-      .col-md-3.mt-4
-        img.mb-4(src='@/assets/curso/tema4/17.svg', alt='Texto que describa la imagen')  
-      .col-md-3.mt-4
-        img.mb-4(src='@/assets/curso/tema4/18.svg', alt='Texto que describa la imagen')  
+    .row.mb-5
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-4
+          .tarjeta-numerada__numero
+            .h2 1
+          p.text-center 
+            <br>
+            b pH
+          p El método de medida más común es usar una celda electroquímica, consistente en un electrodo indicador sensible a la concentración de protones, esto se realiza mediante el uso de un pHmetro. 
+          <br><br><br><br><br>
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-4
+          .tarjeta-numerada__numero
+            .h2.text-white 2
+          p.text-center 
+            <br>
+            b Alcalinidad  
+          p La determinación de la alcalinidad de una muestra de agua se logra por titulación con una solución de ácido sulfúrico de normalidad conocida y se hace por medio de la fenolftaleína como indicador dependiendo del pH iniciar de la muestra. 
+          <br><br><br> 
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-botones.p-4
+          .tarjeta-numerada__numero
+            .h2.text-white 3
+          p.text-center
+            <br> 
+            b Carbono orgánico total 
+          p Se utilizan diversos métodos instrumentales los cuales arrojan resultados en pocos minutos y requieren de 1mL de muestra. El procedimiento se realiza introduciendo la muestra en un tubo de combustión a 960ºC lo cual vaporiza el agua. La cantidad de CO2 registrada es proporcional al contenido de carbono de la muestra.
 
-
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-4
+          .tarjeta-numerada__numero
+            .h2.text-white 4
+          p.text-center 
+            <br>
+            b Oxígeno disuelto
+          p El método más utilizado es el de Alsterberg, el cual fija el oxígeno en la muestra utilizando la adición de nitruro y sulfato de manganeso, luego se añade ácido sulfúrico el cual libera iodo y se valora utilizando almidón como indicador. 
+          <br><br><br><br>
 
     
 </template>
