@@ -14,9 +14,9 @@
           .col-lg-2
           .col-lg-3
             img(src='@/assets/curso/tema1/1.svg')
-          .col-lg-6.p-2
+          .col-lg-6.p-4
             <br><br><br><br>
-            ul.lista-ul.sss
+            ul.lista-ul--color.sss
               <br>
               li.ss 
                 i.fas.fa-check
@@ -36,30 +36,34 @@
               <br>
 
     p.mt-4 Los planes de muestreo están diseñados para determinar las características físicas, químicas y microbiológicas de algún cuerpo de agua específico, con el uso de este plan se proporciona un modelo de guía para las personas que van a realizar la muestra y de esta manera reducir errores en ella, además de que minimiza la posibilidad de que los resultados salgan mal.
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario.mt-4.mb-4(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/2.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5        
-              .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/2.1.png')})`}") 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario.mt-4.mb-4(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5        
-              .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.1.png')})`}") 
-              <br><br><br><br><br>
+            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/2.1.png')})`}")
+              <br><br><br><br><br><br>
+            .tarjeta-flip__img.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/ss.png')})`}")
+              <br>
+              p.text-center Un plan de muestreo debe incluir elementos específicos acerca de lugares o sitios de muestreo, métodos y técnicas, número de muestras y clases de muestras. 
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario.mt-4.mb-4(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/4.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5        
-              .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/4.1.png')})`}") 
+            .tarjeta-flip__img.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/ss1.png')})`}")
+              <br>
+              p.text-center Dichos planes ayudan a garantizar que los resultados del muestreo cumplan los objetivos del proyecto o programa de calidad del agua.
+            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.1.png')})`}")
+              <br><br><br><br><br><br>
+
+      .col-sm-6.col-xl-4.mb-4.mb-sm-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/ss.png')})`}")
+              <br>
+              p.text-center Las cuales deben estar sometidas a las diferentes leyes establecidas por los organismos estatales.
+            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/4.1.png')})`}")
+              <br><br><br><br><br><br>
 
 
     p.mb-4 Para el muestreo de aguas se manejan una diversa cantidad de equipos, pero estos se pueden clasificar según el lugar en donde se necesite tomar la muestra, A continuación, se verán algunos de estos equipos según su lugar de uso, ver tabla 1.
@@ -69,10 +73,9 @@
     .row.mt-4.p-4
 
       .col-sm-8.mt-4
-        p.mb-4 Las principales razones de la importancia del alistamiento de las tomas de muestras tienen que ver con la necesidad de verificar si se cuenta con todos los implementos para lograr identificar la calidad del recurso objeto de análisis, bien sea cuencas de agua dulce, salada, agua para consumo humano y la estimación de los flujos de contaminantes y nutrientes vertidos a los ríos o aguas subterráneas, lagos y océanos, o a través de fronteras internacionales.
+        p.mb-4.fondo1 Las principales razones de la importancia del alistamiento de las tomas de muestras tienen que ver con la necesidad de verificar si se cuenta con todos los implementos para lograr identificar la calidad del recurso objeto de análisis, bien sea cuencas de agua dulce, salada, agua para consumo humano y la estimación de los flujos de contaminantes y nutrientes vertidos a los ríos o aguas subterráneas, lagos y océanos, o a través de fronteras internacionales.
         <br>
-        <br>
-        p Debido a que el recurso hídrico tiene gran cantidad de usos, el alistamiento debe reflejar no solo las necesidades de equipos, instrumentación y reactivos sino también incluir información de los diferentes usuarios involucrados, dentro de esa información se sugiere de acuerdo al Instituto de hidrología, meteorología y estudios ambientales [IDEAM], (2017):
+        p.fondo2 Debido a que el recurso hídrico tiene gran cantidad de usos, el alistamiento debe reflejar no solo las necesidades de equipos, instrumentación y reactivos sino también incluir información de los diferentes usuarios involucrados, dentro de esa información se sugiere de acuerdo al Instituto de hidrología, meteorología y estudios ambientales [IDEAM], (2017):
       .col-sm-4.mt-4
         figure.mt-4
           img.mb-4(src='@/assets/curso/tema1/5.png')
@@ -172,7 +175,7 @@
                   td <strong>Muestreador de agua Van Dorn:</strong> Este dispositivo se ha desarrollado para toma de muestras en aguas abiertas, pero aun así la poca profundidad de agua no provoca aparición de contaminantes que presenten riesgos a la muestra. 
                   td <strong>Disco de Secchi:</strong> Es un sistema sencillo el cual se utiliza para medir la turbidez del agua, el disco desciende en el agua atado a un hilo y cuando ya no es visible se lee la profundidad que marca el hilo. 
                   td <strong>Pluviómetro:</strong> Es un instrumento que es utilizado para medir el agua precipitada en algún sitio determinado.  
-
+                  
                 tr
                   td <strong>Bomba de bolas motorizada:</strong> Estos instrumentos son utilizados para bombear agua subterránea que será analizada. Están formadas por un tubo con una válvula de retención con válvula esférica en el extremo inferior.
                   td <strong>Muestreador de agua Kemmerer: </strong> Este muestreador es utilizado para la toma de muestras en lagos, canales, balsas y también en el mar. Está formado únicamente por plástico para asegurar que la muestra no esté en contacto con ningún metal. 
@@ -191,9 +194,9 @@
       .row
         .col-md-4
           img.mb-4.p-4.mt-4(src='@/assets/curso/tema1/8.svg')
-        .col-md-8
-          <br><br><br><br>
-            ul.lista-ul.sss
+        .col-md-8.p-1
+          <br><br><br>
+            ul.lista-ul--color.sssa
               <br>
               li.ss 
                 i.fas.fa-check
@@ -234,31 +237,61 @@
         figure.mt-6
           img.mb-4(src='@/assets/curso/tema1/9.png')
 
-      .row.p-4
+      .row.p-4.BGI7
         .col-sm-1
         .col-sm-4
           img.mb-4(src='@/assets/curso/tema1/10.svg')
         .col-sm-7.mt-4
           SlyderF(columnas="col-12")
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/11.svg')
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/12.svg')
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/13.svg')
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/14.svg')
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/15.svg')
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/16.svg')
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/17.svg')
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/18.svg')
-              .row.p-4
-                img.mb-4(src='@/assets/curso/tema1/19.svg')
-    p Igualmente dependiendo del fin de la muestra es posible que se requiera previamente a la actividad, realizar el lavado y desinfección del punto de muestreo para reducir el riesgo de contaminación por presencia de agentes, elementos o compuestos que puedan estar presentes en la estructura debido a su entorno. Para esto es común emplear diferentes agentes como hipoclorito de sodio o calcio (Ortiz, 2011, p. 33).
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/img1.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Identificación de la muestra (nombre, código, etc.).
+
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/a1.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Identificación del sitio de muestreo (georeferenciación: latitud, longitud).
+
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/a2.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Tipo de fuente y características de esta (pozo calzado, perforación, canal, río, represa, aljibe, profundidad del nivel estático y total si fuera pozo o perforación, diámetro de la perforación o pozo, cercanía a pozos negros o industrias, existencia de pozos abandonados, etc.).
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/a3.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Destino (consumo humano, animal, riego, etc.).
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/a4.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Información acerca del establecimiento y nombre del propietario o encargado (con datos de dirección, e-mail y/o teléfono) donde se ha muestreado e información adicional acerca de problemas que detecta el personal que puede atribuirse al agua.
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/a5.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Nombre de quien realizó el muestreo.   
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/a6.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Tipo de análisis a efectuar (fisicoquímico y/o microbiológico).     
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/a7.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Reactivo empleado para su preservación, en caso de ser utilizado.   
+            .row.justify-content-center.mb-3
+              .col-8
+                img.gfsa(src='@/assets/curso/tema1/a8.svg' alt='AvatarTop')
+              .row.p-4.aaa
+                p.mt-4.text-center Cualquier otra observación que se considere de importancia                                                                                  
+
+        p Igualmente dependiendo del fin de la muestra es posible que se requiera previamente a la actividad, realizar el lavado y desinfección del punto de muestreo para reducir el riesgo de contaminación por presencia de agentes, elementos o compuestos que puedan estar presentes en la estructura debido a su entorno. Para esto es común emplear diferentes agentes como hipoclorito de sodio o calcio (Ortiz, 2011, p. 33).
 
 
   

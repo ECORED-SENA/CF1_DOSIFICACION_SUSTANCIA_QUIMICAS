@@ -61,16 +61,107 @@
       .row
         .col-md-1
         .col-md-10  
-          img(src='@/assets/curso/tema3/5.svg')
-          img(src='@/assets/curso/tema3/6.svg')
+          .row.mb-5
+            .col-md-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/ico1.png' alt='AvatarTop')
+                .tarjeta.color-primario--borde
+                  .p-4.fondo3
+                    <br>
+                    p.mb-0 Cofia:
+                    p Si tiene el cabello largo, manténgalo recogido durante el desarrollo de la práctica. Use la cofia si el instructor lo considera necesario.
+            
+            .col-md-2
+            .col-md-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/ico2.png' alt='AvatarTop')
+                .tarjeta.color-primario--borde
+                  .p-4.fondo3
+                    <br>                    
+                    p.mb-0 Casco:
+                    p En campo es necesario como prevención     
+                    p.text-white ------------------------------------------------------------------------------
+      .row
+        .col-md-1
+        .col-md-10  
+          .row.mb-5
+            .col-md-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/ico3.png' alt='AvatarTop')
+                .tarjeta.color-primario--borde
+                
+                  .p-4.fondo3
+                    <br>
+                    p.mb-0 Protección de ojos:
+                    p Es obligatorio que todo el personal que permanezca en el laboratorio use permanentemente las gafas de seguridad, aun cuando no estén realizando prácticas. Las personas que utilizan gafas de manera permanente deben disponer de unas gafas de seguridad suplementarias, No utilice lentes de contacto dentro del laboratorio, ya que su uso facilita la acumulación de sustancias tóxicas en los ojos. Los lentes blandos absorben los vapores de sustancias tóxicas, ocasionando la irritación, además de interferir con los procedimientos de lavado de emergencia (Sociedad Americana de química, 2003, p.3).
+            
+            .col-md-2
+            .col-md-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/ico4.png' alt='AvatarTop')
+                .tarjeta.color-primario--borde
+                  .p-4.fondo3
+                    <br>
+                    p.mb-0 Mascarilla o Tapabocas:
+                    p  Cuando la práctica de laboratorio implique la manipulación de compuestos volátiles, tóxicos, nocivos y/o irritantes, es indispensable emplear equipos de protección respiratoria, adaptados y homologados para la sustancia en cuestión. También deben utilizarse en caso de fugas y derrames de las sustancias anteriores, dada la gran concentración ambiental que resulta de los mismos (INS, 2011, p.40).    
+                    <br><br>
+      .row
+        .col-md-1
+        .col-md-10  
+          .row.mb-5
+            .col-md-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/ico5.png' alt='AvatarTop')
+                .tarjeta.color-primario--borde
+                  .p-4.fondo3
+                    <br>
+                    p.mb-0 Instrumental de campo o vestimenta (Guardapolvo blanco): 
+                    p Primero se debe aclarar que la ropa utilizada en laboratorio o en campo, debe proteger tanto de salpicaduras como de derrames, preferiblemente un guardapolvo blanco, si es para uno de cuencas de agua contaminadas este debe ser impermeable (Sociedad Americana de química, 2003, p.4).
+            
+            .col-md-2
+            .col-md-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/ico6.png' alt='AvatarTop')
+                .tarjeta.color-primario--borde
+                  .p-4.fondo3
+                    <br>
+                    p.mb-0 Bata de laboratorio:
+                    p Si se usa la bata las características más aconsejables son: Material: algodón, dril o gabardina, Color: blanco, Manga: larga con puño recortado, Largo (extensión): mínimo hasta el muslo (3/4), Tipo de cierre: de abotonar a presión (INS, 2011, p.40).    
+      .row
+        .col-md-1
+        .col-md-10  
+          .row.mb-5
+            .col-md-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/ico7.png' alt='AvatarTop')
+                .tarjeta.color-primario--borde
+                  .p-4.fondo3
+                    <br>
+                    p.mb-0 Zapatos:
+                    p En el caso de los laboratorios se debe usar zapatos totalmente cerrados y que no sean de cuero o cuero sintético, no se podrá usar sandalias o cualquier zapato que deje piel al descubierto ni con tacones. (INS, 2011, p.40).
+                    <br><br>
+            .col-md-2
+            .col-md-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/ico8.png' alt='AvatarTop')
+                .tarjeta.color-primario--borde
+                  .p-4.fondo3
+                    <br>
+                    p.mb-0 Guantes de nitrilo, de neopreno, gruesos y delgados:
+                    p Cualquier manipulación de sustancias corrosivas, irritantes, de elevada toxicidad o de elevado poder de penetración a través de la piel, debe ser llevada a cabo empleando guantes adecuados y limpios. Finalizada la práctica, lave los guantes con abundante agua y jabón. Haga lo propio con sus manos. (Sociedad Americana de química, 2003, p.5)
+                    
+
+
     separador
-    .row.p-4.mb-4
-      .col-md-1
-      .col-md-10
-        img.mb-4(src='@/assets/curso/tema3/7.svg' alt='AvatarTop')
-        .col-md-3
-          a.anexo.mb-2.mb-lg-0.p-0(href="https://drive.google.com/open?id=1-0DBW0V7b86svVyc35atqrHHdsMOyW5u" target="_blank")
-            img(src="@/assets/curso/tema2/btn.svg", style="width:150px").m-auto
+    .row.justify-content-center
+      .col-lg-10.col-md-10.bordes4
+        .row.p-4
+          .col-1
+          .col-3.centrar
+            a.mb-4.mb-lg-0(href="https://drive.google.com/open?id=1-0DBW0V7b86svVyc35atqrHHdsMOyW5u" target="_blank")
+              img.mt-3(src="@/assets/curso/tema2/btn.svg", style="width:150px")
+          .col-8
+            p.mb-0.p-2.text-white Por favor diríjase al documento <br>Seguridad en laboratorios químicos académicos, Volumen 1, Séptima edición, que encuentra en material de apoyo y amplíe la información acá presentada.
     separador
     .row
       .col-md-4

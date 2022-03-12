@@ -182,20 +182,38 @@
                 | Práctica de preparación de soluciones: su instructor le brindara el apoyo requerido para que pueda realizar diferentes soluciones en el laboratorio.
           .col-md-4
             img.mb-4(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
-
-      .row.p-4.mb-4
-        .col-md-4.p-0
-          img.mb-4(src='@/assets/curso/tema2/9.svg' alt='AvatarTop')
-          a.anexo.mb-4.mb-lg-0.p-0(href="https://drive.google.com/file/d/1aTl4ycZqWgZXl1u-s6kcmXfOz0qj22Je/view?usp=sharing" target="_blank")
-              img(src="@/assets/curso/tema2/btn.svg", style="width:150px").m-auto
-        .col-md-4.p-0
-          img.mb-4(src='@/assets/curso/tema2/10.svg' alt='AvatarTop')
-          a.anexo.mb-4.mb-lg-0.p-0(href="https://drive.google.com/file/d/1E4WsPLBqEPk24xKjkT-y04iMnOhhWXfU/view?usp=sharing" target="_blank")
-              img(src="@/assets/curso/tema2/btn.svg", style="width:150px").m-auto
-        .col-md-4.p-0
-          img.mb-4(src='@/assets/curso/tema2/11.svg' alt='AvatarTop')       
-          a.anexo.mb-4.mb-lg-0.p-0(href="https://drive.google.com/file/d/1hBjJof2Xd6pV9b5cPnSCJlA2g4HjeOlQ/view?usp=sharing" target="_blank")
-              img(src="@/assets/curso/tema2/btn.svg", style="width:150px").m-auto
+      .row
+        .col-md-1
+        .col-md-10
+          .tarjeta--container.row.mb-5
+            .col-md.tarjeta.t2.p-5.text-white
+              .row.justify-content-center.mb-4
+              h3 Servicio Nacional de Aprendizaje (SENA). 2020.
+              p Practica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI).
+              <br>
+              img(src='@/assets/curso/tema1/l1.png' )            
+            .col-md.tarjeta.color-primario.p-5
+              .row.justify-content-center.mb-4
+              h3 Servicio Nacional de Aprendizaje (SENA). 2020. 
+              p Practica de laboratorio alistamiento y esterilización de materiales para el muestreo de agua para análisis microbiológico. Centro de gestión industrial (CGI).
+              img(src='@/assets/curso/tema1/l1.png' )
+            
+            .col-md.tarjeta.t3.text-white.p-5
+              .row.justify-content-center.mb-4
+              h3 Servicio Nacional de Aprendizaje (SENA). 2020. 
+              p Practica de laboratorio de soluciones. Centro de gestión industrial (CGI).  
+              <br><br>            
+              img(src='@/assets/curso/tema1/l1.png' )
+          .row
+            .col-md-4.lsa
+              a.mb-4.mb-lg-0(href="https://drive.google.com/file/d/1aTl4ycZqWgZXl1u-s6kcmXfOz0qj22Je/view?usp=sharing" target="_blank")
+                img.mg(src="@/assets/curso/tema2/btn.svg" style="width:150px")
+            .col-md-4.lsa
+              a.mb-4.mb-lg-0(href="https://drive.google.com/file/d/1hBjJof2Xd6pV9b5cPnSCJlA2g4HjeOlQ/view?usp=sharing" target="_blank")
+                img.mg(src="@/assets/curso/tema2/btn.svg" style="width:150px")
+            .col-md-4.lsa      
+              a.mb-4.mb-lg-0(href="https://drive.google.com/file/d/1E4WsPLBqEPk24xKjkT-y04iMnOhhWXfU/view?usp=sharing" target="_blank")
+                img.mg(src="@/assets/curso/tema2/btn.svg" style="width:150px")                
       
     h2.mt-4 Transporte de la muestra
     p.mt-4 Para que el transporte de la muestra sea el indicado se deben tener en cuenta los siguientes criterios:
@@ -284,7 +302,6 @@
                 .p-4
                   <br>
                   p Para asegurarse de no perder la información puede resultar mejor identificar la muestra, tanto por medio de una etiqueta o tarjeta como por una hoja de identificación de muestra.
-
 
     
 </template>

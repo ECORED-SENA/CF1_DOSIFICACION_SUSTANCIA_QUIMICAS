@@ -28,7 +28,18 @@
             img(src='@/assets/curso/tema4/3.svg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
           p.agg Una característica fundamental del agua es que es el único elemento que se puede encontrar en los tres estados de la materia:
-          img(src='@/assets/curso/tema4/7.svg', alt='Texto que describa la imagen')
+            ul.lista-ul.mt-2
+              li 
+                i.fa.fa-angle-right
+                | Estado sólido: este estado se produce cuando el agua es sometida a temperaturas inferiores a los 0ºC y se congela. Este fenómeno en específico tiene el nombre de solidificación, y se genera cuando las moléculas que forman el agua están unidas. Cuando esto sucede encontramos el agua en los glaciares o en zonas de montaña con nieve. 
+              li 
+                i.fas.fa-angle-right
+                | Estado líquido: este es el estado del agua más predominante en el planeta Tierra ya que se encuentra en ríos, lagos, mares, océanos y aguas subterráneas, una vez el agua pasa de estado sólido a estado líquido tiene el nombre de fusión, allí la mayoría de las moléculas permanecen unidas, esto sucede entre los 0º y 100º. 
+
+              li 
+                i.fas.fa-angle-right
+                | Estado gaseoso: cuando el agua se somete a determinadas temperaturas se produce el fenómeno de la evaporación y se condensa en la atmósfera. Así es como surgen las nubes, las cuales se componen por partículas de agua acumuladas.
+
       .row(titulo="pH")
         .col-md-4
           figure
@@ -102,7 +113,7 @@
                 img.mb-4(src='@/assets/curso/tema4/13.svg', alt='Texto que describa la imagen')  
       separador
       h2.mt-4 Pasos prácticos para la toma de la muestra para análisis físico-químico:
-      img.mt-4(src='@/assets/curso/tema4/14.png', alt='Texto que describa la imagen')  
+      img.mt-4(src='@/assets/curso/tema4/gp.png', alt='Texto que describa la imagen')  
       
       separador
       p.mt-4 Dentro de los análisis fisicoquímicos que se le realizan al agua se encuentran los siguientes junto con sus métodos de determinación como son:
