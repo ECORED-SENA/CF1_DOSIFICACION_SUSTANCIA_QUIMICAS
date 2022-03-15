@@ -8,7 +8,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_108431" data-name="Grupo 108431" transform="translate(15865 6502)">
+  <g id="Grupo_108421" data-name="Grupo 108421" transform="translate(15865 6502)">
     <g transform="matrix(1, 0, 0, 1, -15865, -6502)" filter="url(#Rectángulo_39631)">
       <rect id="Rectángulo_39631-2" data-name="Rectángulo 39631" width="482" height="290" rx="22" transform="translate(9 153)" fill="#fff"/>
     </g>
@@ -81,6 +81,6 @@
         <path id="Trazado_45089" data-name="Trazado 45089" d="M938.387,1140.88a4.049,4.049,0,0,1,.463-.16,5.155,5.155,0,0,1,1.02-.191,1.927,1.927,0,0,1,1.152.207,3.293,3.293,0,0,1,1.027.785,2.725,2.725,0,0,1,.52,2.112,5.737,5.737,0,0,1-.245,1.012c-.091.273-.176.464-.176.464a4.21,4.21,0,0,1-.486.084,4.74,4.74,0,0,1-1.046.006,2.823,2.823,0,0,1-1.911-.941,1.614,1.614,0,0,1-.343-.779c-.029-.305-.1-.693-.134-1.074a5.384,5.384,0,0,1,.059-1.043A3.913,3.913,0,0,1,938.387,1140.88Z" transform="translate(-938.223 -1140.516)" fill="#fff"/>
       </g>
     </g>
-    <text id="Tipo_de_fuente_y_características_de_esta_pozo_calzado_perforación_canal_río_represa_aljibe_profundidad_del_nivel_estático_y_total_si_fuera_pozo_o_perforación_diámetro_de_la_perforación_o_pozo_cercanía_a_pozos_negros_o_industrias_existencia_de_poz" data-name="Tipo de fuente y características de esta (pozo calzado, perforación, canal, río, represa, aljibe, profundidad del nivel estático y total si fuera pozo o perforación, diámetro de la perforación o pozo, cercanía a pozos negros o industrias, existencia de poz" transform="translate(-15808.5 -6204)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Tipo de fuente y características de esta (pozo calzado, </tspan><tspan x="0" y="39">perforación, canal, río, represa, aljibe, profundidad del </tspan><tspan x="0" y="61">nivel estático y total si fuera pozo o perforación, </tspan><tspan x="0" y="83">diámetro de la perforación o pozo, cercanía a pozos </tspan><tspan x="0" y="105">negros o industrias, existencia de pozos abandonados, </tspan><tspan x="0" y="127">etc.).</tspan></text>
+    <text id="Tipo_de_fuente_y_características_de_esta_pozo_calzado_perforación_canal_río_represa_aljibe_profundidad_del_nivel_estático_y_total_si_fuera_pozo_o_perforación_diámetro_de_la_perforación_o_pozo_cercanía_a_pozos_negros_o_industrias_existencia_de_poz" data-name="Tipo de fuente y características de esta (pozo calzado, perforación, canal, río, represa, aljibe, profundidad del nivel estático y total si fuera pozo o perforación, diámetro de la perforación o pozo, cercanía a pozos negros o industrias, existencia de poz" transform="translate(-15808.5 -6204)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Tipo de fuente y características de esta (pozo calzado, </tspan><tspan x="0" y="36">perforación, canal, río, represa, aljibe, profundidad del </tspan><tspan x="0" y="58">nivel estático y total si fuera pozo o perforación, </tspan><tspan x="0" y="80">diámetro de la perforación o pozo, cercanía a pozos </tspan><tspan x="0" y="102">negros o industrias, existencia de pozos abandonados, </tspan><tspan x="0" y="124">etc.).</tspan></text>
   </g>
 </svg>

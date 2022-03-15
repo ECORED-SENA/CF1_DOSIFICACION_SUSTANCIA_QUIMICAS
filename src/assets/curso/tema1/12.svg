@@ -8,12 +8,12 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_108430" data-name="Grupo 108430" transform="translate(15865 7008)">
+  <g id="Grupo_108420" data-name="Grupo 108420" transform="translate(15865 7008)">
     <g transform="matrix(1, 0, 0, 1, -15865, -7008)" filter="url(#Rectángulo_39629)">
       <rect id="Rectángulo_39629-2" data-name="Rectángulo 39629" width="482" height="290" rx="22" transform="translate(9 153)" fill="#fff"/>
     </g>
     <path id="Rectángulo_39630" data-name="Rectángulo 39630" d="M76,0H354a0,0,0,0,1,0,0V153a76,76,0,0,1-76,76H0a0,0,0,0,1,0,0V76A76,76,0,0,1,76,0Z" transform="translate(-15781 -7008)" fill="#477fa2"/>
-    <text id="Identificación_del_sitio_de_muestreo_georeferenciación:_latitud_longitud_." data-name="Identificación del sitio de muestreo (georeferenciación: latitud, longitud)." transform="translate(-15808.48 -6710)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Identificación del sitio de muestreo (georeferenciación: </tspan><tspan x="0" y="39">latitud, longitud).</tspan></text>
+    <text id="Identificación_del_sitio_de_muestreo_georeferenciación:_latitud_longitud_." data-name="Identificación del sitio de muestreo (georeferenciación: latitud, longitud)." transform="translate(-15808.48 -6710)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Identificación del sitio de muestreo (georeferenciación: </tspan><tspan x="0" y="36">latitud, longitud).</tspan></text>
     <g id="Grupo_108045" data-name="Grupo 108045" transform="translate(91.436 -58.384)">
       <g id="Grupo_53956" data-name="Grupo 53956" transform="translate(-15786.021 -6888.866)">
         <path id="Trazado_45141" data-name="Trazado 45141" d="M225.131,1041.568c-11.507-.612-26.618-.2-35.972,7.313-7.165,5.761-7.043,18.684,1.116,23.5,10.722,6.326,22.336,3.212,30.8-5.13a44.8,44.8,0,0,0,8.363-12.313c1.76-3.608-1.374-.427,1.912-1.91q32.7-14.763,65.569-29.154c9.578-4.174,19.15-8.472,28.95-12.094,6-2.217,13.5-.965,19.794-2.691,7.322-2.008,13.392-7.474,18.792-12.515a2.385,2.385,0,0,0,0-3.33l-14.6-16.164a2.3,2.3,0,0,0-2.289-.607,52.1,52.1,0,0,0-20.947,14c-3.592,3.91-6.384,7.846-11.324,10.073q-15.139,6.828-30.267,13.69-30.545,13.819-61.081,27.65c-2.763,1.252-.37,5.308,2.375,4.067q35.83-16.223,71.663-32.44c8.611-3.9,20.139-7.022,26.916-13.923,2.832-2.887,5.278-6.131,8.13-9.015,2.294-2.321,12.636-11.117,14.838-8.676q6.629,7.335,13.256,14.672v-3.33c-5.541,5.172-11.144,9.775-18.559,11.81-5.024,1.383-10.472,1.026-15.6,1.822-7.3,1.13-14.556,5.255-21.314,8.141-20.13,8.585-40.113,17.534-60.084,26.484q-8.586,3.852-17.166,7.724c-3.416,1.541-4.479,6.306-6.41,9.341a28.9,28.9,0,0,1-13.33,11.565c-8.234,3.33-21.307-.91-19.884-11.42,1.838-13.614,26.177-12.978,36.356-12.433C228.168,1046.439,228.154,1041.729,225.131,1041.568Z" transform="translate(-183.961 -976.373)" fill="#fff"/>

@@ -8,7 +8,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_108432" data-name="Grupo 108432" transform="translate(15852 5992)">
+  <g id="Grupo_108422" data-name="Grupo 108422" transform="translate(15852 5992)">
     <g transform="matrix(1, 0, 0, 1, -15852, -5992)" filter="url(#Rectángulo_39633)">
       <rect id="Rectángulo_39633-2" data-name="Rectángulo 39633" width="482" height="290" rx="22" transform="translate(9 153)" fill="#fff"/>
     </g>
@@ -36,6 +36,6 @@
         <path id="Trazado_45037" data-name="Trazado 45037" d="M545.157,1181.132a27.217,27.217,0,0,1,.818,4.188c.081.626.168,1.306.224,2.022a18.432,18.432,0,0,1,.012,2.282c-.054,1.591-.184,3.294-.377,4.987a45.4,45.4,0,0,1-2.312,8.927,26.828,26.828,0,0,1-1.774,3.89,27.136,27.136,0,0,1-.206-4.262,62.861,62.861,0,0,1,.822-9.061c.191-1.6.446-3.2.754-4.7.135-.756.359-1.461.451-2.18.12-.706.268-1.377.405-1.994A27.132,27.132,0,0,1,545.157,1181.132Z" transform="translate(-541.534 -1181.132)" fill="#fff"/>
       </g>
     </g>
-    <text id="Destino_consumo_humano_animal_riego_etc._." data-name="Destino (consumo humano, animal, riego, etc.)." transform="translate(-15771.135 -5692.28)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="12.513" y="17">Destino (consumo humano, animal, riego, etc.).</tspan></text>
+    <text id="Destino_consumo_humano_animal_riego_etc._." data-name="Destino (consumo humano, animal, riego, etc.)." transform="translate(-15771.135 -5692.28)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="10.153" y="14">Destino (consumo humano, animal, riego, etc.).</tspan></text>
   </g>
 </svg>

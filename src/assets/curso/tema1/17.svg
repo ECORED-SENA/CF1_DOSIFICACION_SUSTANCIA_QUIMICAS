@@ -8,12 +8,12 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_108435" data-name="Grupo 108435" transform="translate(15833 4501)">
+  <g id="Grupo_108425" data-name="Grupo 108425" transform="translate(15833 4501)">
     <g transform="matrix(1, 0, 0, 1, -15833, -4501)" filter="url(#Rectángulo_39639)">
       <rect id="Rectángulo_39639-2" data-name="Rectángulo 39639" width="482" height="290" rx="22" transform="translate(9 153)" fill="#fff"/>
     </g>
     <path id="Rectángulo_39640" data-name="Rectángulo 39640" d="M76,0H354a0,0,0,0,1,0,0V153a76,76,0,0,1-76,76H0a0,0,0,0,1,0,0V76A76,76,0,0,1,76,0Z" transform="translate(-15749 -4501)" fill="#477fa2"/>
-    <text id="Tipo_de_análisis_a_efectuar_fisicoquímico_y_o_microbiológico_." data-name="Tipo de análisis a efectuar (fisicoquímico y/o microbiológico)." transform="translate(-15734 -4203)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Tipo de análisis a efectuar (fisicoquímico y/o </tspan><tspan x="0" y="41">microbiológico).</tspan></text>
+    <text id="Tipo_de_análisis_a_efectuar_fisicoquímico_y_o_microbiológico_." data-name="Tipo de análisis a efectuar (fisicoquímico y/o microbiológico)." transform="translate(-15734 -4203)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Tipo de análisis a efectuar (fisicoquímico y/o </tspan><tspan x="0" y="38">microbiológico).</tspan></text>
     <g id="Grupo_108049" data-name="Grupo 108049" transform="translate(380.297 844.93)">
       <g id="Grupo_53992" data-name="Grupo 53992" transform="translate(-16014.93 -5270.467)">
         <path id="Trazado_45146" data-name="Trazado 45146" d="M492.934,1499.261c.017,14.2.266,28.4.362,42.594.079,11.961-1.01,24.078.645,35.957,3.739,26.788,26.728,29.805,49.478,30.257,17.508.346,38.675.089,51.317-13.951,8.273-9.187,7.251-21.989,7.273-33.423.041-19.975.077-39.945-.523-59.914-.087-2.945-4.667-2.956-4.58,0,.45,14.949.559,29.9.554,44.854-.007,13.438,2.7,30.049-3.894,42.276-8.946,16.591-34.192,15.694-50.147,15.579-10.091-.072-20.51-.737-30.112-4.041-12.681-4.366-15.354-20.428-15.678-31.993-.64-22.646-.091-45.528-.112-68.194-.005-2.954-4.585-2.954-4.583,0Z" transform="translate(-492.934 -1497.045)" fill="#fff"/>

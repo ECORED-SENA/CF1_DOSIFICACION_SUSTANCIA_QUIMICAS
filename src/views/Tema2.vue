@@ -93,7 +93,7 @@
       p Para identificar la muestra se debe tener en cuenta lo siguiente:
 
       .row.justify-content-center.mb-4
-        .col-lg-12
+        .col-lg-11.mar
           .tarjeta.BGIMG13.p-4
             LineaTiempoC.color-acento-contenido(text-small)
               .row(titulo="Paso 1")
@@ -181,7 +181,7 @@
                 i.fas.fa-angle-right
                 | Práctica de preparación de soluciones: su instructor le brindara el apoyo requerido para que pueda realizar diferentes soluciones en el laboratorio.
           .col-md-4
-            img.mb-4(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
       .row
         .col-md-1
         .col-md-10
@@ -204,7 +204,7 @@
               p Practica de laboratorio de soluciones. Centro de gestión industrial (CGI).  
               <br><br>            
               img(src='@/assets/curso/tema1/l1.png' )
-          .row
+          .row.mb-4
             .col-md-4.lsa
               a.mb-4.mb-lg-0(href="https://drive.google.com/file/d/1aTl4ycZqWgZXl1u-s6kcmXfOz0qj22Je/view?usp=sharing" target="_blank")
                 img.mg(src="@/assets/curso/tema2/btn.svg" style="width:150px")
@@ -214,94 +214,95 @@
             .col-md-4.lsa      
               a.mb-4.mb-lg-0(href="https://drive.google.com/file/d/1E4WsPLBqEPk24xKjkT-y04iMnOhhWXfU/view?usp=sharing" target="_blank")
                 img.mg(src="@/assets/curso/tema2/btn.svg" style="width:150px")                
-      
-    h2.mt-4 Transporte de la muestra
-    p.mt-4 Para que el transporte de la muestra sea el indicado se deben tener en cuenta los siguientes criterios:
-    <br> 
-      SlyderF.mt-4(columnas="col-lg-6 col-xl-4")
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop')
+    <br>
+    .row.BGI7  
+      h2.mt-4 Transporte de la muestra
+      p.mt-4 Para que el transporte de la muestra sea el indicado se deben tener en cuenta los siguientes criterios:
+      <br> 
+        SlyderF.mt-4(columnas="col-lg-6 col-xl-4")
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop')
 
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop')
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop')
 
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop')
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop')
 
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/16.svg' alt='AvatarTop')
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema2/16.svg' alt='AvatarTop')
 
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop')
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop')
 
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop')
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop')
 
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop')
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop')
 
-   
-    h2.mt-4 Registro de la muestra
-    p.mt-4 Para un registro adecuado de la muestra es necesario tener en cuenta lo siguiente: 
-    .row 
-      .col-md-1
-      .col-md-10
-        .row.mt-4
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
-              .tarjeta.color-acento-contenido
-                .p-2
-                  <br><br>   
-                  p Los recipientes que contengan muestras deben marcarse en forma clara y durable para permitir su identificación en el laboratorio sin ninguna ambigüedad.
-                  <br>      
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/i2.png' alt='AvatarTop')
-              .tarjeta.color-acento-contenido
-                .p-2
-                  p Al momento del muestreo es necesario observar numerosos detalles que permitirán una interpretación correcta de la información obtenida. Estos detalles se pueden lograr mediante el diligenciamiento de las etiquetas o formatos diseñados para tal fin, inmediatamente después de la recolección de la muestra, de modo que sea fácilmente identificada.
+      <br>
+      h2.mt-4 Registro de la muestra
+      p.mt-4 Para un registro adecuado de la muestra es necesario tener en cuenta lo siguiente: 
+      .row 
+        .col-md-1
+        .col-md-10
+          .row.mt-4
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/i1.svg' alt='AvatarTop')
+                .tarjeta.color-acento-contenido
+                  .p-2
+                    <br><br>   
+                    p Los recipientes que contengan muestras deben marcarse en forma clara y durable para permitir su identificación en el laboratorio sin ninguna ambigüedad.
+                    <br>      
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/i2.png' alt='AvatarTop')
+                .tarjeta.color-acento-contenido
+                  .p-2
+                    p Al momento del muestreo es necesario observar numerosos detalles que permitirán una interpretación correcta de la información obtenida. Estos detalles se pueden lograr mediante el diligenciamiento de las etiquetas o formatos diseñados para tal fin, inmediatamente después de la recolección de la muestra, de modo que sea fácilmente identificada.
 
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/i3.png' alt='AvatarTop')
-              .tarjeta.color-acento-contenido
-                .p-4
-                  p Es importante registrar el tipo de mediciones efectuadas y las variaciones ambientales del sitio tales como condiciones del clima y observaciones inusuales. 
-                  <br>
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/i4.png' alt='AvatarTop')
-              .tarjeta.color-acento-contenido
-                .p-4
-                  p Se puede pegar al recipiente, la tarjeta o etiqueta con la información requerida; pero con frecuencia se mojan al transportar las muestras refrigeradas al laboratorio y la información puede quedar ilegible.
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/i5.png' alt='AvatarTop')
-              .tarjeta.color-acento-contenido
-                .p-4
-                  p Identificar el recipiente con un número, deseablemente escrito con lápiz No.2 y que consigne la información necesaria en el acta de toma de muestras, la cual debe ser diligenciada completamente.
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/i3.png' alt='AvatarTop')
+                .tarjeta.color-acento-contenido
+                  .p-4
+                    p Es importante registrar el tipo de mediciones efectuadas y las variaciones ambientales del sitio tales como condiciones del clima y observaciones inusuales. 
+                    <br>
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/i4.png' alt='AvatarTop')
+                .tarjeta.color-acento-contenido
+                  .p-4
+                    p Se puede pegar al recipiente, la tarjeta o etiqueta con la información requerida; pero con frecuencia se mojan al transportar las muestras refrigeradas al laboratorio y la información puede quedar ilegible.
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/i5.png' alt='AvatarTop')
+                .tarjeta.color-acento-contenido
+                  .p-4
+                    p Identificar el recipiente con un número, deseablemente escrito con lápiz No.2 y que consigne la información necesaria en el acta de toma de muestras, la cual debe ser diligenciada completamente.
 
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/i6.png' alt='AvatarTop')
-              .tarjeta.color-acento-contenido
-                .p-4
-                  <br>
-                  p Para asegurarse de no perder la información puede resultar mejor identificar la muestra, tanto por medio de una etiqueta o tarjeta como por una hoja de identificación de muestra.
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/i6.png' alt='AvatarTop')
+                .tarjeta.color-acento-contenido
+                  .p-4
+                    <br>
+                    p Para asegurarse de no perder la información puede resultar mejor identificar la muestra, tanto por medio de una etiqueta o tarjeta como por una hoja de identificación de muestra.
 
     
 </template>

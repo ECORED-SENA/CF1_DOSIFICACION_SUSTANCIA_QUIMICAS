@@ -194,7 +194,7 @@
       .row
         .col-md-4
           img.mb-4.p-4.mt-4(src='@/assets/curso/tema1/8.svg')
-        .col-md-8.p-1
+        .col-md-7.p-1
           <br><br><br>
             ul.lista-ul--color.sssa
               <br>
@@ -229,7 +229,7 @@
 
     .row.p-4
       .col-sm-6.mt-4
-        h2 Localización del muestreo.
+        h3 Localización del muestreo.
         p.mb-4 El muestreo de aguas puede tener diferentes fines que van desde conocer las características de la fuente de suministro, hasta determinar las condiciones que presenta un vertimiento. Para localizar el sitio de muestreo debe especificarse concretamente el fin de la muestra y el tipo de agua que se quiere muestrear, ya dependiendo de esto se especifica el lugar exacto y protocolo aplicable para la actividad.
         p En cualquier caso, siempre es necesario dejar registro detallado del lugar de la toma, incluso si se dispone de GPS se puede posicionar satelitalmente la ubicación.
         p De manera general la Información requerida al momento del muestreo debe ser como mínimo, la siguiente (Instituto Nacional de Tecnología Agropecuaria [INTA], 2011, p. 3):
@@ -243,53 +243,24 @@
           img.mb-4(src='@/assets/curso/tema1/10.svg')
         .col-sm-7.mt-4
           SlyderF(columnas="col-12")
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/img1.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Identificación de la muestra (nombre, código, etc.).
-
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/a1.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Identificación del sitio de muestreo (georeferenciación: latitud, longitud).
-
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/a2.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Tipo de fuente y características de esta (pozo calzado, perforación, canal, río, represa, aljibe, profundidad del nivel estático y total si fuera pozo o perforación, diámetro de la perforación o pozo, cercanía a pozos negros o industrias, existencia de pozos abandonados, etc.).
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/a3.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Destino (consumo humano, animal, riego, etc.).
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/a4.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Información acerca del establecimiento y nombre del propietario o encargado (con datos de dirección, e-mail y/o teléfono) donde se ha muestreado e información adicional acerca de problemas que detecta el personal que puede atribuirse al agua.
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/a5.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Nombre de quien realizó el muestreo.   
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/a6.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Tipo de análisis a efectuar (fisicoquímico y/o microbiológico).     
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/a7.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Reactivo empleado para su preservación, en caso de ser utilizado.   
-            .row.justify-content-center.mb-3
-              .col-8
-                img.gfsa(src='@/assets/curso/tema1/a8.svg' alt='AvatarTop')
-              .row.p-4.aaa
-                p.mt-4.text-center Cualquier otra observación que se considere de importancia                                                                                  
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/11.svg')
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/12.svg')
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/13.svg')
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/14.svg')
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/15.svg')
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/16.svg')
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/17.svg')
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/18.svg')
+              .row.p-4
+                img.mb-4(src='@/assets/curso/tema1/19.svg')                                                                                 
 
         p Igualmente dependiendo del fin de la muestra es posible que se requiera previamente a la actividad, realizar el lavado y desinfección del punto de muestreo para reducir el riesgo de contaminación por presencia de agentes, elementos o compuestos que puedan estar presentes en la estructura debido a su entorno. Para esto es común emplear diferentes agentes como hipoclorito de sodio o calcio (Ortiz, 2011, p. 33).
 

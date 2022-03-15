@@ -73,9 +73,9 @@
         img.tp2(src='@/assets/curso/tema4/8.png', alt='Texto que describa la imagen')
     <br><br><br>
 
-    .row.BGI22.mt-4
-      h2 Explicación de algunos parámetros medidos in situ:
-      .col-sm-12.mt-4
+    .row.BGI22.mt-4.mb-0
+      h3 Explicación de algunos parámetros medidos in situ:
+      .col-sm-12
         SlyderF(columnas="col-12")
             .row.p-4.BGI333.mb-4
               h2.mt-4 Turbidez
@@ -161,6 +161,7 @@
     <br><br><br>
     
     p Para el caso de los parámetros químicos cuenta con 4 características:
+    <br><br>
     .row.mb-5
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.p-4

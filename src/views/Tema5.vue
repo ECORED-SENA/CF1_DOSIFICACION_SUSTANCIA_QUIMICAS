@@ -59,8 +59,7 @@
               .tarjeta-flip__contenido.p-4.p-xl-5       
                 h3.mt-4 Formato para control y vigilancia de la muestra: 
                 p El formato de control y vigilancia se diligencia para cada una de las muestras o grupo de muestras; este formato incluye la siguiente información: número(s) de la(s) muestra(s); nombre de quien recolecta la muestra; fecha, hora, sitio de muestreo; tipo de muestra; parámetros a analizar, información de campo y observaciones.
-
-      separador
+      <br>
       .row.mt-4
         .col-md-1
         .col-md-10

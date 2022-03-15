@@ -8,16 +8,14 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_108429" data-name="Grupo 108429" transform="translate(-756 -4276)">
-    <g id="Grupo_108428" data-name="Grupo 108428">
-      <g id="Slider">
-        <g transform="matrix(1, 0, 0, 1, 756, 4276)" filter="url(#Rectángulo_39455)">
-          <rect id="Rectángulo_39455-2" data-name="Rectángulo 39455" width="482" height="290" rx="22" transform="translate(9 153)" fill="#fff"/>
-        </g>
-        <path id="Rectángulo_39454" data-name="Rectángulo 39454" d="M76,0H354a0,0,0,0,1,0,0V153a76,76,0,0,1-76,76H0a0,0,0,0,1,0,0V76A76,76,0,0,1,76,0Z" transform="translate(840 4276)" fill="#477fa2"/>
+  <g id="Grupo_108419" data-name="Grupo 108419" transform="translate(-756 -4276)">
+    <g id="Slider">
+      <g transform="matrix(1, 0, 0, 1, 756, 4276)" filter="url(#Rectángulo_39455)">
+        <rect id="Rectángulo_39455-2" data-name="Rectángulo 39455" width="482" height="290" rx="22" transform="translate(9 153)" fill="#fff"/>
       </g>
-      <text id="Identificación_de_la_muestra_nombre_código_etc._." data-name="Identificación de la muestra (nombre, código, etc.)." transform="translate(818.356 4556.021)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Identificación de la muestra (nombre, código, etc.).</tspan></text>
+      <path id="Rectángulo_39454" data-name="Rectángulo 39454" d="M76,0H354a0,0,0,0,1,0,0V153a76,76,0,0,1-76,76H0a0,0,0,0,1,0,0V76A76,76,0,0,1,76,0Z" transform="translate(840 4276)" fill="#477fa2"/>
     </g>
+    <text id="Identificación_de_la_muestra_nombre_código_etc._." data-name="Identificación de la muestra (nombre, código, etc.)." transform="translate(818.356 4556.021)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Identificación de la muestra (nombre, código, etc.).</tspan></text>
     <g id="Icono" transform="translate(103.938 -28.193)">
       <path id="Trazado_45038" data-name="Trazado 45038" d="M588.61,813.672c.062,15.486.645,30.979,1.266,46.453a2.9,2.9,0,0,0,2.863,2.862c49.17-.249,98.343-.444,147.517-.174,9.967.054,19.941.088,29.908.394,8.2.251,11.628-6,17.378-11.692,6.068-6,13.635-10.224,13.822-19.019q.376-18.28.754-36.563c.077-3.692-5.641-3.683-5.721,0q-.341,16.5-.684,33-.064,3.092-.126,6.183c-.064,3,1.864-1.448-.529.917q-6.63,6.566-13.267,13.121-3.011,2.986-6.029,5.967c-.7.694-1.405,1.393-2.108,2.087-1.755,1.735-1.054.349.2.446-2.68-.206-5.382-.223-8.069-.281-10.666-.236-21.338-.266-32.005-.313-47.012-.216-94.028-.032-141.044.2.951.956,1.907,1.9,2.862,2.86-.624-15.473-1.208-30.966-1.268-46.453-.015-3.687-5.738-3.692-5.723,0Z" transform="translate(212.086 3610.84)" fill="#fff"/>
       <path id="Trazado_45039" data-name="Trazado 45039" d="M673.174,803.227c.336,15.2.8,30.407.846,45.611.011,3.689,5.729,3.689,5.718,0-.045-15.2-.508-30.414-.844-45.611-.079-3.683-5.8-3.694-5.721,0Z" transform="translate(308.703 3619.171)" fill="#fff"/>

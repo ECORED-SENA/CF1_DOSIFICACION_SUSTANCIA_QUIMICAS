@@ -35,9 +35,9 @@
       .col-md-8
         img(src='@/assets/curso/tema3/3.svg')
       p.mt-4 Cuando se menciona tomar un “Rol activo” hace referencia a seguir siempre las siguientes recomendaciones: 
-      .row.mt-4.asa
+      .row.mb-4.mt-4.asa
         .col-md-4
-          img(src='@/assets/curso/tema3/ttt.svg')
+          img(src='@/assets/curso/tema5/8.svg')
         .col-md-1
         .col-md-7
             <br><br>
@@ -56,9 +56,9 @@
                 i.fas.fa-angle-right
                 | Siempre indagar antes sobre los peligrosos si va a manejar sustancias químicas (p.3)
 
-
+      
       p.mt-4 Para realizar la actividad de toma de muestras de aguas se debe garantizar que las personas cuenten con unos implementos de seguridad mínimos:
-      .row
+      .row.mt-4
         .col-md-1
         .col-md-10  
           .row.mb-5
@@ -152,8 +152,7 @@
                     
 
 
-    separador
-    .row.justify-content-center
+    .row.justify-content-center.mt-4
       .col-lg-10.col-md-10.bordes4
         .row.p-4
           .col-1
@@ -176,7 +175,8 @@
     .row.mt-4
       h2.mb-4 Peligros químicos  
       p.mb-4 Las sustancias químicas pueden causar daño si no son manipuladas de forma adecuada y según protocolos, lo más importante por resaltar es que estas sustancias tienen diferentes características (tóxicas, inflamables, corrosivas y reactivas) y debe reconocerlas y saber cómo reaccionar en caso de accidentes.
-      .row.saps
+      
+      .row.saps.mt-4
         .col-md-8.p-2
           p Sin embargo, existen sustancias que cuentan con más de un peligro, por lo cual se considera que el grado de peligrosidad de las sustancias químicas puede variar, por ello siempre trabajar de forma segura es la manera correcta de desarrollar actividades con estos implementos.
           p Se recomienda ampliar la información en sesiones en línea con su instructor y con el material de apoyo, pero se dejan las siguientes acciones como tips necesarios para contrarrestar los peligros químicos:

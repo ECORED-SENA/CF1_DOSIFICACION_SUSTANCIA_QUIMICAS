@@ -8,7 +8,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_108437" data-name="Grupo 108437" transform="translate(15833 3512)">
+  <g id="Grupo_108427" data-name="Grupo 108427" transform="translate(15833 3512)">
     <g transform="matrix(1, 0, 0, 1, -15833, -3512)" filter="url(#Rectángulo_39643)">
       <rect id="Rectángulo_39643-2" data-name="Rectángulo 39643" width="482" height="290" rx="22" transform="translate(9 153)" fill="#fff"/>
     </g>
@@ -156,6 +156,6 @@
         <path id="Trazado_45136" data-name="Trazado 45136" d="M246.421,1817.845c.546.391-.076-2.1-.152-3.1-.209-2.7-.272-5.417-.337-8.125-.19-8.038-.147-16.082-.091-24.12.138-19.827.564-39.652,1.039-59.474q.271-11.341.58-22.683c.053-1.934-.822-8.95,1.06-9.72,5.167-2.116,3.225,8.834,3.2,11.292q-.151,12.759-.306,25.522c-.367,30.6-.941,61.206-.96,91.808a1.222,1.222,0,0,0,2.443,0c.02-36.477.73-72.96,1.168-109.433q.1-8.5.2-17c.046-4.426-4.8-7.007-8.406-3.4-1.513,1.513-.717,6.546-.765,8.364q-.289,10.5-.548,21c-.543,21.981-1.019,43.966-1.157,65.956-.053,8.482-.082,16.974.207,25.454.078,2.216-.589,8.215,1.6,9.771,1.286.914,2.5-1.2,1.232-2.107Z" transform="translate(-243.352 -1687.704)" fill="#fff"/>
       </g>
     </g>
-    <text id="Cualquier_otra_observación_que_se_considere_de_importancia" data-name="Cualquier otra observación que se considere de importancia" transform="translate(-15790 -3212)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Cualquier otra observación que se considere de </tspan><tspan x="0" y="41">importancia</tspan></text>
+    <text id="Cualquier_otra_observación_que_se_considere_de_importancia" data-name="Cualquier otra observación que se considere de importancia" transform="translate(-15790 -3212)" fill="#12263f" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Cualquier otra observación que se considere de </tspan><tspan x="0" y="38">importancia</tspan></text>
   </g>
 </svg>
