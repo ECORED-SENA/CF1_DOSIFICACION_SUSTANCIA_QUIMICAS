@@ -37,7 +37,7 @@
       p.mt-4 Cuando se menciona tomar un “Rol activo” hace referencia a seguir siempre las siguientes recomendaciones: 
       .row.mb-4.mt-4.asa
         .col-md-4
-          img(src='@/assets/curso/tema5/8.svg')
+          img(src='@/assets/curso/tema5/8.png')
         .col-md-1
         .col-md-7
             <br><br>
@@ -192,7 +192,7 @@
               i.fas.fa-angle-right
               | Siempre siga las recomendaciones de su instructor. (Sociedad Americana de química, 2003, p.10)     
         .col-md-4
-          img.mb-4(src='@/assets/curso/tema3/l1.svg')
+          img.mb-4(src='@/assets/curso/tema3/333.png')
       
 
 

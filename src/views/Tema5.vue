@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span.text-white 5
       h1 Registro de información
-    .row.mt-4.bgls
+    .row.mt-4.bgls.flex-wrap
       p.mt-4 Para la correcta representación de un monitoreo de agua es necesario contar con una planificación en donde se obtenga información preliminar del área de influencia, para esto se necesita de tres etapas las cuales serán descritas a continuación:
       TabsB.color-acento-contenido.mb-5
           .py-4.py-md-5(titulo="Recolección de datos" :icono="require('@/assets/curso/tema5/1.svg')")
@@ -35,7 +35,7 @@
       p.mt-4 Por tanto, finalmente la publicación de la información ya sea en sistemas de información hidrológica, boletines, estudios, informes, investigaciones, entre otros, es la manera de transmitir la información para la toma de decisiones.
       p.mt-4 Los formatos utilizados al tomar la muestra son:
 
-      .row.mb-5
+      .row.mb-5.flex-fow
         .col-sm-1
         .col-sm-4
           .tarjeta.tarjeta-flip.color-acento-contenido.mt-4.mb-4(@mouseover="indicadorTarjetaFlip = false")
@@ -46,7 +46,7 @@
                 p.text-white Se registra de inmediato toda la información que se obtiene en campo, las observaciones y los datos de la toma de muestra en un formato destinado para dicha actividad; este incluye aspectos como: propósito del muestreo; localización del sitio de muestreo, datos de la medición del caudal; descripción del punto; método de muestreo; fecha y hora de recolección; identificación del recolector; observaciones y mediciones de parámetros en campo. 
               
               .tarjeta-flip__contenido.p-4.p-xl-5   
-                img(src='@/assets/curso/tema5/5.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema5/5.png', alt='Texto que describa la imagen')
                 h3.text-center Formato para captura de datos en campo          
         .col-sm-1
         .col-sm-4
@@ -54,11 +54,12 @@
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema5/ff1.png')})`}")
-                img(src='@/assets/curso/tema5/font.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema5/font.png', alt='Texto que describa la imagen')
                 h3.text-center Formato para control y vigilancia de la muestra   
               .tarjeta-flip__contenido.p-4.p-xl-5       
                 h3.mt-4 Formato para control y vigilancia de la muestra: 
                 p El formato de control y vigilancia se diligencia para cada una de las muestras o grupo de muestras; este formato incluye la siguiente información: número(s) de la(s) muestra(s); nombre de quien recolecta la muestra; fecha, hora, sitio de muestreo; tipo de muestra; parámetros a analizar, información de campo y observaciones.
+                
       <br>
       .row.mt-4
         .col-md-1
@@ -67,7 +68,7 @@
         .col-md-1
       .row.mt-4
         .col-md-5
-          img.mb-4(src='@/assets/curso/tema5/8.svg' alt='AvatarTop')
+          img.mb-4(src='@/assets/curso/tema5/8.png' alt='AvatarTop')
         .col-md-6
           ol.lista-ol--cuadro
             li 

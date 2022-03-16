@@ -37,36 +37,31 @@
       <br><br>
       p.mb-4.mt-4 Existen tres formas de recoger muestras de agua dependiendo de cuál sea el tipo de análisis que se quiere realizar.
       <br>
-    .row
-      .col-md-1
+    .row.justify-content-center
       .col-md-10
         PasosA.color-primario.mb-5(tipo="n")
           .row
             .col-md-6.mb-4.mb-md-0
-              <br><br><br>
+              <br><br>
               p En primer lugar, están las muestras simples, que son aquellas que son obtenidas en el lugar y momento preestablecido para su análisis de manera individual, estas muestras se obtienen en su mayoría cuando son aguas de suministro o efluentes residuales. 
-
             .col-md-6
               figure
-                img(src='@/assets/curso/tema2/mg1.svg', alt='Texto que describa la imagen')
-
+                img(src='@/assets/curso/tema2/p1.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/tema2/mg3.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/p2.png', alt='Texto que describa la imagen')
             .col-md-6
-              <br><br><br>
+              <br><br>
               p Segundo, encontramos las muestras compuestas que están determinadas por la mezcla y homogeneización de muestras simples que fueron recolectadas en el mismo lugar, pero en diferentes momentos. Estas muestras son utilizadas para calcular, por ejemplo, el funcionamiento eficaz de una planta de tratamiento de aguas
-              
-
           .row
             .col-md-6.mb-4.mb-md-0
-              <br><br><br>
+              <br><br>
               p Por tercer y  último, encontramos las muestras integradas, que son aquellas que se obtienen por mezclar y homogeneizar muestras simples que han sido obtenidas en diferentes puntos, pero simultáneamente. 
           
             .col-md-6
               figure
-                img(src='@/assets/curso/tema2/mg2.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/p3.png', alt='Texto que describa la imagen')
 
 
 
@@ -138,7 +133,7 @@
             p.mt-4 Las etiquetas suelen ser removibles para hacer parte del proceso de registros posteriores, pero se enfrenta a la posibilidad de remoción inapropiada o pérdida, los rótulos o marcas usualmente se hacen en papel a prueba de agua con tinta indeleble y son pegados al frasco o recipiente de muestra, existe una manera alternativa que es cuando se escribe directamente en el recipiente con tinta indeleble, sin embargo, no es el más aconsejado (p.5).
           .col-md-4
             img.mb-4(src='@/assets/curso/tema2/4.svg' alt='AvatarTop')
-        .row.mt-4
+        .row.mt-4.justify-content-center
           .col-md-7
             img.mb-4(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
           .col-md-5
@@ -181,7 +176,7 @@
                 i.fas.fa-angle-right
                 | Práctica de preparación de soluciones: su instructor le brindara el apoyo requerido para que pueda realizar diferentes soluciones en el laboratorio.
           .col-md-4
-            img(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/8.png' alt='AvatarTop')
       .row
         .col-md-1
         .col-md-10

@@ -12,20 +12,20 @@
       .row(titulo="Es incolora")
         .col-md-4
           figure
-            img(src='@/assets/curso/tema4/1.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/1.png', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0.mg1
           p En algunas ocasiones cuando observamos el mar o algún rio parece que el agua tuviera un color azul – verde, esto se debe a la forma en que el agua refleja la luz y también a la manera en que absorbe más fácilmente las longitudes de onda cortas. Sin embargo, no se percibe ningún color en ella a no ser que este mezclada con alguna otra sustancia, de no ser así es totalmente transparente para nuestra vista. 
       .row(titulo="No tiene sabor ni olor")
         .col-md-4
           figure
-            img(src='@/assets/curso/tema4/2.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/2.png', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0.mg1
           p El agua a diferencia de otras sustancias, no tiene un sabor u olor característico, cuando esto sucede es porque ha sido alterado de alguna manera o porque al momento de consumirla ha traído consigo partículas de otros elementos. 
       .row(titulo="Los tres estados del agua")
         .col-md-4
           <br>
           figure
-            img(src='@/assets/curso/tema4/3.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/3.png', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
           p.agg Una característica fundamental del agua es que es el único elemento que se puede encontrar en los tres estados de la materia:
             ul.lista-ul.mt-2
@@ -43,19 +43,19 @@
       .row(titulo="pH")
         .col-md-4
           figure
-            img(src='@/assets/curso/tema4/4.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/4.png', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0.mg1
           p Una de las principales características del agua es que por lo general tiene un pH neutro el cual oscila entre los 6,5 y 8,5; esto implica que por lo general el agua puede ser medianamente acida o medianamente básica. 
       .row(titulo="Conductividad")
         .col-md-4
           figure
-            img(src='@/assets/curso/tema4/5.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/5.png', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0.mg1
           p El agua destilada o pura no es conductora de la electricidad sino aislante, dado que no posee electrones libres que puedan conducirla. Pero esto solo sucede cuando es agua destilada ya que solo está conformada por moléculas de agua, en cambio que el agua que utilizamos diariamente si es conductora de electricidad ya que está compuesta por una gran cantidad de minerales y otros conductores. 
       .row(titulo="Temperatura")
         .col-md-4
           figure
-            img(src='@/assets/curso/tema4/6.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/6.png', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0.mg1
           p El agua tiene la capacidad de retener el calor, por lo que se enfría más lentamente que otras sustancias y también tarda en calentarse. 
     <br>
@@ -83,20 +83,20 @@
               p En caso de requerirse la extracción de una muestra para la medición de los parámetros in situ, es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos (INVEMAR, 2013, p.26).              
               .col-sm-2.mt-4
               .col-sm-8.mt-4
-                img.mb-4(src='@/assets/curso/tema4/9.svg', alt='Texto que describa la imagen')    
+                img.mb-4(src='@/assets/curso/tema4/9.png', alt='Texto que describa la imagen')    
             .row.p-4.BGI333.mb-4
               h2.mt-4 Conductividad
               p La conductividad de una muestra de agua es una medida de la capacidad que tiene la solución para transmitir corriente eléctrica. Esta capacidad depende de la presencia, movilidad, valencia y concentración de iones, así como de la temperatura del agua. Se debe tener en cuenta que las sales minerales son buenas conductoras y que las materias orgánicas y coloidales tienen poca conductividad. (INVEMAR, 2013, p.24)
               .col-sm-2.mt-4
               .col-sm-8.mt-4
-                img.mb-4(src='@/assets/curso/tema4/10.svg', alt='Texto que describa la imagen')   
+                img.mb-4(src='@/assets/curso/tema4/10.png', alt='Texto que describa la imagen')   
             .row.p-4.BGI333.mb-4
               .col-sm-8.gg
                 h3.mt-4 Temperatura
                 p La temperatura juega un papel muy importante en la solubilidad de los gases, en la disolución de las sales y por lo tanto en la conductividad eléctrica, en la determinación de pH, en el conocimiento del origen de agua y de las eventuales mezclas, etc. Las descargas de agua a altas temperaturas pueden causar daños a la flora y fauna de las aguas receptoras al interferir con la reproducción de las especies, incrementar el crecimiento de bacterias y otros organismos, acelerar las reacciones químicas, reducir los niveles de oxígeno y acelerar la eutrofización.
                 p La medición de temperatura en muestras ambientales debe ser una labor realizada in situ, y no aplica por ello los procedimientos de almacenamiento y preservación. El mejor método para la lectura de este parámetro es introducir directamente los equipos de medición (termómetro o sonda) en el cuerpo de agua.
               .col-sm-4.mt-4
-                img.mb-4(src='@/assets/curso/tema4/11.svg', alt='Texto que describa la imagen')   
+                img.mb-4(src='@/assets/curso/tema4/11.png', alt='Texto que describa la imagen')   
               p Las muestras en campo deben medirse directamente en la columna de agua introduciendo la sonda y procurando mantenerla siempre a la misma profundidad (25 cm por debajo de la superficie). Para tomar la temperatura en el fondo de la columna de agua es conveniente el uso de botellas que posean termómetros invertidos, o el uso de sondas que puedan bajar hasta el lugar donde se necesita leer. Si no se dispone de estos materiales, se toma la muestra con una de las botellas de muestreo (Nansen o Niskin) y se transfiere la mayor cantidad de agua a un recipiente grande (balde, con el fin de minimizar los errores por la transferencia de calor con el ambiente), y se introduce la sonda o termómetro, se mantiene una agitación constante con movimientos circulares y se registra el valor de temperatura; esta operación debe hacerse lo más rápido posible (INVEMAR, 2013, p.21).
             .row.p-4.BGI333.mb-4
               h2.mt-4 Oxígeno disuelto
@@ -104,13 +104,13 @@
               p Las fuentes de oxígeno en el agua son la aireación y la fotosíntesis de las algas, su concentración depende fundamentalmente de la temperatura, presión y salinidad. (INVEMAR, 2013, p.14)
               .col-sm-2.mt-4
               .col-sm-8.mt-4
-                img.mb-4(src='@/assets/curso/tema4/12.svg', alt='Texto que describa la imagen')  
+                img.mb-4(src='@/assets/curso/tema4/12.png', alt='Texto que describa la imagen')  
             .row.p-4.BGI333.mb-4
               h2.mt-4 Ph
               p El pH es una medida de la concentración de iones de hidrógeno en el agua. Aguas fuera del rango normal de 6 a 9 pueden ser dañinas para la vida acuática. Estos niveles de pH pueden causar perturbaciones celulares y la eventual destrucción de la flora y fauna acuática. En el campo de abastecimiento de agua el pH tiene importancia en la coagulación química, desinfección, ablandamiento del agua y control de corrosión. (INVEMAR, 2013, p.22)
               .col-sm-2.mt-4
               .col-sm-8.mt-4
-                img.mb-4(src='@/assets/curso/tema4/13.svg', alt='Texto que describa la imagen')  
+                img.mb-4(src='@/assets/curso/tema4/13.png', alt='Texto que describa la imagen')  
       separador
       h2.mt-4 Pasos prácticos para la toma de la muestra para análisis físico-químico:
       img.mt-4(src='@/assets/curso/tema4/gp.png', alt='Texto que describa la imagen')  

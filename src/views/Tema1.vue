@@ -10,10 +10,10 @@
     
     p Para iniciar el monitoreo de agua por medio de la toma de muestras, se deben de tener en cuenta ciertos parámetros o consideraciones previas a iniciar el muestreo, estas son algunas de ellas:
 
-        .row.mb-4 
+        .row.mb-4.flex-container 
           .col-lg-2
           .col-lg-3
-            img(src='@/assets/curso/tema1/1.svg')
+            img(src='@/assets/curso/tema1/1.png')
           .col-lg-6.p-4
             <br><br><br><br>
             ul.lista-ul--color.sss
@@ -191,9 +191,9 @@
 
       p Además, un plan de muestreo debe tener en cuenta lo siguiente:
       
-      .row
+      .row.justify-content
         .col-md-4
-          img.mb-4.p-4.mt-4(src='@/assets/curso/tema1/8.svg')
+          img.mb-4.p-4.mt-4.wi(src='@/assets/curso/tema1/8.png')
         .col-md-7.p-1
           <br><br><br>
             ul.lista-ul--color.sssa
