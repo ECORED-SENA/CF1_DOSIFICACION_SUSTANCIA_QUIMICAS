@@ -9,7 +9,9 @@
       h1 Buenas prácticas de laboratorio
     
     .row
-      p Las Buenas Prácticas de Laboratorio (BPL) están definidas como un conjunto de reglas, procedimientos operativos y operacionales que están determinados por la Organization for Economic Cooperation and Development (OCDE), y se consideran como obligatorias para asegurar la calidad e integridad de los datos producidos en los procesos del laboratorio, esto con la finalidad de armonizar los protocolos, la información y la documentación de los procedimientos operativos del laboratorio. 
+      p Las Buenas Prácticas de Laboratorio (BPL) están definidas como un conjunto de reglas, procedimientos operativos y operacionales que están determinados por la 
+        span.etiqueta2 Organization for Economic Cooperation and Development 
+        | (OCDE), y se consideran como obligatorias para asegurar la calidad e integridad de los datos producidos en los procesos del laboratorio, esto con la finalidad de armonizar los protocolos, la información y la documentación de los procedimientos operativos del laboratorio. 
       .row.justify-content-center.mb-4
         .col-lg-12.cajon.color-primario.p-4
           p Estos requerimientos conforman una filosofía de trabajo, ya que son vistas como un sistema en el cual se analiza todos sus procesos desde el diseño hasta el archivo de los resultados. 
@@ -27,14 +29,14 @@
         .col-md-2
         .col-md-9
           BotonesA.mb-5
-    h2.mt-4.mb-4 Seguridad y salud en el trabajo de muestreo.
+    h2.mt-4.mb-4 Seguridad y salud en el trabajo de muestreo
     <br>
     p.mt-4 De acuerdo a la Sociedad americana de química (2003), en su publicación seguridad en los laboratorios químicos académicos, prevenir accidentes de cualquier tipo en un laboratorio, es responsabilidad de todos los que usan este espacio de trabajo, por lo cual es necesario siempre una actitud cooperativa activa, es importante recordar que los accidentes que se pueden dar cuando se trabaja con insumos químicos bien sea dentro de un laboratorio o en pruebas de campo, suelen ser asociadas a:
     .row.BGI2.mt-4
       .col-md-2
       .col-md-8
         img(src='@/assets/curso/tema3/3.svg')
-      p.mt-4 Cuando se menciona tomar un “Rol activo” hace referencia a seguir siempre las siguientes recomendaciones: 
+      p.mt-4 Cuando se menciona tomar un “rol activo” hace referencia a seguir siempre las siguientes recomendaciones: 
       .row.mb-4.mt-4.asa
         .col-md-4
           img(src='@/assets/curso/tema5/8.png')
@@ -68,7 +70,7 @@
                 .tarjeta.color-primario--borde
                   .p-4.fondo3
                     <br>
-                    p.mb-0 Cofia:
+                    p.mb-1 <strong>Cofia</strong>
                     p Si tiene el cabello largo, manténgalo recogido durante el desarrollo de la práctica. Use la cofia si el instructor lo considera necesario.
             
             .col-md-2
@@ -78,7 +80,7 @@
                 .tarjeta.color-primario--borde
                   .p-4.fondo3
                     <br>                    
-                    p.mb-0 Casco:
+                    p.mb-1 <strong>Casco</strong>
                     p En campo es necesario como prevención     
                     p.text-white ------------------------------------------------------------------------------
       .row
@@ -92,7 +94,7 @@
                 
                   .p-4.fondo3
                     <br>
-                    p.mb-0 Protección de ojos:
+                    p.mb-1 <strong>Protección de ojos</strong>
                     p Es obligatorio que todo el personal que permanezca en el laboratorio use permanentemente las gafas de seguridad, aun cuando no estén realizando prácticas. Las personas que utilizan gafas de manera permanente deben disponer de unas gafas de seguridad suplementarias, No utilice lentes de contacto dentro del laboratorio, ya que su uso facilita la acumulación de sustancias tóxicas en los ojos. Los lentes blandos absorben los vapores de sustancias tóxicas, ocasionando la irritación, además de interferir con los procedimientos de lavado de emergencia (Sociedad Americana de química, 2003, p.3).
             
             .col-md-2
@@ -102,7 +104,7 @@
                 .tarjeta.color-primario--borde
                   .p-4.fondo3
                     <br>
-                    p.mb-0 Mascarilla o Tapabocas:
+                    p.mb-1 <strong>Mascarilla o Tapabocas</strong>
                     p  Cuando la práctica de laboratorio implique la manipulación de compuestos volátiles, tóxicos, nocivos y/o irritantes, es indispensable emplear equipos de protección respiratoria, adaptados y homologados para la sustancia en cuestión. También deben utilizarse en caso de fugas y derrames de las sustancias anteriores, dada la gran concentración ambiental que resulta de los mismos (INS, 2011, p.40).    
                     <br><br>
       .row
@@ -115,7 +117,7 @@
                 .tarjeta.color-primario--borde
                   .p-4.fondo3
                     <br>
-                    p.mb-0 Instrumental de campo o vestimenta (Guardapolvo blanco): 
+                    p.mb-1 <strong>Instrumental de campo o vestimenta (Guardapolvo blanco)</strong> 
                     p Primero se debe aclarar que la ropa utilizada en laboratorio o en campo, debe proteger tanto de salpicaduras como de derrames, preferiblemente un guardapolvo blanco, si es para uno de cuencas de agua contaminadas este debe ser impermeable (Sociedad Americana de química, 2003, p.4).
             
             .col-md-2
@@ -125,7 +127,7 @@
                 .tarjeta.color-primario--borde
                   .p-4.fondo3
                     <br>
-                    p.mb-0 Bata de laboratorio:
+                    p.mb-1 <strong>Bata de laboratorio</strong>
                     p Si se usa la bata las características más aconsejables son: Material: algodón, dril o gabardina, Color: blanco, Manga: larga con puño recortado, Largo (extensión): mínimo hasta el muslo (3/4), Tipo de cierre: de abotonar a presión (INS, 2011, p.40).    
       .row
         .col-md-1
@@ -137,7 +139,7 @@
                 .tarjeta.color-primario--borde
                   .p-4.fondo3
                     <br>
-                    p.mb-0 Zapatos:
+                    p.mb-1 <strong>Zapatos</strong>
                     p En el caso de los laboratorios se debe usar zapatos totalmente cerrados y que no sean de cuero o cuero sintético, no se podrá usar sandalias o cualquier zapato que deje piel al descubierto ni con tacones. (INS, 2011, p.40).
                     <br><br>
             .col-md-2
@@ -147,7 +149,7 @@
                 .tarjeta.color-primario--borde
                   .p-4.fondo3
                     <br>
-                    p.mb-0 Guantes de nitrilo, de neopreno, gruesos y delgados:
+                    p.mb-1 <strong>Guantes de nitrilo, de neopreno, gruesos y delgados</strong>
                     p Cualquier manipulación de sustancias corrosivas, irritantes, de elevada toxicidad o de elevado poder de penetración a través de la piel, debe ser llevada a cabo empleando guantes adecuados y limpios. Finalizada la práctica, lave los guantes con abundante agua y jabón. Haga lo propio con sus manos. (Sociedad Americana de química, 2003, p.5)
                     
 
@@ -167,8 +169,8 @@
         img.mb-4(src='@/assets/curso/tema3/8.svg')
       .col-md-8
         .col-md-2
-          p.sp3.p-1.text-white En el laboratorio:
-        p es de carácter obligatorio que, en la primera sesión en laboratorio, el instructor dé a conocer a los aprendices las normas y disposiciones generales de seguridad de este manual, explicándoles y haciendo las aclaraciones necesarias, dando lugar a la participación de los aprendices.
+          p.sp3.p-1.text-white En el laboratorio
+        p Es de carácter obligatorio que, en la primera sesión en laboratorio, el instructor dé a conocer a los aprendices las normas y disposiciones generales de seguridad de este manual, explicándoles y haciendo las aclaraciones necesarias, dando lugar a la participación de los aprendices.
         p Así mismo, el instructor debe hacer un recorrido con sus aprendices por todas las instalaciones, mostrando y ubicando los diversos dispositivos relacionados con la seguridad, tales como salida de emergencia, ruta de evacuación, ubicación de extintores, botiquines de primeros auxilios, duchas de emergencia y fuente lavaojos.
         p Antes de las prácticas de campo o de laboratorio su instructor socializará las normas adecuadas para las actividades.
     <br>

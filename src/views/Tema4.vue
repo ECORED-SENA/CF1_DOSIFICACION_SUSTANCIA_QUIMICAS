@@ -31,14 +31,14 @@
             ul.lista-ul.mt-2
               li 
                 i.fa.fa-angle-right
-                | Estado sólido: este estado se produce cuando el agua es sometida a temperaturas inferiores a los 0ºC y se congela. Este fenómeno en específico tiene el nombre de solidificación, y se genera cuando las moléculas que forman el agua están unidas. Cuando esto sucede encontramos el agua en los glaciares o en zonas de montaña con nieve. 
+                p.mb-0 <strong>Estado sólido:</strong> este estado se produce cuando el agua es sometida a temperaturas inferiores a los 0ºC y se congela. Este fenómeno en específico tiene el nombre de solidificación, y se genera cuando las moléculas que forman el agua están unidas. Cuando esto sucede encontramos el agua en los glaciares o en zonas de montaña con nieve. 
               li 
                 i.fas.fa-angle-right
-                | Estado líquido: este es el estado del agua más predominante en el planeta Tierra ya que se encuentra en ríos, lagos, mares, océanos y aguas subterráneas, una vez el agua pasa de estado sólido a estado líquido tiene el nombre de fusión, allí la mayoría de las moléculas permanecen unidas, esto sucede entre los 0º y 100º. 
+                p.mb-0 <strong>Estado líquido:</strong> este es el estado del agua más predominante en el planeta Tierra ya que se encuentra en ríos, lagos, mares, océanos y aguas subterráneas, una vez el agua pasa de estado sólido a estado líquido tiene el nombre de fusión, allí la mayoría de las moléculas permanecen unidas, esto sucede entre los 0º y 100º. 
 
               li 
                 i.fas.fa-angle-right
-                | Estado gaseoso: cuando el agua se somete a determinadas temperaturas se produce el fenómeno de la evaporación y se condensa en la atmósfera. Así es como surgen las nubes, las cuales se componen por partículas de agua acumuladas.
+                p.mb-0 <strong>Estado gaseoso:</strong> cuando el agua se somete a determinadas temperaturas se produce el fenómeno de la evaporación y se condensa en la atmósfera. Así es como surgen las nubes, las cuales se componen por partículas de agua acumuladas.
 
       .row(titulo="pH")
         .col-md-4
@@ -59,9 +59,9 @@
         .col-md-8.mb-4.mb-md-0.mg1
           p El agua tiene la capacidad de retener el calor, por lo que se enfría más lentamente que otras sustancias y también tarda en calentarse. 
     <br>
-    h2.mb-4 Tipos de ensayos: Ensayos in situ 
+    h3.mb-4 Tipos de ensayos: Ensayos in situ 
     <br>
-    p Los ensayos in situ, son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46), sin embargo para otro tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones in situ incluyendo Conductividad, turbidez y Oxígeno Disuelto, la medición de estos se realiza con el equipo multiparamétrico.                         
+    p Los ensayos in situ, son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46), sin embargo para otro tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones in situ incluyendo conductividad, turbidez y oxígeno disuelto, la medición de estos se realiza con el equipo multiparamétrico.                         
     
     .row.bg333
       .col-md-7
@@ -78,14 +78,14 @@
       .col-sm-12
         SlyderF(columnas="col-12")
             .row.p-4.BGI333.mb-4
-              h2.mt-4 Turbidez
+              h3.mt-4 Turbidez
               p La turbidez del agua es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión.
               p En caso de requerirse la extracción de una muestra para la medición de los parámetros in situ, es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos (INVEMAR, 2013, p.26).              
               .col-sm-2.mt-4
               .col-sm-8.mt-4
                 img.mb-4(src='@/assets/curso/tema4/9.png', alt='Texto que describa la imagen')    
             .row.p-4.BGI333.mb-4
-              h2.mt-4 Conductividad
+              h3.mt-4 Conductividad
               p La conductividad de una muestra de agua es una medida de la capacidad que tiene la solución para transmitir corriente eléctrica. Esta capacidad depende de la presencia, movilidad, valencia y concentración de iones, así como de la temperatura del agua. Se debe tener en cuenta que las sales minerales son buenas conductoras y que las materias orgánicas y coloidales tienen poca conductividad. (INVEMAR, 2013, p.24)
               .col-sm-2.mt-4
               .col-sm-8.mt-4
@@ -99,25 +99,23 @@
                 img.mb-4(src='@/assets/curso/tema4/11.png', alt='Texto que describa la imagen')   
               p Las muestras en campo deben medirse directamente en la columna de agua introduciendo la sonda y procurando mantenerla siempre a la misma profundidad (25 cm por debajo de la superficie). Para tomar la temperatura en el fondo de la columna de agua es conveniente el uso de botellas que posean termómetros invertidos, o el uso de sondas que puedan bajar hasta el lugar donde se necesita leer. Si no se dispone de estos materiales, se toma la muestra con una de las botellas de muestreo (Nansen o Niskin) y se transfiere la mayor cantidad de agua a un recipiente grande (balde, con el fin de minimizar los errores por la transferencia de calor con el ambiente), y se introduce la sonda o termómetro, se mantiene una agitación constante con movimientos circulares y se registra el valor de temperatura; esta operación debe hacerse lo más rápido posible (INVEMAR, 2013, p.21).
             .row.p-4.BGI333.mb-4
-              h2.mt-4 Oxígeno disuelto
+              h3.mt-4 Oxígeno disuelto
               p Este parámetro proporciona una medida de la cantidad de oxígeno disuelto en el agua. Mantener una concentración adecuada de oxígeno disuelto en el agua es importante para la supervivencia de los peces y otros organismos de vida acuática. La temperatura, el material orgánico disuelto, los oxidantes inorgánicos, etc. afectan sus niveles. La baja concentración de oxígeno disuelto puede ser un indicador de que el agua tiene una alta carga orgánica provocada por aguas residuales.
               p Las fuentes de oxígeno en el agua son la aireación y la fotosíntesis de las algas, su concentración depende fundamentalmente de la temperatura, presión y salinidad. (INVEMAR, 2013, p.14)
               .col-sm-2.mt-4
               .col-sm-8.mt-4
                 img.mb-4(src='@/assets/curso/tema4/12.png', alt='Texto que describa la imagen')  
             .row.p-4.BGI333.mb-4
-              h2.mt-4 Ph
+              h3.mt-4 Ph
               p El pH es una medida de la concentración de iones de hidrógeno en el agua. Aguas fuera del rango normal de 6 a 9 pueden ser dañinas para la vida acuática. Estos niveles de pH pueden causar perturbaciones celulares y la eventual destrucción de la flora y fauna acuática. En el campo de abastecimiento de agua el pH tiene importancia en la coagulación química, desinfección, ablandamiento del agua y control de corrosión. (INVEMAR, 2013, p.22)
               .col-sm-2.mt-4
               .col-sm-8.mt-4
                 img.mb-4(src='@/assets/curso/tema4/13.png', alt='Texto que describa la imagen')  
-      separador
-      h2.mt-4 Pasos prácticos para la toma de la muestra para análisis físico-químico:
+      h3.mt-4 Pasos prácticos para la toma de la muestra para análisis físico-químico:
       img.mt-4(src='@/assets/curso/tema4/gp.png', alt='Texto que describa la imagen')  
-      
-      separador
+      .row.mt-4
+      .row.mt-4
       p.mt-4 Dentro de los análisis fisicoquímicos que se le realizan al agua se encuentran los siguientes junto con sus métodos de determinación como son:
-
       p Parámetros físicos que cuenta con 7 características:
       .col-md-1
       .col-md-10
@@ -151,7 +149,7 @@
           .py-3.py-md-4(titulo="Sólidos en suspensión")
             .row
               .col-md-11.mb-4.mb-md-0.p-4
-                p Para la determinación de este parámetro se filtra la muestra a través de un papel de filtro de 0.45 μm que se seca a una temperatura de 105ºC, posteriormente se pesa el filtro antes y después de pasar la muestra y así indicara el contenido de materiales en suspensión
+                p Para la determinación de este parámetro se filtra la muestra a través de un papel de filtro de 0.45 μm que se seca a una temperatura de 105ºC, posteriormente se pesa el filtro antes y después de pasar la muestra y así indicará el contenido de materiales en suspensión
                 <br><br><br><br>    
           .py-3.py-md-4(titulo="Conductividad")
             .row
@@ -179,7 +177,7 @@
           p.text-center 
             <br>
             b Alcalinidad  
-          p La determinación de la alcalinidad de una muestra de agua se logra por titulación con una solución de ácido sulfúrico de normalidad conocida y se hace por medio de la fenolftaleína como indicador dependiendo del pH iniciar de la muestra. 
+          p La determinación de la alcalinidad de una muestra de agua se logra por titulación con una solución de ácido sulfúrico de normalidad conocida y se hace por medio de la fenolftaleína como indicador dependiendo del pH inicial de la muestra. 
           <br><br><br> 
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.p-4

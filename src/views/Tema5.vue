@@ -42,8 +42,8 @@
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema5/ff.png')})`}")
-                h3.mt-4 Formato para captura de datos en campo: 
-                p.text-white Se registra de inmediato toda la información que se obtiene en campo, las observaciones y los datos de la toma de muestra en un formato destinado para dicha actividad; este incluye aspectos como: propósito del muestreo; localización del sitio de muestreo, datos de la medición del caudal; descripción del punto; método de muestreo; fecha y hora de recolección; identificación del recolector; observaciones y mediciones de parámetros en campo. 
+                h3.mt-4 Formato para captura de datos en campo 
+                p Se registra de inmediato toda la información que se obtiene en campo, las observaciones y los datos de la toma de muestra en un formato destinado para dicha actividad; este incluye aspectos como: propósito del muestreo; localización del sitio de muestreo, datos de la medición del caudal; descripción del punto; método de muestreo; fecha y hora de recolección; identificación del recolector; observaciones y mediciones de parámetros en campo. 
               
               .tarjeta-flip__contenido.p-4.p-xl-5   
                 img(src='@/assets/curso/tema5/5.png', alt='Texto que describa la imagen')
@@ -57,7 +57,7 @@
                 img(src='@/assets/curso/tema5/font.png', alt='Texto que describa la imagen')
                 h3.text-center Formato para control y vigilancia de la muestra   
               .tarjeta-flip__contenido.p-4.p-xl-5       
-                h3.mt-4 Formato para control y vigilancia de la muestra: 
+                h3.mt-4 Formato para control y vigilancia de la muestra 
                 p El formato de control y vigilancia se diligencia para cada una de las muestras o grupo de muestras; este formato incluye la siguiente información: número(s) de la(s) muestra(s); nombre de quien recolecta la muestra; fecha, hora, sitio de muestreo; tipo de muestra; parámetros a analizar, información de campo y observaciones.
                 
       <br>

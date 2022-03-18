@@ -54,8 +54,19 @@ export default {
         titulo: 'Registro de información',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'Actividad didactica',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didactica',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
+      {
+        nombreRuta: 'Actividad didactica',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didactica',
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -147,7 +158,8 @@ export default {
       texto:
         'Norma técnica ICONTEC. (1995). ISO 5667/1. Gestión Ambiental. Calidad del agua. Muestreo. Directrices para el diseño de programas de muestreo. ICONTEC',
       tipo: 'PDF',
-      link: 'Anexos',
+      link:
+        'https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b',
     },
     {
       texto:
@@ -172,8 +184,6 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-    ],
-    desarrolloProducto: [
       {
         nombre: 'Víctor Julián Ardila',
         cargo: 'Instructor',
@@ -202,17 +212,61 @@ export default {
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
       },
     ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Sofia Suarez Suarez',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Veimar Celis Melendez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+    ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

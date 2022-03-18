@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span.text-white 1
-      h1 Componentes del sistema socio ecológico
+      h1 Plan de muestreo
     
     p Para iniciar el monitoreo de agua por medio de la toma de muestras, se deben de tener en cuenta ciertos parámetros o consideraciones previas a iniciar el muestreo, estas son algunas de ellas:
 
@@ -99,7 +99,7 @@
             .col-lg-6
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/tema1/i2.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema1/i4.svg' alt='AvatarTop')
                 .tarjeta.lll
                   .p-4
                     <br>
@@ -108,7 +108,7 @@
             .col-lg-6
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/tema1/i3.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema1/i7.svg' alt='AvatarTop')
                 .tarjeta.lll
                   .p-4
                     p El establecimiento de límites permisibles, teniendo en cuenta normatividad aplicable a la región.
@@ -116,7 +116,7 @@
             .col-lg-6
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/tema1/i4.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema1/ico4.svg' alt='AvatarTop')
                 .tarjeta.lll
                   .p-4
                     <br>
@@ -132,7 +132,7 @@
             .col-lg-6
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/tema1/i6.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema1/i3.svg' alt='AvatarTop')
                 .tarjeta.lll
                   .p-4
                     <br>
@@ -141,7 +141,7 @@
             .col-lg-6
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/tema1/i7.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema1/ico7.svg' alt='AvatarTop')
                 .tarjeta.lll
                   .p-4
                     <br>
@@ -150,7 +150,7 @@
             .col-lg-6
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/tema1/i8.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema1/i2.svg' alt='AvatarTop')
                 .tarjeta.lll
                   .p-4
                     <br>
@@ -229,7 +229,7 @@
 
     .row.p-4
       .col-sm-6.mt-4
-        h3 Localización del muestreo.
+        h3 Localización del muestreo
         p.mb-4 El muestreo de aguas puede tener diferentes fines que van desde conocer las características de la fuente de suministro, hasta determinar las condiciones que presenta un vertimiento. Para localizar el sitio de muestreo debe especificarse concretamente el fin de la muestra y el tipo de agua que se quiere muestrear, ya dependiendo de esto se especifica el lugar exacto y protocolo aplicable para la actividad.
         p En cualquier caso, siempre es necesario dejar registro detallado del lugar de la toma, incluso si se dispone de GPS se puede posicionar satelitalmente la ubicación.
         p De manera general la Información requerida al momento del muestreo debe ser como mínimo, la siguiente (Instituto Nacional de Tecnología Agropecuaria [INTA], 2011, p. 3):
