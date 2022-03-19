@@ -77,20 +77,20 @@
       h3 Explicación de algunos parámetros medidos in situ:
       .col-sm-12
         SlyderF(columnas="col-12")
-            .row.p-4.BGI333.mb-4
+            .row.BGI333.mb-4
               h3.mt-4 Turbidez
               p La turbidez del agua es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión.
               p En caso de requerirse la extracción de una muestra para la medición de los parámetros in situ, es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos (INVEMAR, 2013, p.26).              
               .col-sm-2.mt-4
               .col-sm-8.mt-4
                 img.mb-4(src='@/assets/curso/tema4/9.png', alt='Texto que describa la imagen')    
-            .row.p-4.BGI333.mb-4
+            .row.BGI333.mb-4
               h3.mt-4 Conductividad
               p La conductividad de una muestra de agua es una medida de la capacidad que tiene la solución para transmitir corriente eléctrica. Esta capacidad depende de la presencia, movilidad, valencia y concentración de iones, así como de la temperatura del agua. Se debe tener en cuenta que las sales minerales son buenas conductoras y que las materias orgánicas y coloidales tienen poca conductividad. (INVEMAR, 2013, p.24)
               .col-sm-2.mt-4
               .col-sm-8.mt-4
                 img.mb-4(src='@/assets/curso/tema4/10.png', alt='Texto que describa la imagen')   
-            .row.p-4.BGI333.mb-4
+            .row.BGI333.mb-4
               .col-sm-8.gg
                 h3.mt-4 Temperatura
                 p La temperatura juega un papel muy importante en la solubilidad de los gases, en la disolución de las sales y por lo tanto en la conductividad eléctrica, en la determinación de pH, en el conocimiento del origen de agua y de las eventuales mezclas, etc. Las descargas de agua a altas temperaturas pueden causar daños a la flora y fauna de las aguas receptoras al interferir con la reproducción de las especies, incrementar el crecimiento de bacterias y otros organismos, acelerar las reacciones químicas, reducir los niveles de oxígeno y acelerar la eutrofización.
@@ -98,14 +98,14 @@
               .col-sm-4.mt-4
                 img.mb-4(src='@/assets/curso/tema4/11.png', alt='Texto que describa la imagen')   
               p Las muestras en campo deben medirse directamente en la columna de agua introduciendo la sonda y procurando mantenerla siempre a la misma profundidad (25 cm por debajo de la superficie). Para tomar la temperatura en el fondo de la columna de agua es conveniente el uso de botellas que posean termómetros invertidos, o el uso de sondas que puedan bajar hasta el lugar donde se necesita leer. Si no se dispone de estos materiales, se toma la muestra con una de las botellas de muestreo (Nansen o Niskin) y se transfiere la mayor cantidad de agua a un recipiente grande (balde, con el fin de minimizar los errores por la transferencia de calor con el ambiente), y se introduce la sonda o termómetro, se mantiene una agitación constante con movimientos circulares y se registra el valor de temperatura; esta operación debe hacerse lo más rápido posible (INVEMAR, 2013, p.21).
-            .row.p-4.BGI333.mb-4
+            .row.BGI333.mb-4
               h3.mt-4 Oxígeno disuelto
               p Este parámetro proporciona una medida de la cantidad de oxígeno disuelto en el agua. Mantener una concentración adecuada de oxígeno disuelto en el agua es importante para la supervivencia de los peces y otros organismos de vida acuática. La temperatura, el material orgánico disuelto, los oxidantes inorgánicos, etc. afectan sus niveles. La baja concentración de oxígeno disuelto puede ser un indicador de que el agua tiene una alta carga orgánica provocada por aguas residuales.
               p Las fuentes de oxígeno en el agua son la aireación y la fotosíntesis de las algas, su concentración depende fundamentalmente de la temperatura, presión y salinidad. (INVEMAR, 2013, p.14)
               .col-sm-2.mt-4
               .col-sm-8.mt-4
                 img.mb-4(src='@/assets/curso/tema4/12.png', alt='Texto que describa la imagen')  
-            .row.p-4.BGI333.mb-4
+            .row.BGI333.mb-4
               h3.mt-4 Ph
               p El pH es una medida de la concentración de iones de hidrógeno en el agua. Aguas fuera del rango normal de 6 a 9 pueden ser dañinas para la vida acuática. Estos niveles de pH pueden causar perturbaciones celulares y la eventual destrucción de la flora y fauna acuática. En el campo de abastecimiento de agua el pH tiene importancia en la coagulación química, desinfección, ablandamiento del agua y control de corrosión. (INVEMAR, 2013, p.22)
               .col-sm-2.mt-4
@@ -123,7 +123,7 @@
           .py-3.py-md-4(titulo="Color")
             .row
               .col-md-11.mb-4.mb-md-0.p-4
-                p  Método espectrofotométrico, que se usa principalmente en aguas industriales contaminadas que tienen colores poco usuales, y que no pueden ser igualados por el método colorimétrico.
+                p.mb-0 Método espectrofotométrico, que se usa principalmente en aguas industriales contaminadas que tienen colores poco usuales, y que no pueden ser igualados por el método colorimétrico.
                 p El método del platino-cobalto: por comparación visual de la muestra con soluciones coloreadas de concentraciones conocidas.
                 <br><br><br>
           .py-3.py-md-4(titulo="Olor")

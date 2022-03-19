@@ -54,12 +54,6 @@ export default {
         titulo: 'Registro de información',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'Actividad didactica',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didactica',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {
@@ -198,12 +192,6 @@ export default {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Evaluadora instruccional',
         centro: 'Centro de Gestión Industrial Regional Distrito Capital.',
-      },
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura. Regional Santander.',
       },
       {
         nombre: 'Julia Isabel Roberto',

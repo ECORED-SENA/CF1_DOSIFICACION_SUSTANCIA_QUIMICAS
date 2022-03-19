@@ -93,17 +93,17 @@
                 span.text-white 5
               | Condiciones del sitio, como, por ejemplo: parece estar contaminado con materia orgánica, hay peces o plantas presentes, hay presencia de algas, etc. 
             li 
-              .lista-ol--cuadro__vineta
+              .lista-ol--cuadro__vineta.ss
                 span.text-white 6
               | Color y olor del agua. 
 
             li 
-              .lista-ol--cuadro__vineta
+              .lista-ol--cuadro__vineta.ss
                 span.text-white 7
               | Claridad del agua, el agua se observa clara, turbia o lodosa. 
 
             li 
-              .lista-ol--cuadro__vineta
+              .lista-ol--cuadro__vineta.ss
                 span.text-white 8
               | Cualquier otra observación que considere significativa.
 

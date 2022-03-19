@@ -41,8 +41,8 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/2.1.png')})`}")
-              <br><br><br><br><br><br>
+            .tarjeta-flip__contenido
+              img(src='@/assets/curso/tema1/2.1.png')
             .tarjeta-flip__img.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/ss.png')})`}")
               <br>
               p.text-center Un plan de muestreo debe incluir elementos específicos acerca de lugares o sitios de muestreo, métodos y técnicas, número de muestras y clases de muestras. 
@@ -53,8 +53,8 @@
             .tarjeta-flip__img.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/ss1.png')})`}")
               <br>
               p.text-center Dichos planes ayudan a garantizar que los resultados del muestreo cumplan los objetivos del proyecto o programa de calidad del agua.
-            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.1.png')})`}")
-              <br><br><br><br><br><br>
+            .tarjeta-flip__contenido
+              img(src='@/assets/curso/tema1/3.1.png')
 
       .col-sm-6.col-xl-4.mb-4.mb-sm-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -62,8 +62,9 @@
             .tarjeta-flip__img.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/ss.png')})`}")
               <br>
               p.text-center Las cuales deben estar sometidas a las diferentes leyes establecidas por los organismos estatales.
-            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/4.1.png')})`}")
-              <br><br><br><br><br><br>
+            .tarjeta-flip__contenido
+              img(src='@/assets/curso/tema1/4.1.png')
+
 
 
     p.mb-4 Para el muestreo de aguas se manejan una diversa cantidad de equipos, pero estos se pueden clasificar según el lugar en donde se necesite tomar la muestra, A continuación, se verán algunos de estos equipos según su lugar de uso, ver tabla 1.
