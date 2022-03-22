@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span
-          i.fas.fa-info
+          i.fas.fa-info.sd
       h1 Introducción
     
     p.mb-4 El agua es la sustancia con mayor importancia para la vida que tiene excepcionales propiedades a consecuencia de su composición y estructura ya que tiene la capacidad de disolver los nutrientes presentes en el suelo para que las plantas puedan aprovecharlos, a su vez, tiene infinidades de complementos para la vida de la flora y fauna que se alberga en el planeta tierra, con el siguiente video se da la más cordial bienvenida. 

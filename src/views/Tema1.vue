@@ -172,21 +172,21 @@
                   th PRECIPITACIÓN
               tbody
                 tr
-                  td <strong>Bomba peristáltica:</strong> Estas bombas están diseñadas para utilizar en campo ya que son impermeables. Se pueden utilizar en todas las posiciones y se han desarrollado para ser usadas a largo plazo y en las condiciones menos favorables. 
-                  td <strong>Muestreador de agua Van Dorn:</strong> Este dispositivo se ha desarrollado para toma de muestras en aguas abiertas, pero aun así la poca profundidad de agua no provoca aparición de contaminantes que presenten riesgos a la muestra. 
-                  td <strong>Disco de Secchi:</strong> Es un sistema sencillo el cual se utiliza para medir la turbidez del agua, el disco desciende en el agua atado a un hilo y cuando ya no es visible se lee la profundidad que marca el hilo. 
-                  td <strong>Pluviómetro:</strong> Es un instrumento que es utilizado para medir el agua precipitada en algún sitio determinado.  
+                  td <strong>Bomba peristáltica:</strong> estas bombas están diseñadas para utilizar en campo ya que son impermeables. Se pueden utilizar en todas las posiciones y se han desarrollado para ser usadas a largo plazo y en las condiciones menos favorables. 
+                  td <strong>Muestreador de agua Van Dorn:</strong> este dispositivo se ha desarrollado para toma de muestras en aguas abiertas, pero aun así la poca profundidad de agua no provoca aparición de contaminantes que presenten riesgos a la muestra. 
+                  td <strong>Disco de Secchi:</strong> es un sistema sencillo el cual se utiliza para medir la turbidez del agua, el disco desciende en el agua atado a un hilo y cuando ya no es visible se lee la profundidad que marca el hilo. 
+                  td <strong>Pluviómetro:</strong> es un instrumento que es utilizado para medir el agua precipitada en algún sitio determinado.  
                   
                 tr
-                  td <strong>Bomba de bolas motorizada:</strong> Estos instrumentos son utilizados para bombear agua subterránea que será analizada. Están formadas por un tubo con una válvula de retención con válvula esférica en el extremo inferior.
-                  td <strong>Muestreador de agua Kemmerer: </strong> Este muestreador es utilizado para la toma de muestras en lagos, canales, balsas y también en el mar. Está formado únicamente por plástico para asegurar que la muestra no esté en contacto con ningún metal. 
-                  td <strong>Recipiente de detección de cieno:</strong> Este recipiente nos permite determinar la profundidad de una capa de residuos o sedimentos. 
-                  td <strong>Pluviógrafo:</strong> En este dispositivo se registra gráficamente la cantidad de agua que se precipita en un periodo de tiempo específico lo cual permite conocer la distribución e intensidad de las lluvias. 
+                  td <strong>Bomba de bolas motorizada:</strong> estos instrumentos son utilizados para bombear agua subterránea que será analizada. Están formadas por un tubo con una válvula de retención con válvula esférica en el extremo inferior.
+                  td <strong>Muestreador de agua Kemmerer: </strong> este muestreador es utilizado para la toma de muestras en lagos, canales, balsas y también en el mar. Está formado únicamente por plástico para asegurar que la muestra no esté en contacto con ningún metal. 
+                  td <strong>Recipiente de detección de cieno:</strong> este recipiente nos permite determinar la profundidad de una capa de residuos o sedimentos. 
+                  td <strong>Pluviógrafo:</strong> en este dispositivo se registra gráficamente la cantidad de agua que se precipita en un periodo de tiempo específico lo cual permite conocer la distribución e intensidad de las lluvias. 
 
                 tr
-                  td <strong>Conjunto de bomba sumergible:</strong> La gran capacidad de esta bomba permite bombear un punto de medición rápidamente. 
-                  td <strong>Muestreador continuo portátil automático:</strong> Este muestreador puede ser utilizado de manera continua o en intervalos en arroyos, ríos y lagos. 
-                  td <strong>Dragas Van Veen:</strong> Son utilizadas para tomar muestras de los fondos de lagos, ríos y demás cuerpos de agua. Se compone de una draga la cual desciende abierta y al tomar el fondo se cierra permitiendo así la toma de la muestra.
+                  td <strong>Conjunto de bomba sumergible:</strong> la gran capacidad de esta bomba permite bombear un punto de medición rápidamente. 
+                  td <strong>Muestreador continuo portátil automático:</strong> este muestreador puede ser utilizado de manera continua o en intervalos en arroyos, ríos y lagos. 
+                  td <strong>Dragas Van Veen:</strong> son utilizadas para tomar muestras de los fondos de lagos, ríos y demás cuerpos de agua. Se compone de una draga la cual desciende abierta y al tomar el fondo se cierra permitiendo así la toma de la muestra.
                   td 
 
 
