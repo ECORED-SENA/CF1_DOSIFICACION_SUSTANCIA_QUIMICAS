@@ -28,7 +28,49 @@
       .row
         .col-md-2
         .col-md-9
-          BotonesA.mb-5
+          ImagenInfograficaB.color-primario.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema3/2.svg')
+
+
+            div(x="94.5%" y="32%" tooltip="tooltip de max 35 caracteres" )
+              <br><br><br><br>
+              .row.align-items-center.justify-content-end.px-2.py-3
+                .col-md-7.p-2
+                  p <strong>Colorímetro:</strong>  estos instrumentos son utilizados para medir los colores de los objetos y hacer comparaciones entre ellos. Con esta opción es posible diferenciar productos que se producen masivamente en las industrias. 
+                .col-md-5.p-2
+                  img(src='@/assets/curso/tema3/SL2.png')
+  
+
+            div(x="97%" y="52.5%" tooltip="tooltip de max 35 caracteres" )
+              <br><br><br><br>
+              .row.align-items-center.justify-content-end.px-2.py-3
+                .col-md-7.p-2
+                  p <strong>pHmetro:</strong>  es un instrumento científico que mide la actividad del ion hidrógeno en soluciones acuosas, indicando su grado de acidez o alcalinidad expresada como pH. El medidor de pH mide la diferencia de potencial eléctrico entre un electrodo de pH y un electrodo de referencia.
+                .col-md-5.p-2
+                  img(src='@/assets/curso/tema3/SL3.png')
+            div(x="97%" y="73.5%" tooltip="tooltip de max 35 caracteres" )
+              <br><br><br><br>
+              .row.align-items-center.justify-content-end.px-2.py-3
+                .col-md-7.p-2
+                  p <strong>Conductímetro:</strong> es un instrumento que se utiliza para medir la conductividad eléctrica de los iones en una disolución. Para ello aplica un campo eléctrico entre dos electrodos y mide la resistencia eléctrica de la disolución. 
+                .col-md-5.p-2
+                  img(src='@/assets/curso/tema3/SL4.png')
+            div(x="88.3%" y="16%" tooltip="tooltip de max 35 caracteres" )
+              <br><br><br><br>
+              .row.align-items-center.justify-content-end.px-2.py-3
+                .col-md-7.p-2
+                  p <strong>Los turbidímetros</strong> son productos de laboratorio para medir la turbidez, un indicador que permite evaluar la calidad de las aguas y determinar el nivel de la transparencia de diferentes líquidos.
+                .col-md-5.p-2
+                  img(src='@/assets/curso/tema3/SL1.png')
+            div(x="89.5%" y="95%" tooltip="tooltip de max 35 caracteres" )
+              <br><br><br><br>
+              .row.align-items-center.justify-content-end.px-2.py-3
+                .col-md-7.p-2
+                  p <strong>Termómetro:</strong> es el instrumento que se usa para medir la temperatura del aire. Los termómetros más comunes son tubos de vidrio huecos. En la parte inferior del tubo se encuentra la ampolleta que contiene un líquido como alcohol o mercurio. Cuando el calor aumenta, el líquido dentro de la ampolleta se expande y sube por el tubo.
+                .col-md-5.p-2
+                  img(src='@/assets/curso/tema3/SL5.png')                                    
     h2.mt-4.mb-4 Seguridad y salud en el trabajo de muestreo
     <br>
     p.mt-4 De acuerdo a la Sociedad americana de química (2003), en su publicación seguridad en los laboratorios químicos académicos, prevenir accidentes de cualquier tipo en un laboratorio, es responsabilidad de todos los que usan este espacio de trabajo, por lo cual es necesario siempre una actitud cooperativa activa, es importante recordar que los accidentes que se pueden dar cuando se trabaja con insumos químicos bien sea dentro de un laboratorio o en pruebas de campo, suelen ser asociadas a:

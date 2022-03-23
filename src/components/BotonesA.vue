@@ -9,11 +9,11 @@
   )
     .indicador--hover(v-if="index === 0 && indicador")
     .btns__text.row.align-items-center.justify-content-end.px-2.py-3(v-if="index === hover" :style="{left:boton.left, top:boton.top}")
-      .col-md-12.p-2
-        h5.mb-3.font-weight-bold
-          | {{ boton.titulo }}
-        p.mb-0.text-center(v-html="boton.texto")  
+      .col-md-7.p-2
+        p.mb-0.text-center(v-html="boton.texto")
+      .col-md-5
 
+  
 </template>
 
 <script>
@@ -31,6 +31,7 @@ export default {
         top: '-220%',
         texto:
           'Los turbidímetros son productos de laboratorio para medir la turbidez, un indicador que permite evaluar la calidad de las aguas y determinar el nivel de la transparencia de diferentes líquidos.',
+        imagen: 'img',
       },
       {
         pos_x: '90%',
