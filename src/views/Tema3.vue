@@ -71,6 +71,7 @@
                   p <strong>Termómetro:</strong> es el instrumento que se usa para medir la temperatura del aire. Los termómetros más comunes son tubos de vidrio huecos. En la parte inferior del tubo se encuentra la ampolleta que contiene un líquido como alcohol o mercurio. Cuando el calor aumenta, el líquido dentro de la ampolleta se expande y sube por el tubo.
                 .col-md-5.p-2
                   img(src='@/assets/curso/tema3/SL5.png')                                    
+    
     h2.mt-4.mb-4 Seguridad y salud en el trabajo de muestreo
     <br>
     p.mt-4 De acuerdo a la Sociedad americana de química (2003), en su publicación seguridad en los laboratorios químicos académicos, prevenir accidentes de cualquier tipo en un laboratorio, es responsabilidad de todos los que usan este espacio de trabajo, por lo cual es necesario siempre una actitud cooperativa activa, es importante recordar que los accidentes que se pueden dar cuando se trabaja con insumos químicos bien sea dentro de un laboratorio o en pruebas de campo, suelen ser asociadas a:
