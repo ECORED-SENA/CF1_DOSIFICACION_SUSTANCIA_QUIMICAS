@@ -1,10 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Planes y técnicas de muestreo',
+    componenteFormativo: 'Planes y técnicas de muestreo.',
     descripcionCurso:
-      'En este componente formativo se abordan temas que le permitirán tomar muestras de agua adecuadamente y procesarlas para su análisis fisicoquímico para una acertada dosificación de sustancias que permitan su potabilización. ',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.jpg'),
+      'En este componente formativo se abordan temas que le permitirán tomar muestras de agua adecuadamente y procesarlas para su análisis fisicoquímico para una acertada dosificación de sustancias que permitan su potabilización.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -57,9 +57,15 @@ export default {
     ],
     subMenu: [
       {
-        nombreRuta: 'Actividad didactica',
+        icono: 'fas fa-sitemap',
+        titulo: 'Sintesis',
+        nombreRuta: 'sintesis',
+      },
+      {
+        nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
-        titulo: 'Actividad didactica',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'glosario',
@@ -91,76 +97,139 @@ export default {
   referencias: [
     {
       referencia:
-        'Eijkelkamp Agrisearch Equipment BV. (s.f.). Catálogo de equipos para gestión de las aguas.',
+        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
       link:
-        'https://www.eijkelkamp.com/files/media/downloads/p055scatlogodeequiposparagestindelasaguas.pdf',
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
     {
       referencia:
-        'Secretaria del agua. (2016). Plan de monitoreo de calidad del agua de los sistemas de agua de abastecimiento público de Portoviejo, Manta, Chone, Pedernales, Jama, Bahia de Caráquez, San Vicente, Canoa, Calceta, Junín, Tosagua, Flavio Alfaro Y Muisne. Gobierno Nacional de la República del Ecuador. ',
+        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
       link:
-        'https://www.humanitarianresponse.info/sites/www.humanitarianresponse.info/files/documents/files/plan_de_monitoreo_manabi_y_esmeraldas_final_1.pdf ',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
     },
     {
       referencia:
-        'IDEAM (2017). Protocolo de Monitoreo de Agua. Instituto de Hidrología, Meteorología y Estudios Ambientales. ',
-      link:
-        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/023773/PROTOCOLO_MONITOREO_AGUA_IDEAM.pdf ',
+        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
     },
     {
       referencia:
-        'Servicio de Prevención de Riesgos Laborales del CSIC. (2007). Manual de Buenas Prácticas de Laboratorio. ',
+        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
       link:
-        'https://www.icms.us-csic.es/sites/icms.us-csic.es/files/Manual%20de%20buenas%20pr%C3%A1cticas%20en%20laboratorios.pdf ',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+    },
+    {
+      referencia:
+        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+    },
+    {
+      referencia:
+        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+    },
+    {
+      referencia:
+        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+    },
+    {
+      referencia:
+        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
     },
   ],
   glosario: [
     {
-      termino: 'Calidad del agua ',
+      termino: 'MoodBoard',
       significado:
-        'Es el resultado de comparar las características físicas, químicas y microbiológicas encontradas en el agua, con el contenido de las normas que regulan la materia.',
+        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
     },
     {
-      termino: 'Monitoreo   ',
+      termino: '<em>Suftware</em>',
       significado:
-        'Proceso de muestreo del sistema de suministro de agua para consumo humano, que cubre espacio, tiempo y frecuencia en los puntos concertados según norma.',
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
     {
-      termino: 'Muestra   ',
+      termino: 'Pirognóstico',
       significado:
-        'Toma puntual de agua en los puntos de muestreo concertados, que refleja la composición física, química y microbiológica representativa del momento, para el proceso de vigilancia de la autoridad sanitaria.',
+        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
     },
     {
-      termino: 'Muestreo   ',
+      termino: '<em>Áectores</em>',
       significado:
-        'Proceso de toma de muestras que son analizadas en laboratorios para obtener información sobre la calidad del agua del sitio concertado en que fueron tomadas.',
+        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
     },
     {
-      termino: 'Sistema de suministro de agua para consumo humano   ',
+      termino: 'Moda',
       significado:
-        'Es el conjunto de estructuras, equipos, materiales, procesos, operaciones y el recurso humano utilizado para la captación, aducción, pretratamiento, tratamiento, almacenamiento, conducción y distribución del agua para consumo humano.',
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+    },
+    {
+      termino: 'Diseña',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'DIseño',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'Tipología',
+      significado:
+        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+    },
+    {
+      termino: 'Bidimensional',
+      significado:
+        'que se representa según su altura y su anchura y no su profundidad.',
+    },
+    {
+      termino: 'Interés Inferior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interseccionalidad',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interés superior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
   ],
   complementario: [
     {
       texto:
-        'Propiedades físicas y químicas el agua B@UNAM, (2017). Propiedades físicas y químicas del agua. [video]. YouTube. https://www.youtube.com/watch?v=trA2dOF9eOo',
+        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=trA2dOF9eOo ',
+      link: 'https://www.google.com/',
     },
     {
       texto:
-        'Norma técnica ICONTEC. (1995). ISO 5667/1. Gestión Ambiental. Calidad del agua. Muestreo. Directrices para el diseño de programas de muestreo. ICONTEC',
-      tipo: 'PDF',
-      link:
-        'https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b',
+        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      tipo: 'Página web',
+      descarga: '/downloads/prueba.pdf',
     },
     {
       texto:
-        'Buenas prácticas de Laboratorio Chiroque, M.  y Llana, B. (2017). Buenas prácticas de Laboratorio para control de calidad enla industriafarmacéutica. Ministerio de salud del Perú.',
-      tipo: 'Artículo ',
-      link:
-        'http://www.digemid.minsa.gob.pe/UpLoad/UpLoaded/PDF/Establecimientos/Reuniones/Reunion_Tecnica/IV_ControlCalidad.pdf ',
+        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
+      tipo: 'Artículo científico',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Economía de Rosquilla. (s.f.).',
+      tipo: 'Página web',
+      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+    },
+    {
+      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      tipo: 'Video',
+      link: ['https://www.google.com/', 'https://www.google.com/'],
     },
   ],
   creditos: {
@@ -178,32 +247,11 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      {
-        nombre: 'Víctor Julián Ardila',
-        cargo: 'Instructor',
-        centro: 'Centro Agropecuario La Granja - Regional Tolima',
-      },
-      {
-        nombre: 'Beatriz Eugenia Agudelo Vásquez',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Gestión Industrial Regional Distrito Capital.',
-      },
-      {
-        nombre: 'Silvia Milena Sequeda Cárdenas',
-        cargo: 'Evaluadora instruccional',
-        centro: 'Centro de Gestión Industrial Regional Distrito Capital.',
-      },
-      {
-        nombre: 'Julia Isabel Roberto',
-        cargo: 'Diseñadora y evaluadora instruccional',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
-      },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable equipo',
+        cargo: 'Responsable del equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -213,79 +261,41 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Sofia Suarez Suarez',
+        nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Wilson Andrés Arenales Cáceres        ',
-        cargo: 'Producción audiovisual',
+        nombre: 'Nombre',
+        cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Laura Ximena Hurtado Villalba',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Pedro Nel Calao Zabala',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-
-      {
-        nombre: 'Camilo Andrés Bolaño Rey        ',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Ernesto Navarro Jaimes   ',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Ludwyng Corzo García ',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Sergio Mauricio Valencia Martinez',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Andrés Mauricio Santaella Ochoa',
-        cargo: 'Soporte front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Veimar Celis Melendez',
+        nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

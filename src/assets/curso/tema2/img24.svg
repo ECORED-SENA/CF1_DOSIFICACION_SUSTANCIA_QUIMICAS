@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.848" cy="0.188" r="0.5" gradientTransform="matrix(-1, 0, 0, 1, 1.695, 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#84e8ed"/>
+      <stop offset="1" stop-color="#9eb7e5"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <circle id="Elipse_5487" data-name="Elipse 5487" cx="51" cy="51" r="51" transform="translate(749 7237)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_148079" data-name="Grupo 148079" transform="translate(-749 -7237)">
+    <circle id="Elipse_1146" data-name="Elipse 1146" cx="51" cy="51" r="51" transform="translate(749 7237)" fill="#fff"/>
+    <circle id="Elipse_5482" data-name="Elipse 5482" cx="41" cy="41" r="41" transform="translate(759 7247)" fill="url(#radial-gradient)"/>
+    <g id="Enmascarar_grupo_64" data-name="Enmascarar grupo 64" clip-path="url(#clip-path)">
+      <g id="lupa" transform="translate(758.313 7244.313)">
+        <rect id="Rectángulo_40036" data-name="Rectángulo 40036" width="8.329" height="10.828" transform="translate(50.802 58.362) rotate(-135)" fill="#344a5e"/>
+        <circle id="Elipse_5476" data-name="Elipse 5476" cx="25.821" cy="25.821" r="25.821" transform="translate(3.332 3.332)" fill="#8ad7f8"/>
+        <path id="Trazado_190958" data-name="Trazado 190958" d="M49.809,49.809A29.213,29.213,0,0,1,8.5,8.5,29.213,29.213,0,0,1,49.809,49.809ZM13.327,13.327a22.5,22.5,0,1,0,31.818,0A22.422,22.422,0,0,0,13.327,13.327Z" transform="translate(0 0)" fill="#415a6b"/>
+        <path id="Trazado_190959" data-name="Trazado 190959" d="M325.895,315.733c8.829,6.164,15.492,10.995,17.491,13.16a10.248,10.248,0,0,1-14.493,14.493c-2-2-7-8.663-13.16-17.491Z" transform="translate(-266.424 -266.424)" fill="#ea4649"/>
+        <path id="Trazado_190960" data-name="Trazado 190960" d="M319.965,331.46c-1-1.5-2.166-3-3.165-4.5L326.962,316.8c1.666,1.166,3.165,2.166,4.5,3.165Z" transform="translate(-267.324 -267.324)" fill="#c44144"/>
+        <path id="Trazado_190961" data-name="Trazado 190961" d="M303.615,313.775l10.162-10.162a2.591,2.591,0,0,0-3.665-3.665L299.95,310.111a2.614,2.614,0,0,0,0,3.665A2.357,2.357,0,0,0,303.615,313.775Z" transform="translate(-252.473 -252.472)" fill="#e56a6d"/>
+        <ellipse id="Elipse_5477" data-name="Elipse 5477" cx="7.829" cy="3.665" rx="7.829" ry="3.665" transform="translate(21.323 11.994)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

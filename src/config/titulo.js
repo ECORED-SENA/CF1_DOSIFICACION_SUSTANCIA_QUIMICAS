@@ -1,1 +1,1 @@
-module.exports = 'Dosificación de sustancias quimicas'
+module.exports = 'CF1_DOSIFICACION_SUSTANCIA_QUIMICAS'
