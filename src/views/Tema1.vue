@@ -8,30 +8,28 @@
       h1 Plan de muestreo
 
     .row.justify-content-end.align-items-center.mt-5 
-      .col-lg-10.ps-5.index_img(data-aos="fade-left") 
-        
-      .col-lg-8(data-aos="fade-right") 
-        p.mt-5 Para iniciar el monitoreo de agua por medio de la toma de muestras, se deben de tener en cuenta ciertos parámetros o consideraciones previas a iniciar el muestreo, estas son algunas de ellas:
+      .col-lg-9.ps-5.index_img(data-aos="fade-left") 
+        p.mt-5.mb-4 Para iniciar el monitoreo de agua por medio de la toma de muestras, se deben de tener en cuenta ciertos parámetros o consideraciones previas a iniciar el muestreo, estas son algunas de ellas:
         ul.lista-ul--color
           li 
             i.fas.fa-regular.fa-flask
-            p.mb-0| <b>Establecer el plan de muestreo.</b>
+            p.mb-0.lh-1 <b>Establecer el plan de muestreo.</b>
           li 
             i.fas.fa-regular.fa-flask
-            p.mb-0| <b>Identificar el lugar de la toma de muestra.</b>
+            p.mb-0.lh-1 <b>Identificar el lugar de la toma de muestra.</b>
           li 
             i.fas.fa-regular.fa-flask
-            p.mb-0| <b>Determinar las características de la corriente de agua.</b>
+            p.mb-0.lh-1 <b>Determinar las características de la corriente de agua.</b>
           li 
             i.fas.fa-regular.fa-flask
-            p.mb-0| <b>Variación de las características de la corriente en el tiempo.</b>
+            p.mb-0.lh-1 <b>Variación de las características de la corriente en el tiempo.</b>
           li 
             i.fas.fa-regular.fa-flask
-            p.mb-0| <b>Variaciones de temperatura. </b>
+            p.mb-0.lh-1 <b>Variaciones de temperatura. </b>
 
     .row.justify-content-start.align-items-center     
       .col-lg-4.margin_top.d-none.d-lg-block
-          img.margin_img.grandor_img(src='@/assets/curso/tema1/img01.svg' alt='')(data-aos="zoom-in") 
+          img.grandor_img.margin_img(src='@/assets/curso/tema1/img01.svg' alt='')(data-aos="zoom-in") 
 
     p.mt-5 Los planes de muestreo están diseñados para determinar las características físicas, químicas y microbiológicas de algún cuerpo de agua específico, con el uso de este plan se proporciona un modelo de guía para las personas que van a realizar la muestra y de esta manera reducir errores en ella, además de que minimiza la posibilidad de que los resultados salgan mal.
 
@@ -178,23 +176,23 @@
               br
             ul.lista-ul--color
               li  
-                i.lista-ul__vineta
-                p.mb-0 La ubicación del POA: dónde y cómo se tomará la muestra. 
+                i.fas.fa-solid.fa-clipboard-check
+                p.mb-0.lh-1 La ubicación del POA: dónde y cómo se tomará la muestra. 
               li  
-                i.lista-ul__vineta
-                p.mb-0 El procedimiento o método de muestreo a llevar a cabo.  
+                i.fas.fa-solid.fa-clipboard-check
+                p.mb-0.lh-1 El procedimiento o método de muestreo a llevar a cabo.  
               li  
-                i.lista-ul__vineta
-                p.mb-0 Los equipos de muestreo que se utilizarán y su respectiva calibración. 
+                i.fas.fa-solid.fa-clipboard-check
+                p.mb-0.lh-1 Los equipos de muestreo que se utilizarán y su respectiva calibración. 
               li  
-                i.lista-ul__vineta
-                p.mb-0 Se deben proveer los recipientes de muestreo de acuerdo con las necesidades de la muestra.
+                i.fas.fa-solid.fa-clipboard-check
+                p.mb-0.lh-1 Se deben proveer los recipientes de muestreo de acuerdo con las necesidades de la muestra.
               li  
-                i.lista-ul__vineta
-                p.mb-0 El almacenamiento de las muestras tomadas. 
+                i.fas.fa-solid.fa-clipboard-check
+                p.mb-0.lh-1 El almacenamiento de las muestras tomadas. 
               li  
-                i.lista-ul__vineta
-                p.mb-0 Es necesario la identificación y etiquetado de las muestras.  
+                i.fas.fa-solid.fa-clipboard-check
+                p.mb-0.lh-1 Es necesario la identificación y etiquetado de las muestras.  
         
     p Para la correcta elaboración de este plan es necesario comprender la Norma Técnica Colombiana NTC-5667 de 1995 en donde especifican las directrices a tener en cuenta para el diseño de los programas de muestreo. 
 
@@ -212,9 +210,9 @@
             p.mb-4 El muestreo de aguas puede tener diferentes fines que van desde conocer las características de la fuente de suministro, hasta determinar las condiciones que presenta un vertimiento. Para localizar el sitio de muestreo debe especificarse concretamente el fin de la muestra y el tipo de agua que se quiere muestrear, ya dependiendo de esto se especifica el lugar exacto y protocolo aplicable para la actividad.
             p En cualquier caso, siempre es necesario dejar registro detallado del lugar de la toma, incluso si se dispone de GPS se puede posicionar satelitalmente la ubicación.   
           .col-lg-4.d-none.d-lg-block
-            img(data-aos="zoom-in")(src='@/assets/curso/tema1/img19.svg', alt='')  
+            img.mb-4(data-aos="zoom-in")(src='@/assets/curso/tema1/img19.svg', alt='')  
     
-    .row.justify-content-center.align-items-center.pt-5.mb-5           
+    .row.justify-content-center.align-items-center.mb-5           
       .col-lg-8
         p(data-aos="fade-down").mt-5.bg_cajon.p-3.text-center De manera general la Información requerida al momento del muestreo debe ser como mínimo, la siguiente (Instituto Nacional de Tecnología Agropecuaria [INTA], 2011, p. 3):
     img.img-a.img-t.mt-5(data-aos="slide-left")(src='@/assets/curso/tema1/img20.svg', alt='')
@@ -223,7 +221,7 @@
       .col-lg-10
         .bloque-texto-c.color.bg_color2.p-4
           i.fas.fa-quote-right
-          h4.mb-2.mt-3 Igualmente dependiendo del fin de la muestra es posible que se requiera previamente a la actividad, realizar el lavado y desinfección del punto de muestreo para reducir el riesgo de contaminación por presencia de agentes, elementos o compuestos que puedan estar presentes en la estructura debido a su entorno. Para esto es común emplear diferentes agentes como hipoclorito de sodio o calcio
+          h4.mb-2.mt-3 Igualmente dependiendo del fin de la muestra es posible que se requiera previamente a la actividad, realizar el lavado y desinfección del punto de muestreo para reducir el riesgo de contaminación por presencia de agentes, elementos o compuestos que puedan estar presentes en la estructura debido a su entorno. Para esto es común emplear diferentes agentes como hipoclorito de sodio o calcio.
           span - Ortiz, 2011, p. 33
           
 

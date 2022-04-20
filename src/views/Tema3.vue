@@ -15,25 +15,26 @@
           p(data-aos="fade-down").mb-0.px-4 Estos requerimientos conforman una filosofía de trabajo, ya que son vistas como un sistema en el cual se analiza todos sus procesos desde el diseño hasta el archivo de los resultados. 
 
     .row.justify-content-center.align-items-center
-      .col-lg-4.align-self-center
-        figure
-          img(src='@/assets/curso/tema3/img01.png')
-      .col-lg-8.mb-5
-        p.position-absolute.top-20.start-50.translate-middle.mt-4 Algunos de los beneficios potenciales de la aplicación de BPL: 
+      .col-lg-8.ps-5.ms-5.index_img(data-aos="fade-left") 
+        p.mt-4.mb-4 Algunos de los beneficios potenciales de la aplicación de BPL: 
           ul.lista-ul--color.mt-4
             li  
-              i.lista-ul__vineta
-              p.mb-0 El uso de las Buenas Prácticas de Laboratorio puede evitar los conflictos en el momento de evaluar los riesgos de productos que se comercializan en más de un país, lo cual genera un ahorro de recursos para la industria, el gobierno y los consumidores finales. 
+              i.fas.fa-regular.fa-flask
+              p.mb-0.lh-1 El uso de las Buenas Prácticas de Laboratorio puede evitar los conflictos en el momento de evaluar los riesgos de productos que se comercializan en más de un país, lo cual genera un ahorro de recursos para la industria, el gobierno y los consumidores finales. 
             li  
-              i.lista-ul__vineta
-              p.mb-0 Participación en el mercado mundial como proveedor de servicios de evaluación (MAD).
+              i.fas.fa-regular.fa-flask
+              p.mb-0.lh-1 Participación en el mercado mundial como proveedor de servicios de evaluación (MAD).
             li  
-              i.lista-ul__vineta
-              p.mb-0 Permiten evitar que se realicen los mismos trámites ante los países que han implementado la aceptación de datos mutua. 
+              i.fas.fa-regular.fa-flask
+              p.mb-0.lh-1 Permiten evitar que se realicen los mismos trámites ante los países que han implementado la aceptación de datos mutua. 
             li  
-              i.lista-ul__vineta
-              p.mb-0 Disminución del número de animales e insectos involucrados en los estudios, promoviendo el bienestar animal. 
-    
+              i.fas.fa-regular.fa-flask
+              p.mb-0.lh-1 Disminución del número de animales e insectos involucrados en los estudios, promoviendo el bienestar animal. 
+   
+    .row.justify-content-start.align-items-center
+      .col-lg-4.margin_top6.d-none.d-lg-block
+          img.grandor_img.margin_img(src='@/assets/curso/tema3/img01.png')
+
     p.mb-4.mt-5 Los laboratorios utilizados para el análisis fisicoquímico de muestras de agua deberán contar en sus instalaciones con los siguientes implementos de medición: 
     
     .row.justify-content-center

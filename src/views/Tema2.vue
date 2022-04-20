@@ -76,13 +76,12 @@
             img(src='@/assets/curso/tema1/img05.svg',alt='') 
     
     .row.justify-content-end.align-items-center.mt-5     
-      .col-lg-8.ps-5
+      .col-lg-8
         p.mb-4 Para el almacenamiento de la muestra es necesario utilizar recipientes plásticos o de vidrio según los parámetros que se vayan a analizar para evitar la contaminación con microorganismos ajenos a la muestra. Los recipientes de vidrio se deben ser utilizados cuando se trata de muestras destinadas al análisis de metales traza ya que el vidrio libera silicio y además puede absorber trazas de metales que se encuentren en la muestra.  Por otra parte, los recipientes plásticos deberán ser descartados cuando las muestras contengan compuestos orgánicos ya que estos liberan sustancias del plástico y pueden disolver algunos compuestos orgánicos que se encuentren en la muestra. 
         p.mb-0 Es necesario que la muestra se almacene a una temperatura de 4ºC y en ausencia de luz, esto debe realizarse en el momento de la toma de la muestra.  
     .row.justify-content-start.align-items-center     
       .col-lg-4.margin_top4.d-none.d-lg-block
-        figure
-          img(data-aos="zoom-in")(src='@/assets/curso/tema2/img05.png', alt='') 
+        img.grandor_img.margin_img(data-aos="zoom-in")(src='@/assets/curso/tema2/img05.png', alt='') 
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7
@@ -155,10 +154,12 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img11.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-4 Una vez aclarados los conceptos anteriormente vistos; es necesario proceder con la integración de estos conocimientos en el desarrollo teórico-práctico que permita afianzarlos y dar inicio a su aplicación en el desarrollo del muestreo.
+            p.mb-5 Una vez aclarados los conceptos anteriormente vistos; es necesario proceder con la integración de estos conocimientos en el desarrollo teórico-práctico que permita afianzarlos y dar inicio a su aplicación en el desarrollo del muestreo.
+            br
+            br
             p.mb-4 Por lo anterior en este espacio se llevará a cabo la revisión de conceptos de química básica y preparación de soluciones en el laboratorio, por lo que su desarrollo se presenta como un componente teórico-práctico, siendo la parte práctica desarrollada de manera presencial en el laboratorio.
               br
-              br
+              
     
     p.text-center Dentro de las prácticas presenciales se puede encontrar:
 
