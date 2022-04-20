@@ -45,29 +45,44 @@
               img(src='@/assets/curso/tema3/img02.svg', alt='Texto que describa la imagen')
 
           div(x="18.9%" y="62%" tooltip="Turbidímetro")
-            h5 Turbidímetro:
-            p Los turbidímetros son productos de laboratorio para medir la turbidez, un indicador que permite evaluar la calidad de las aguas y determinar el nivel de la transparencia de diferentes líquidos.
-            img(src='@/assets/curso/tema3/img18.svg')
+            .row.justify-content-center.align-items-center
+              .col-lg-5
+                h5 Turbidímetro:
+                p.pt-3 Los turbidímetros son productos de laboratorio para medir la turbidez, un indicador que permite evaluar la calidad de las aguas y determinar el nivel de la transparencia de diferentes líquidos.
+              .col-lg-5
+                img(src='@/assets/curso/tema3/img18.svg')
 
           div(x="34.3%" y="39%" tooltip="Colorímetro")
-            .h5.mb-2 Colorímetro:
-            p Estos instrumentos son utilizados para medir los colores de los objetos y hacer comparaciones entre ellos. Con esta opción es posible diferenciar productos que se producen masivamente en las industrias. 
-            img(src='@/assets/curso/tema3/img19.svg')
+            .row.justify-content-center.align-items-center
+              .col-lg-5
+                h5.mb-2 Colorímetro:
+                p.pt-3 Estos instrumentos son utilizados para medir los colores de los objetos y hacer comparaciones entre ellos. Con esta opción es posible diferenciar productos que se producen masivamente en las industrias. 
+              .col-lg-5  
+                img(src='@/assets/curso/tema3/img19.svg')
 
           div(x="50%" y="62%" tooltip="pHmetro")
-            .h5.mb-2 pHmetro:
-            p Es un instrumento científico que mide la actividad del ion hidrógeno en soluciones acuosas, indicando su grado de acidez o alcalinidad expresada como pH. El medidor de pH mide la diferencia de potencial eléctrico entre un electrodo de pH y un electrodo de referencia.
-            img(src='@/assets/curso/tema3/img20.svg')
+            .row.justify-content-center.align-items-center
+              .col-lg-5
+                h5.mb-2 pHmetro:
+                p.pt-3 Es un instrumento científico que mide la actividad del ion hidrógeno en soluciones acuosas, indicando su grado de acidez o alcalinidad expresada como pH. El medidor de pH mide la diferencia de potencial eléctrico entre un electrodo de pH y un electrodo de referencia.
+              .col-lg-5  
+                img(src='@/assets/curso/tema3/img20.svg')
 
           div(x="65.5%" y="39%" tooltip="Conductímetro")
-            .h5.mb-2 Conductímetro:
-            p Es un instrumento que se utiliza para medir la conductividad eléctrica de los iones en una disolución. Para ello aplica un campo eléctrico entre dos electrodos y mide la resistencia eléctrica de la disolución. 
-            img(src='@/assets/curso/tema3/img21.svg')
+            .row.justify-content-center.align-items-center
+              .col-lg-5
+                h5.mb-2 Conductímetro:
+                p.pt-3 Es un instrumento que se utiliza para medir la conductividad eléctrica de los iones en una disolución. Para ello aplica un campo eléctrico entre dos electrodos y mide la resistencia eléctrica de la disolución. 
+              .col-lg-5  
+                img(src='@/assets/curso/tema3/img21.svg')
 
-          div(x="81.5%" y="62%" tooltip="Termómetro")
-            .h5.mb-2 Termómetro:
-            p Es el instrumento que se usa para medir la temperatura del aire. Los termómetros más comunes son tubos de vidrio huecos. En la parte inferior del tubo se encuentra la ampolleta que contiene un líquido como alcohol o mercurio. Cuando el calor aumenta, el líquido dentro de la ampolleta se expande y sube por el tubo.
-            img(src='@/assets/curso/tema3/img22.svg')
+          div(x="81.4%" y="62.5%" tooltip="Termómetro")
+            .row.justify-content-center.align-items-center
+              .col-lg-5
+                h5.mb-2 Termómetro:
+                p.pt-3 Es el instrumento que se usa para medir la temperatura del aire. Los termómetros más comunes son tubos de vidrio huecos. En la parte inferior del tubo se encuentra la ampolleta que contiene un líquido como alcohol o mercurio. Cuando el calor aumenta, el líquido dentro de la ampolleta se expande y sube por el tubo.
+              .col-lg-5  
+                img(src='@/assets/curso/tema3/img22.svg')
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7
