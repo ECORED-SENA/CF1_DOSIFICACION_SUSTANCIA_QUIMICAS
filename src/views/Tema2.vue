@@ -275,10 +275,10 @@
         .col-lg-6.align-items-center(data-aos="fade-right")
           .tarjeta-avatar-b.mb-2
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema2/img23.svg')
+              img.pt-5(src='@/assets/curso/tema2/img23.svg')
             .tarjeta.bg_color5
               .p-4
-                p Los recipientes que contengan muestras deben marcarse en forma clara y durable para permitir su identificación en el laboratorio sin ninguna ambigüedad.
+                p.pt-5 Los recipientes que contengan muestras deben marcarse en forma clara y durable para permitir su identificación en el laboratorio sin ninguna ambigüedad.
 
         .col-lg-6.align-items-center(data-aos="fade-left")
           .tarjeta-avatar-b.mb-2

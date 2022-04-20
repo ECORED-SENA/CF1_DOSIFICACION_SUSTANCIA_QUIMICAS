@@ -55,6 +55,18 @@
 .bg_slyder_t2
   background: linear-gradient(0deg, rgba(231,239,249,100) 0%, rgba(231,248,250,100) 100%) 
 
+.bg_acordeon
+  background: linear-gradient(0deg, rgba(231,249,250,100) 0%, rgba(255,255,255,100) 100%) 
+
+.tarjeta--azul 
+  background: linear-gradient(0deg, rgba(231,249,250,100) 0%, rgba(255,255,255,100) 100%)
+
+.infografica_A
+  background: linear-gradient(0deg, rgba(226,233,240,100) 0%, rgba(208,226,236,100) 100%)
+
+.tarjeta_t5
+  background: linear-gradient(0deg, rgba(231,249,250,100) 0%, rgba(231,243,250,100) 100%)
+
 .col-md-6
   width: 70%
 
@@ -86,6 +98,38 @@
     width: calc( 100% + 96px )
     height: 195%       
     background-image: url('../assets/curso/tema1/img15.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: bottom
+
+.bg_img15_t4
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 3em
+    width: calc( 100% + 96px )
+    height: 140%       
+    background-image: url('../assets/curso/tema4/img15.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: bottom
+
+.bg_img15_t5
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 3em
+    width: calc( 100% + 96px )
+    height: 115%       
+    background-image: url('../assets/curso/tema4/img15.svg')
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: bottom
@@ -151,6 +195,22 @@ figure, picture, img, svg
     background-repeat: no-repeat
     background-position: bottom
 
+.bg_img08_t4
+  position: relative
+  .row, figure, .row, lista-ul, figure
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 3em
+    width: calc( 100% + 96px )
+    height: 98%       
+    background-image: url('../assets/curso/tema2/img08.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: bottom
+
 .bloque-texto-g__texto
     width: 67%
 
@@ -185,6 +245,54 @@ figure, picture, img, svg
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
     background-color: #E7F9FA
 
+.bg_color8
+  background-color: #FFFFFF
 
+.flex-end
+  display: flex
+  flex-wrap: wrap
+  align-items: flex-end
+  justify-content: flex-end
+  flex-direction: row
 
+.img-infografica.color-secundario .img-infografica__item__dot:before 
+  background-color: transparent
 
+.bg_color9
+  background-color: #9EB7E5
+
+.tabs-a__tab 
+  background-color: #D2D6DA
+
+.bg_color10
+  background-color: #E7EDF9
+
+.tarjeta.color-acento-botones--borde 
+    background-color: #E7EDF9
+    border: 0
+    border-radius: 5px
+  
+.tarjeta-numerada 
+  margin-left: 0px
+
+.tarjeta-numerada img
+  width: 135px
+  height: 145px
+  margin: 0 auto
+  position: relative
+.tarjeta-numerada__contenido
+  display: none
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+.tarjeta-numerada:hover .tarjeta-numerada__numero
+  left: 50%
+  top: -6%    
+.tarjeta-numerada:hover .tarjeta-numerada__contenido
+  display: inherit 
+.tarjeta-numerada 
+    border: 0
+    border-radius: 0
+
+.curso-main-container > .container 
+    overflow-x: clip

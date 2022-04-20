@@ -86,59 +86,59 @@
     LineaTiempoD.color-acento-contenido.mb-5
       .row(numero="1" titulo="Cofia")
         .col-md-6.mb-4.mb-md-0
-          p Si tiene el cabello largo, manténgalo recogido durante el desarrollo de la práctica. Use la cofia si el instructor lo considera necesario.    
+          p.pt-4 Si tiene el cabello largo, manténgalo recogido durante el desarrollo de la práctica. Use la cofia si el instructor lo considera necesario.    
         .col-md-3
           figure
-            img(src='@/assets/curso/tema3/img08.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema3/img08.svg', alt='Texto que describa la imagen')
 
       .row(numero="2" titulo="Casco")
         .col-md-6.mb-4.mb-md-0
-          p En campo es necesario como prevención.
+          p.pt-4 En campo es necesario como prevención.
         .col-md-3
           figure
-            img(src='@/assets/curso/tema3/img09.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema3/img09.svg', alt='Texto que describa la imagen')
 
       .row(numero="3" titulo="Protección de ojos")
         .col-md-6.mb-4.mb-md-0
-          p Es obligatorio que todo el personal que permanezca en el laboratorio use permanentemente las gafas de seguridad, aun cuando no estén realizando prácticas. Las personas que utilizan gafas de manera permanente deben disponer de unas gafas de seguridad suplementarias. No utilice lentes de contacto dentro del laboratorio, ya que su uso facilita la acumulación de sustancias tóxicas en los ojos. Los lentes blandos absorben los vapores de sustancias tóxicas, ocasionando la irritación, además de interferir con los procedimientos de lavado de emergencia (Sociedad americana de química, 2003, p.3).
+          p.pt-4 Es obligatorio que todo el personal que permanezca en el laboratorio use permanentemente las gafas de seguridad, aun cuando no estén realizando prácticas. Las personas que utilizan gafas de manera permanente deben disponer de unas gafas de seguridad suplementarias. No utilice lentes de contacto dentro del laboratorio, ya que su uso facilita la acumulación de sustancias tóxicas en los ojos. Los lentes blandos absorben los vapores de sustancias tóxicas, ocasionando la irritación, además de interferir con los procedimientos de lavado de emergencia (Sociedad americana de química, 2003, p.3).
         .col-md-3
           figure
-            img(src='@/assets/curso/tema3/img10.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema3/img10.svg', alt='Texto que describa la imagen')
 
       .row(numero="4" titulo="Mascarilla o Tapabocas")
         .col-md-6.mb-4.mb-md-0
-          p Cuando la práctica de laboratorio implique la manipulación de compuestos volátiles, tóxicos, nocivos y/o irritantes, es indispensable emplear equipos de protección respiratoria, adaptados y homologados para la sustancia en cuestión. También deben utilizarse en caso de fugas y derrames de las sustancias anteriores, dada la gran concentración ambiental que resulta de los mismos (INS, 2011, p.40).
+          p.pt-4 Cuando la práctica de laboratorio implique la manipulación de compuestos volátiles, tóxicos, nocivos y/o irritantes, es indispensable emplear equipos de protección respiratoria, adaptados y homologados para la sustancia en cuestión. También deben utilizarse en caso de fugas y derrames de las sustancias anteriores, dada la gran concentración ambiental que resulta de los mismos (INS, 2011, p.40).
         .col-md-3
           figure
-            img(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')
 
       .row(numero="5" titulo="Instrumental de campo o vestimenta (Guardapolvo blanco)")
         .col-md-6.mb-4.mb-md-0
-          p Primero se debe aclarar que la ropa utilizada en laboratorio o en campo, debe proteger tanto de salpicaduras como de derrames, preferiblemente un guardapolvo blanco, si es para uno de cuencas de agua contaminadas este debe ser impermeable (Sociedad americana de química, 2003, p.4).
+          p.pt-4 Primero se debe aclarar que la ropa utilizada en laboratorio o en campo, debe proteger tanto de salpicaduras como de derrames, preferiblemente un guardapolvo blanco, si es para uno de cuencas de agua contaminadas este debe ser impermeable (Sociedad americana de química, 2003, p.4).
         .col-md-3
           figure
-            img(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
 
       .row(numero="6" titulo="Bata de laboratorio")
         .col-md-6.mb-4.mb-md-0
-          p Si se usa la bata las características más aconsejables son: material: algodón, dril o gabardina, color: blanco, manga: larga con puño resortado, largo (extensión): mínimo hasta el muslo (3/4), tipo de cierre: de abotonar a presión (INS, 2011, p.40).
+          p.pt-4 Si se usa la bata las características más aconsejables son: material: algodón, dril o gabardina, color: blanco, manga: larga con puño resortado, largo (extensión): mínimo hasta el muslo (3/4), tipo de cierre: de abotonar a presión (INS, 2011, p.40).
         .col-md-3
           figure
-            img(src='@/assets/curso/tema3/img13.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema3/img13.svg', alt='Texto que describa la imagen')
 
       .row(numero="7" titulo="Zapatos")
         .col-md-6.mb-4.mb-md-0
-          p En el caso de los laboratorios se debe usar zapatos totalmente cerrados y que no sean de cuero o cuero sintético, no se podrá usar sandalias o cualquier zapato que deje piel al descubierto ni con tacones. (INS, 2011, p.40).
+          p.pt-4 En el caso de los laboratorios se debe usar zapatos totalmente cerrados y que no sean de cuero o cuero sintético, no se podrá usar sandalias o cualquier zapato que deje piel al descubierto ni con tacones. (INS, 2011, p.40).
         .col-md-3
           figure
-            img(src='@/assets/curso/tema3/img14.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema3/img14.svg', alt='Texto que describa la imagen')
 
       .row(numero="8" titulo="Guantes de nitrilo, de neopreno, gruesos y delgados")
         .col-md-6.mb-4.mb-md-0
-          p Cualquier manipulación de sustancias corrosivas, irritantes, de elevada toxicidad o de elevado poder de penetración a través de la piel, debe ser llevada a cabo empleando guantes adecuados y limpios. Finalizada la práctica, lave los guantes con abundante agua y jabón. Haga lo propio con sus manos. (Sociedad americana de química, 2003, p.5)
+          p.pt-4 Cualquier manipulación de sustancias corrosivas, irritantes, de elevada toxicidad o de elevado poder de penetración a través de la piel, debe ser llevada a cabo empleando guantes adecuados y limpios. Finalizada la práctica, lave los guantes con abundante agua y jabón. Haga lo propio con sus manos. (Sociedad americana de química, 2003, p.5)
         .col-md-3          
           figure
-            img(src='@/assets/curso/tema3/img15.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema3/img15.svg', alt='Texto que describa la imagen')
 
     .tarjeta.color.bg_color3
       .row.justify-content-center.align-items-center.mb-5       

@@ -14,19 +14,19 @@
         p.mt-5 Para iniciar el monitoreo de agua por medio de la toma de muestras, se deben de tener en cuenta ciertos parámetros o consideraciones previas a iniciar el muestreo, estas son algunas de ellas:
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-regular.fa-flask
             p.mb-0| <b>Establecer el plan de muestreo.</b>
           li 
-            i.lista-ul__vineta
+            i.fas.fa-regular.fa-flask
             p.mb-0| <b>Identificar el lugar de la toma de muestra.</b>
           li 
-            i.lista-ul__vineta
+            i.fas.fa-regular.fa-flask
             p.mb-0| <b>Determinar las características de la corriente de agua.</b>
           li 
-            i.lista-ul__vineta
+            i.fas.fa-regular.fa-flask
             p.mb-0| <b>Variación de las características de la corriente en el tiempo.</b>
           li 
-            i.lista-ul__vineta
+            i.fas.fa-regular.fa-flask
             p.mb-0| <b>Variaciones de temperatura. </b>
 
     .row.justify-content-start.align-items-center     
