@@ -14,22 +14,22 @@
         .cajon.color-primario.bg_color.p-4.mb-4(data-aos="flip-down")
           p(data-aos="fade-down").mb-0.px-4 Estos requerimientos conforman una filosofía de trabajo, ya que son vistas como un sistema en el cual se analiza todos sus procesos desde el diseño hasta el archivo de los resultados. 
 
-    .row.justify-content-center.align-items-center
-      .col-lg-8.ps-5.ms-5.index_img(data-aos="fade-left") 
+    .row.justify-content-end.align-items-center.mt-4
+      .col-lg-9.index_img(data-aos="fade-left") 
         p.mt-4.mb-4 Algunos de los beneficios potenciales de la aplicación de BPL: 
           ul.lista-ul--color.mt-4
             li  
               i.fas.fa-regular.fa-flask
-              p.mb-0.lh-1 El uso de las Buenas Prácticas de Laboratorio puede evitar los conflictos en el momento de evaluar los riesgos de productos que se comercializan en más de un país, lo cual genera un ahorro de recursos para la industria, el gobierno y los consumidores finales. 
+              p.mb-0 El uso de las Buenas Prácticas de Laboratorio puede evitar los conflictos en el momento de evaluar los riesgos de productos que se comercializan en más de un país, lo cual genera un ahorro de recursos para la industria, el gobierno y los consumidores finales. 
             li  
               i.fas.fa-regular.fa-flask
-              p.mb-0.lh-1 Participación en el mercado mundial como proveedor de servicios de evaluación (MAD).
+              p.mb-0 Participación en el mercado mundial como proveedor de servicios de evaluación (MAD).
             li  
               i.fas.fa-regular.fa-flask
-              p.mb-0.lh-1 Permiten evitar que se realicen los mismos trámites ante los países que han implementado la aceptación de datos mutua. 
+              p.mb-0 Permiten evitar que se realicen los mismos trámites ante los países que han implementado la aceptación de datos mutua. 
             li  
               i.fas.fa-regular.fa-flask
-              p.mb-0.lh-1 Disminución del número de animales e insectos involucrados en los estudios, promoviendo el bienestar animal. 
+              p.mb-0 Disminución del número de animales e insectos involucrados en los estudios, promoviendo el bienestar animal. 
    
     .row.justify-content-start.align-items-center
       .col-lg-4.margin_top6.d-none.d-lg-block
@@ -39,9 +39,36 @@
     
     .row.justify-content-center
       .col-lg-10
-        figure
-          img(src='@/assets/curso/tema3/img02.svg')
-    
+        ImagenInfograficaB.color-primario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema3/img02.svg', alt='Texto que describa la imagen')
+
+          div(x="18.9%" y="62%" tooltip="Turbidímetro")
+            h5 Turbidímetro:
+            p Los turbidímetros son productos de laboratorio para medir la turbidez, un indicador que permite evaluar la calidad de las aguas y determinar el nivel de la transparencia de diferentes líquidos.
+            img(src='@/assets/curso/tema3/img18.svg')
+
+          div(x="34.3%" y="39%" tooltip="Colorímetro")
+            .h5.mb-2 Colorímetro:
+            p Estos instrumentos son utilizados para medir los colores de los objetos y hacer comparaciones entre ellos. Con esta opción es posible diferenciar productos que se producen masivamente en las industrias. 
+            img(src='@/assets/curso/tema3/img19.svg')
+
+          div(x="50%" y="62%" tooltip="pHmetro")
+            .h5.mb-2 pHmetro:
+            p Es un instrumento científico que mide la actividad del ion hidrógeno en soluciones acuosas, indicando su grado de acidez o alcalinidad expresada como pH. El medidor de pH mide la diferencia de potencial eléctrico entre un electrodo de pH y un electrodo de referencia.
+            img(src='@/assets/curso/tema3/img20.svg')
+
+          div(x="65.5%" y="39%" tooltip="Conductímetro")
+            .h5.mb-2 Conductímetro:
+            p Es un instrumento que se utiliza para medir la conductividad eléctrica de los iones en una disolución. Para ello aplica un campo eléctrico entre dos electrodos y mide la resistencia eléctrica de la disolución. 
+            img(src='@/assets/curso/tema3/img21.svg')
+
+          div(x="81.5%" y="62%" tooltip="Termómetro")
+            .h5.mb-2 Termómetro:
+            p Es el instrumento que se usa para medir la temperatura del aire. Los termómetros más comunes son tubos de vidrio huecos. En la parte inferior del tubo se encuentra la ampolleta que contiene un líquido como alcohol o mercurio. Cuando el calor aumenta, el líquido dentro de la ampolleta se expande y sube por el tubo.
+            img(src='@/assets/curso/tema3/img22.svg')
+
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7
         .row.justify-content-start.align-items-center.title-color.p-2(data-aos="fade-left")
@@ -152,13 +179,14 @@
             .anexo__texto
               p.text-blue.text-small Enlace web. Seguridad en laboratorios químicos académicos.
 
-    .row.justify-content-start.align-items-center.mb-4(data-aos="fade-left")
-      .col-lg-7
-        p.mb-4 En el laboratorio: es de carácter obligatorio que, en la primera sesión en laboratorio, el instructor dé a conocer a los aprendices las normas y disposiciones generales de seguridad de este manual, explicándoles y haciendo las aclaraciones necesarias, dando lugar a la participación de los aprendices.
-        p.mb-4 Así mismo, el instructor debe hacer un recorrido con sus aprendices por todas las instalaciones, mostrando y ubicando los diversos dispositivos relacionados con la seguridad, tales como salida de emergencia, ruta de evacuación, ubicación de extintores, botiquines de primeros auxilios, duchas de emergencia y fuente lavaojos.
-        p.mb-4 Antes de las prácticas de campo o de laboratorio su instructor socializará las normas adecuadas para las actividades.
-      .col-lg-5
-        img(data-aos="zoom-in")(src='@/assets/curso/tema3/img16.svg', alt='')  
+    .bg_img15_t3
+      .row.justify-content-start.align-items-center.mb-4(data-aos="fade-left")
+        .col-lg-7
+          p.mb-4 En el laboratorio: es de carácter obligatorio que, en la primera sesión en laboratorio, el instructor dé a conocer a los aprendices las normas y disposiciones generales de seguridad de este manual, explicándoles y haciendo las aclaraciones necesarias, dando lugar a la participación de los aprendices.
+          p.mb-4 Así mismo, el instructor debe hacer un recorrido con sus aprendices por todas las instalaciones, mostrando y ubicando los diversos dispositivos relacionados con la seguridad, tales como salida de emergencia, ruta de evacuación, ubicación de extintores, botiquines de primeros auxilios, duchas de emergencia y fuente lavaojos.
+          p.mb-4 Antes de las prácticas de campo o de laboratorio su instructor socializará las normas adecuadas para las actividades.
+        .col-lg-5
+          img(data-aos="zoom-in")(src='@/assets/curso/tema3/img16.svg', alt='')  
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7

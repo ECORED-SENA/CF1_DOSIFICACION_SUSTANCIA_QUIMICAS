@@ -7,7 +7,7 @@
   height: auto    
 
 .index_img
-  z-index: 2  
+  z-index: 2 
 
 .margin_top
   margin-top: -14em 
@@ -70,6 +70,13 @@
 .tarjeta_t5
   background: linear-gradient(0deg, rgba(231,249,250,100) 0%, rgba(231,243,250,100) 100%)
 
+.img-infografica-b__modal 
+    background: linear-gradient(0deg, rgba(226,233,240,100) 0%, rgba(208,226,236,100) 100%)
+    border-radius: 30px
+
+.img-infografica-b__modal__contenido 
+    color: #000
+
 .col-md-6
   width: 70%
 
@@ -101,6 +108,22 @@
     width: calc( 100% + 96px )
     height: 195%       
     background-image: url('../assets/curso/tema1/img15.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: bottom
+
+.bg_img15_t3
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -3em
+    width: calc( 100% + 96px )
+    height: 200%       
+    background-image: url('../assets/curso/tema4/img15.svg')
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: bottom
@@ -299,3 +322,9 @@ figure, picture, img, svg
 
 .curso-main-container > .container 
     overflow-x: clip
+
+.linea--parrafo
+  height: 1px
+  margin-left: 0%
+  margin-right: 59%
+  background-color: gray
