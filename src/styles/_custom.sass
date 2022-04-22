@@ -32,6 +32,8 @@
 
 .bg_color1
   background-color: #F8F2E7
+.bg_color1:hover
+  background-color: #E7F9FA
 
 .ul_img_erlenmeyer
   list-style-image: url('../assets/curso/tema1/img17.png')
@@ -160,9 +162,10 @@
     background-repeat: no-repeat
     background-position: bottom
 
-.tabla-a th
-    background-color: #E7EDF9
-
+.bg-tabla
+    background-color: #E7EDF9 !important
+.bg-tabla2
+    background-color: white !important
 .bloque-texto-g.color-acento-contenido
   background-image: url('../assets/curso/tema1/img18.png')    
   background-repeat: no-repeat
@@ -176,12 +179,21 @@
     content: "\f10e"
     color: #84E8ED
 
-.tabla-b th
+.tabla-b1
     width: 250px
+
+.tabla-b__header
+  padding: 0px  
+
+.bg-table
+  background-color: #9EB7E5 !important  
 
 .bg_color3 
   background-color: #F8F2E7
   border-radius: 50px  
+
+.br-tabla-r
+  border-right: 1px solid #AFAFAF !important
 
 .bg_color4
   background-color: #F2F2F2
@@ -237,9 +249,7 @@ figure, picture, img, svg
     background-repeat: no-repeat
     background-position: bottom
 
-.bloque-texto-g__texto
-    width: 67%
-
+ 
 .bg_enlace
   background-color: #EDF1F5
 
@@ -252,6 +262,13 @@ figure, picture, img, svg
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+
+.bg_img-l-1
+  background-image: url('../assets/curso/tema4/img1.svg')    
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
 
 .bg_color5
   background-color: transparent 
@@ -270,6 +287,77 @@ figure, picture, img, svg
 
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
     background-color: #E7F9FA
+
+.linea-tiempo-d
+  &__item
+    &--selected
+      .linea-tiempo-d
+        &__item
+          &__content
+            background-color: #E7F9FA 
+            &__title
+              font-weight: $base-bold-font-weight
+          &__number
+            background-color: #E7F9FA !important
+            font-weight: $base-bold-font-weight
+    &__col-number
+      display: flex
+      flex-direction: column
+
+    &__dots
+      flex: 1
+      display: flex
+      justify-content: center
+      padding: 5px 0
+      &:after
+        content: ''
+        display: block
+        width: 0
+        height: 100%
+        border-left: 5px dotted $color-sistema-e
+    &__number
+      display: flex
+      align-items: center
+      justify-content: center
+      min-width: 40px
+      height: 40px
+      cursor: pointer
+      transition: background-color .3s ease-in-out, color .3s ease-in-out
+    &__content
+      &__title
+        display: flex
+        align-items: center
+        height: 40px
+        cursor: pointer
+        &:hover
+          font-weight: $base-bold-font-weight
+      &__slot
+        overflow: hidden
+        transition: height .5s ease-in-out
+  .tarjeta
+    border-radius: 5px
+
+  &.color-primario
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: $color-primario
+        color: textColor($color-primario)
+  &.color-secundario
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: $color-secundario
+        color: textColor($color-secundario)
+  &.color-acento-contenido
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: $color-acento-contenido
+        color: textColor($color-acento-contenido)
+  &.color-acento-botones
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: $color-acento-botones
+        color: textColor($color-acento-botones)  
+
 
 .bg_color8
   background-color: #FFFFFF
@@ -298,6 +386,40 @@ figure, picture, img, svg
     border: 0
     border-radius: 5px
   
+.imgs-flotantes
+  position: relative
+.imgs-flotantes img.img-flotante
+  animation: float2 3.5s ease-in-out infinite alternate
+  position: absolute
+  top: -3%
+  left: 95%
+  width: 140px
+  @media (max-width: 20px)
+    width: 100px
+    left: 1%
+@keyframes float2
+  0%
+    transform: scale(.5)
+  100%
+    transform: scale(.4) 
+.poin
+  cursor: pointer 
+     
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon
+  background-color: transparent
+
+.bg-colora1 
+  background-color: #E7EDF9  
+.bg-colora2 
+  background-color: #E7F9FA  
+.bg-colora3
+  background-color: #F8F2E7
+.t-color
+  color: #4880A1     
+
+.tarjeta-avatar .tarjeta
+  display: block  
+
 .tarjeta-numerada 
   margin-left: 0px
 
@@ -340,3 +462,14 @@ figure, picture, img, svg
   margin-left: 0%
   margin-right: 59%
   background-color: #9EB7E5
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto   
+
+.up
+  z-index: 2  

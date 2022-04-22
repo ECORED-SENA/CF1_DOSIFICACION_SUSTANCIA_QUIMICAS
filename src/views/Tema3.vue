@@ -95,11 +95,27 @@
             img(src='@/assets/curso/tema1/img05.svg',alt='') 
 
     p.mt-4.mb-4 De acuerdo a la Sociedad americana de química (2003), en su publicación seguridad en los laboratorios químicos académicos, prevenir accidentes de cualquier tipo en un laboratorio, es responsabilidad de todos los que usan este espacio de trabajo, por lo cual es necesario siempre una actitud cooperativa activa, es importante recordar que los accidentes que se pueden dar cuando se trabaja con insumos químicos bien sea dentro de un laboratorio o en pruebas de campo, suelen ser asociadas a:
+    .row.justify-content-center.mb-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/img1.svg' alt='AvatarTop')
+          .tarjeta.bg-colora1
+            .p-4
+              p.mt-3.mb-0.text-center.t-color #[b Actividades de indiferencia]
 
-    .row.mb-4
-      .col-md-10.col-lg.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema3/img06.svg')
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/img2.svg' alt='AvatarTop')
+          .tarjeta.bg-colora2
+            .p-4
+              p.mt-3.mb-0.text-center.t-color #[b No utilizar el sentido común ]
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/img3.svg' alt='AvatarTop')
+          .tarjeta.bg-colora3
+            .p-4
+              p.mt-3.mb-0.text-center.t-color #[b No seguir instrucciones y cometer errores] 
 
     p.text-center.mt-5 Cuando se menciona tomar un “rol activo” hace referencia a seguir siempre las siguientes recomendaciones:
 
@@ -188,7 +204,7 @@
         .col-lg-10
           p(data-aos="fade-down").text-center.mb-0.p-4  Por favor diríjase al documento Seguridad en laboratorios químicos académicos, Volumen 1, Séptima edición, que encuentra en material de apoyo y amplíe la información acá presentada. 
         .col-lg-5 
-          a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+          a.anexo.mb-4.mb-lg-4.bg_enlace(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
@@ -204,7 +220,7 @@
           img(data-aos="zoom-in")(src='@/assets/curso/tema3/img16.svg', alt='')  
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
-      .col-lg-7
+      .col-lg-7.up
         .row.justify-content-start.align-items-center.title-color.p-2(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block             
           .col-lg-11.ps-2
@@ -212,22 +228,23 @@
         .row.justify-content-start.align-items-center.mb-4(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block.margin_top2
             img(src='@/assets/curso/tema1/img05.svg',alt='') 
-
-    p.mb-4 Las sustancias químicas pueden causar daño si no son manipuladas de forma adecuada y según protocolos, lo más importante por resaltar es que estas sustancias tienen diferentes características (tóxicas, inflamables, corrosivas y reactivas) y debe reconocerlas y saber cómo reaccionar en caso de accidentes.
+    .row.justify-content-start.align-items-center        
+      .col-lg-10.up
+        p.mb-4 Las sustancias químicas pueden causar daño si no son manipuladas de forma adecuada y según protocolos, lo más importante por resaltar es que estas sustancias tienen diferentes características (tóxicas, inflamables, corrosivas y reactivas) y debe reconocerlas y saber cómo reaccionar en caso de accidentes.
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
-      .col-lg-3
+      .col-lg-3.up
         img(data-aos="zoom-in")(src='@/assets/curso/tema3/img17.svg', alt='')  
-      .col-lg-7
+      .col-lg-7.up
         p.mb-4 Sin embargo, existen sustancias que cuentan con más de un peligro, por lo cual se considera que el grado de peligrosidad de las sustancias químicas puede variar, por ello siempre trabajar de forma segura es la manera correcta de desarrollar actividades con estos implementos.
         p Se recomienda ampliar la información en sesiones en línea con su instructor y con el material de apoyo, pero se dejan las siguientes acciones como tips necesarios para contrarrestar los peligros químicos:
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10.up
         .tarjeta.color.bg_color7
-          .row.justify-content-center.align-items-center.mb-5       
+          .row.justify-content-center.align-items-center      
             .col-lg-10
-              ul.lista-ul--color.mt-4(data-aos="fade-down").text-center.mb-0.p-4
+              ul.lista-ul--color(data-aos="fade-down").text-center.mb-0.p-4
                 li  
                   i.lista-ul__vineta
                   p.mb-0 Siempre lea detenidamente las etiquetas de las sustancias químicas antes de usarlas.

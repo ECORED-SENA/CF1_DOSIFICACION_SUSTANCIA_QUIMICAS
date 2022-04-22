@@ -33,7 +33,7 @@
 
     p.mt-5 Los planes de muestreo están diseñados para determinar las características físicas, químicas y microbiológicas de algún cuerpo de agua específico, con el uso de este plan se proporciona un modelo de guía para las personas que van a realizar la muestra y de esta manera reducir errores en ella, además de que minimiza la posibilidad de que los resultados salgan mal.
 
-    .row.mb-5
+    .row.justify-content-center.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img02.svg' alt='AvatarTop')
@@ -62,7 +62,7 @@
         .row.justify-content-start.align-items-center.title-color.p-2(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block             
           .col-lg-11.ps-2
-            h5.mb-0 Importancia del alistamiento de la toma de muestras
+            h5.mb-0.ps-3 Importancia del alistamiento de la toma de muestras
         .row.justify-content-start.align-items-center.mb-4(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block.margin_top2
             img.grandor_img(src='@/assets/curso/tema1/img05.svg',alt='') 
@@ -75,62 +75,62 @@
           p(data-aos="fade-down").mb-0.px-4 Debido a que el recurso hídrico tiene gran cantidad de usos, el alistamiento debe reflejar no solo las necesidades de equipos, instrumentación y reactivos sino también incluir información de los diferentes usuarios involucrados, dentro de esa información se sugiere de acuerdo al Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], (2017):
 
     .row.justify-content-center.mb-5
-      .col-md-6
+      .col-lg-8
         SlyderF(columnas="col-12")
-          .tarjeta.color.bg_slyder
+          .tarjeta.color.bg_slyder.p-4
             .row.justify-content-center
-              .col-6.ps-3
+              .col-lg-6.my-2
                 img(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')
-              .col-6.pe-5.align-self-end
+              .col-lg-6.align-self-end
                 p Las posibles variables químicas o biológicas presentes en el agua que puedan generar un deterioro en el recurso.
 
           .tarjeta.color.bg_slyder.p-4
             .row.justify-content-center
-              .col-6.ps-3.pb-0
+              .col-lg-6.my-2
                 img(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
-              .col-6.pe-5.align-self-end.pb-0
+              .col-lg-6.align-self-end
                 p La relación existente entre la calidad y la cantidad de agua en el cuerpo de agua a estudiar.
 
           .tarjeta.color.bg_slyder.p-4
             .row.justify-content-center
-              .col-6.ps-3
+              .col-lg-6.my-2
                 img(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
-              .col-6.pe-5.align-self-end
+              .col-lg-6.align-self-end
                 p El establecimiento de límites permisibles, teniendo en cuenta normatividad aplicable a la región.
 
           .tarjeta.color.bg_slyder.p-4
             .row.justify-content-center
-              .col-6.ps-3
+              .col-lg-6.my-2
                 img(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
-              .col-6.pe-5.align-self-end
+              .col-lg-6.align-self-end
                 p Observación histórica de la afectación de la calidad del agua por procesos naturales.
 
           .tarjeta.color.bg_slyder.p-4
             .row.justify-content-center
-              .col-6.ps-3
+              .col-lg-6.my-2
                 img(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
-              .col-6.pe-5.align-self-end
+              .col-lg-6.align-self-end
                 p La capacidad del cuerpo de agua para asimilar el incremento de vertimientos puntuales sin causar altos niveles de contaminación.
 
           .tarjeta.color.bg_slyder.p-4
             .row.justify-content-center
-              .col-6.ps-3
+              .col-lg-6.my-2
                 img(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
-              .col-6.pe-5.align-self-end
+              .col-lg-6.align-self-end
                 p Las comunidades cercanas a la zona.
 
           .tarjeta.color.bg_slyder.p-4
             .row.justify-content-center
-              .col-6.ps-3
+              .col-lg-6.my-2
                 img(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
-              .col-6.pe-5.align-self-end
+              .col-lg-6.align-self-end
                 p Si han existido estrategias de control y de las acciones de gestión en el manejo de la calidad del agua.
 
           .tarjeta.color.bg_slyder.p-4
             .row.justify-content-center
-              .col-6.ps-3
+              .col-lg-6.my-2
                 img(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
-              .col-6.pe-5.align-self-end
+              .col-lg-6.align-self-end
                 p Si existe algún riesgo asociado a delincuencia o violencia que pueda afectar la toma de la muestra.
 
     .bg_img15
@@ -171,28 +171,28 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Además, un plan de muestreo debe tener en cuenta lo siguiente: 
+            p Además, un plan de muestreo debe tener en cuenta lo siguiente: 
               br
               br
             ul.lista-ul--color
               li  
                 i.fas.fa-solid.fa-clipboard-check
-                p.mb-0.lh-1 La ubicación del POA: dónde y cómo se tomará la muestra. 
+                p.mb-0 La ubicación del POA: dónde y cómo se tomará la muestra. 
               li  
                 i.fas.fa-solid.fa-clipboard-check
-                p.mb-0.lh-1 El procedimiento o método de muestreo a llevar a cabo.  
+                p.mb-0 El procedimiento o método de muestreo a llevar a cabo.  
               li  
                 i.fas.fa-solid.fa-clipboard-check
-                p.mb-0.lh-1 Los equipos de muestreo que se utilizarán y su respectiva calibración. 
+                p.mb-0 Los equipos de muestreo que se utilizarán y su respectiva calibración. 
               li  
                 i.fas.fa-solid.fa-clipboard-check
-                p.mb-0.lh-1 Se deben proveer los recipientes de muestreo de acuerdo con las necesidades de la muestra.
+                p.mb-0 Se deben proveer los recipientes de muestreo de acuerdo con las necesidades de la muestra.
               li  
                 i.fas.fa-solid.fa-clipboard-check
-                p.mb-0.lh-1 El almacenamiento de las muestras tomadas. 
+                p.mb-0 El almacenamiento de las muestras tomadas. 
               li  
                 i.fas.fa-solid.fa-clipboard-check
-                p.mb-0.lh-1 Es necesario la identificación y etiquetado de las muestras.  
+                p.mb-0 Es necesario la identificación y etiquetado de las muestras.  
         
     p Para la correcta elaboración de este plan es necesario comprender la Norma Técnica Colombiana NTC-5667 de 1995 en donde especifican las directrices a tener en cuenta para el diseño de los programas de muestreo. 
 
@@ -221,7 +221,7 @@
       .col-lg-10
         .bloque-texto-c.color.bg_color2.p-4
           i.fas.fa-quote-right
-          h4.mb-2.mt-3 Igualmente dependiendo del fin de la muestra es posible que se requiera previamente a la actividad, realizar el lavado y desinfección del punto de muestreo para reducir el riesgo de contaminación por presencia de agentes, elementos o compuestos que puedan estar presentes en la estructura debido a su entorno. Para esto es común emplear diferentes agentes como hipoclorito de sodio o calcio.
+          h5.mb-2.mt-3 Igualmente dependiendo del fin de la muestra es posible que se requiera previamente a la actividad, realizar el lavado y desinfección del punto de muestreo para reducir el riesgo de contaminación por presencia de agentes, elementos o compuestos que puedan estar presentes en la estructura debido a su entorno. Para esto es común emplear diferentes agentes como hipoclorito de sodio o calcio.
           span - Ortiz, 2011, p. 33
           
 

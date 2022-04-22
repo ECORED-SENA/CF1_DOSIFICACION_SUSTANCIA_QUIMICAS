@@ -18,22 +18,23 @@
             h5 Tabla 2. Técnicas de muestreo  
           .tabla-b.color-primario.mb-5
             .tabla-b__header
-              tr
-                th.text-center PUNTOS DE MUESTREO
-                td TÉCNICAS DE MUESTREO
             table
-              caption Nota. SENA, (2021).
-              tr
-                th.text-center <b>Grifos</b>
+              caption Nota. SENA, (2021).            
+              tr.bg-table
+                th.br-tabla-r.w-25.text-center PUNTOS DE MUESTREO
+                th TÉCNICAS DE MUESTREO
+
+              tr.bg-tabla
+                td.br-tabla-r.text-center <b>Grifos</b>
                 td Cuando se trata de grifos de agua es necesario retirar los filtros que tenga, posteriormente se limpia con alcohol y se flamea el grifo mientras está cerrado, antes de tomar la muestra se debe dejar correr el agua por al menos cinco (5) minutos, luego se destapa el frasco se llena se cierra.
-              tr
-                th.text-center <b>Pozos y depósitos</b> 
+              tr.bg-tabla2
+                td.br-tabla-r.text-center <b>Pozos y depósitos</b> 
                 td Se introduce en el agua el frasco de muestreo sostenido con una cuerda y se toma la muestra luego de haber agitado la superficie del cuerpo de agua. 
-              tr
-                th.text-center <b>Lagos y ríos</b>
+              tr.bg-tabla
+                td.br-tabla-r.text-center <b>Lagos y ríos</b>
                 td La muestra se debe tomar lo más lejos posible de la orilla, procurando no remover el fondo para liberar sedimentos y se deben evitar las zonas de estancamiento.
-              tr
-                th.text-center <b>Piscinas</b> 
+              tr.bg-tabla2
+                td.br-tabla-r.text-center <b>Piscinas</b> 
                 td La muestra debe ser tomada en los puntos en los cuales se sospeche una más lenta renovación. 
 
     .row.justify-content-center.align-items-center.mb-5       
@@ -66,7 +67,7 @@
                   img(src='@/assets/curso/tema2/img04.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
-      .col-lg-7
+      .col-lg-7.up
         .row.justify-content-start.align-items-center.title-color.p-2(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block             
           .col-lg-11.ps-2
@@ -76,7 +77,7 @@
             img(src='@/assets/curso/tema1/img05.svg',alt='') 
     
     .row.justify-content-end.align-items-center.mt-5     
-      .col-lg-8
+      .col-lg-8.up
         p.mb-4 Para el almacenamiento de la muestra es necesario utilizar recipientes plásticos o de vidrio según los parámetros que se vayan a analizar para evitar la contaminación con microorganismos ajenos a la muestra. Los recipientes de vidrio se deben ser utilizados cuando se trata de muestras destinadas al análisis de metales traza ya que el vidrio libera silicio y además puede absorber trazas de metales que se encuentren en la muestra.  Por otra parte, los recipientes plásticos deberán ser descartados cuando las muestras contengan compuestos orgánicos ya que estos liberan sustancias del plástico y pueden disolver algunos compuestos orgánicos que se encuentren en la muestra. 
         p.mb-0 Es necesario que la muestra se almacene a una temperatura de 4ºC y en ausencia de luz, esto debe realizarse en el momento de la toma de la muestra.  
     .row.justify-content-start.align-items-center     
@@ -91,40 +92,44 @@
             h5.mb-0 Rotulación de la muestra
         .row.justify-content-start.align-items-center.mb-4(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block.margin_top2
-            img(src='@/assets/curso/tema1/img05.svg',alt='') 
+            img(src='@/assets/curso/tema1/img05.svg',alt='')   
     
-    p.mb-4 Para identificar la muestra se debe tener en cuenta lo siguiente:
+    .row.justify-content-center.mb-4
+      .col-lg-12.up
+        p.mb-4 Para identificar la muestra se debe tener en cuenta lo siguiente:
 
     .row.justify-content-center.mb-4
-      .col-lg-10
+      .col-lg-10.up
         img(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop')
 
     .row.mt-4.mb-4           
-      .col-lg-12
+      .col-lg-12.up
         .cajon.color-primario.bg_color2.p-4.mb-4(data-aos="flip-down")
           p(data-aos="fade-down").mb-0.px-4 La información sobre las operaciones de muestreo es una parte fundamental para asegurar la calidad del programa de muestreo y base fundamental en la cadena de custodia de las muestras, ya que esto genera confianza en los resultados de los análisis aplicados a las muestras. Por tal razón la información consignada en los rótulos de los recipientes y en los registros de toma de muestras debe ser legible, veraz y trazable.
 
     p.mx-5.px-5 De acuerdo con el ICONTEC (2004), en su Guía Técnica Colombiana [GTC] 100, guía para los procedimientos de cadena de custodia de muestras los rótulos de las muestras pueden:
-
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-10
-        .tarjeta-color.bg_color4.mx-2
-          .row.justify-content-center.mt-5
-            .col-lg-7
-              p(data-aos="fade-down").mt-4 Tener forma de etiquetas adhesivas, de marca (rótulo) o ambas.
-              p(data-aos="fade-down").mb-4 Las etiquetas suelen ser removibles para hacer parte del proceso de registros posteriores, pero se enfrenta a la posibilidad de remoción inapropiada o pérdida, los rótulos o marcas usualmente se hacen en papel a prueba de agua con tinta indeleble y son pegados al frasco o recipiente de muestra, existe una manera alternativa que es cuando se escribe directamente en el recipiente con tinta indeleble, sin embargo, no es el más aconsejado (p.5).
-            .col-lg-3.align-self-center
-              figure
-                img.img295(data-aos="zoom-in")(src='@/assets/curso/tema2/img07.svg', alt='') 
+        .row.justify-content-center.align-items-center.mt-5.bg_color4.p-5.mb-4
+          .col-lg-8
+            p(data-aos="fade-down") Tener forma de etiquetas adhesivas, de marca (rótulo) o ambas.
+            p.mb-0(data-aos="fade-down") Las etiquetas suelen ser removibles para hacer parte del proceso de registros posteriores, pero se enfrenta a la posibilidad de remoción inapropiada o pérdida, los rótulos o marcas usualmente se hacen en papel a prueba de agua con tinta indeleble y son pegados al frasco o recipiente de muestra, existe una manera alternativa que es cuando se escribe directamente en el recipiente con tinta indeleble, sin embargo, no es el más aconsejado (p.5).
+          .col-lg-4.my-3
+            img(data-aos="zoom-in")(src='@/assets/curso/tema2/img07.svg', alt='') 
 
     .titulo-quinto.color-acento-contenido
       h4 Características de los rótulos 
 
     .bg_img08_t2
       .row.justify-content-center          
-        .col-lg-8(data-aos="slide-left")
+        .col-lg-8.imgs-flotantes(data-aos="slide-left")
           figure
-            img(src='@/assets/curso/tema2/img09.svg', alt='')
+            img(src='@/assets/curso/tema2/img2.svg', alt='')
+            a.lnk.img-flotante(@click="modal1 = true")
+              img.img-flotante.poin(data-aos="zoom-in")(src='@/assets/curso/tema2/img1.svg', alt='Imagen decorativa') 
+      ModalA(:abrir-modal.sync="modal1")
+        img(src='@/assets/curso/tema2/img2.svg', alt='')
+                  
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-8.align-self-center
           ul.lista-ul--color.ps-2.pe-0
@@ -143,7 +148,7 @@
             li  
               i.lista-ul__vineta
               p.mb-0 Para muestras microbiológicas aparte de los mencionado anteriormente se debe complementar la información con la preservación realizada (se debe consignar en el momento del alistamiento de los recipientes en el laboratorio, ya que la adición del preservante se adiciona antes del proceso de esterilización de los frascos).
-        .col-lg-2
+        .col-lg-2.d-none.d-lg-block
           figure
             img.pe-2(src='@/assets/curso/tema2/img10.svg', alt='')
 
@@ -270,57 +275,10 @@
             img(src='@/assets/curso/tema1/img05.svg',alt='') 
     
     p Para un registro adecuado de la muestra es necesario tener en cuenta lo siguiente: 
-    
-    .bg_img22_t2
-      .row.justify-content-center
-        .col-lg-6.align-items-center(data-aos="fade-right")
-          .tarjeta-avatar-b.mb-2
-            .tarjeta-avatar-b__img
-              img.pt-5(src='@/assets/curso/tema2/img23.svg')
-            .tarjeta.bg_color5
-              .p-4
-                p.pt-5 Los recipientes que contengan muestras deben marcarse en forma clara y durable para permitir su identificación en el laboratorio sin ninguna ambigüedad.
-
-        .col-lg-6.align-items-center(data-aos="fade-left")
-          .tarjeta-avatar-b.mb-2
-            .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema2/img24.svg')
-            .tarjeta.bg_color5
-              .p-4
-                p Al momento del muestreo es necesario observar numerosos detalles que permitirán una interpretación correcta de la información obtenida. Estos detalles se pueden lograr mediante el diligenciamiento de las etiquetas o formatos diseñados para tal fin, inmediatamente después de la recolección de la muestra, de modo que sea fácilmente identificada.
-
-        .col-lg-6.align-items-center(data-aos="fade-right")
-          .tarjeta-avatar-b.mb-3
-            .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema2/img25.svg')
-            .tarjeta.color.bg_color5
-              .p-4
-                p Es importante registrar el tipo de mediciones efectuadas y las variaciones ambientales del sitio tales como condiciones del clima y observaciones inusuales. 
-
-        .col-lg-6.align-items-center(data-aos="fade-left")
-          .tarjeta-avatar-b.mb-3
-            .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema2/img26.svg')
-            .tarjeta.color.bg_color5
-              .p-4
-                p  Se puede pegar al recipiente, la tarjeta o etiqueta con la información requerida; pero con frecuencia se mojan al transportar las muestras refrigeradas al laboratorio y la información puede quedar ilegible.
-
-        .col-lg-6.align-items-center(data-aos="fade-right")
-          .tarjeta-avatar-b.mb-5
-            .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema2/img27.svg')
-            .tarjeta.color.bg_color5
-              .p-4
-                p Identificar el recipiente con un número, deseablemente escrito con lápiz No.2 y que consigne la información necesaria en el acta de toma de muestras, la cual debe ser diligenciada completamente.
-
-        .col-lg-6.align-items-center(data-aos="fade-left")
-          .tarjeta-avatar-b.mb-5
-            .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema2/img28.svg')
-            .tarjeta.color.bg_color5
-              .p-4
-                p Para asegurarse de no perder la información puede resultar mejor identificar la muestra, tanto por medio de una etiqueta o tarjeta como por una hoja de identificación de muestra.
-
+    .row.justify-content-center.align-items-center.mt-5      
+      .col-lg-10   
+        .bg_img22_t2.p-5    
+          LineaTiempoB.color-secundario(:datos="datosLineaTiempoB")
 
 
 
@@ -330,7 +288,40 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    modal1: false,
+    datosLineaTiempoB: [
+      {
+        texto:
+          'Los recipientes que contengan muestras deben marcarse en forma clara y durable para permitir su identificación en el laboratorio sin ninguna ambigüedad.',
+        icono: require('@/assets/curso/tema2/img23.svg'),
+      },
+      {
+        texto:
+          'Al momento del muestreo es necesario observar numerosos detalles que permitirán una interpretación correcta de la información obtenida. Estos detalles se pueden lograr mediante el diligenciamiento de las etiquetas o formatos diseñados para tal fin, inmediatamente después de la recolección de la muestra, de modo que sea fácilmente identificada.',
+        icono: require('@/assets/curso/tema2/img24.svg'),
+      },
+      {
+        texto:
+          'Es importante registrar el tipo de mediciones efectuadas y las variaciones ambientales del sitio tales como condiciones del clima y observaciones inusuales. ',
+        icono: require('@/assets/curso/tema2/img25.svg'),
+      },
+      {
+        texto:
+          'Se puede pegar al recipiente, la tarjeta o etiqueta con la información requerida; pero con frecuencia se mojan al transportar las muestras refrigeradas al laboratorio y la información puede quedar ilegible.',
+        icono: require('@/assets/curso/tema2/img26.svg'),
+      },
+      {
+        texto:
+          'Identificar el recipiente con un número, deseablemente escrito con lápiz No.2 y que consigne la información necesaria en el acta de toma de muestras, la cual debe ser diligenciada completamente.',
+        icono: require('@/assets/curso/tema2/img27.svg'),
+      },
+      {
+        texto:
+          'Para asegurarse de no perder la información puede resultar mejor identificar la muestra, tanto por medio de una etiqueta o tarjeta como por una hoja de identificación de muestra.',
+        icono: require('@/assets/curso/tema2/img28.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

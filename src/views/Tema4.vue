@@ -200,37 +200,41 @@
       .tarjeta.color.infografica_A.p-3(x="89.4%" y="74%")
         .h5.mb-2 Conductividad 
         p La conductividad en el agua se mide a través de un sistema amperimétrico o potenciométrico. Cuanta mayor intensidad pase o mayor potencia se genere, mayor será la conductividad.
-
-    p.mb-4.text-center Para el caso de los parámetros químicos cuenta con 4 características: 
+    .row.justify-content-center
+      .col-lg-10.up
+        p.mb-4.text-center Para el caso de los parámetros químicos cuenta con 4 características: 
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10.up
         .row.justify-content-center.align-items-center
           <hr> 
             .col-lg-1
               figure
-                img(src='@/assets/curso/tema4/img16.svg')
+                img.img-t.img-a(src='@/assets/curso/tema4/img16.svg')
             .col-lg-9
               p.mb-2 <b>pH:</b>
-              p.mb-4 El método de medida más común es usar una celda electroquímica, consistente en un electrodo indicador sensible a la concentración de protones, esto se realiza mediante el uso de un pHmetro. 
+              p.mb-4 El método de medida más común es usar una celda electroquímica, consistente en un electrodo indicador sensible a la concentración de protones, esto se realiza mediante el uso de un pHmetro.
+        .row.justify-content-center.align-items-center               
           <hr> 
             .col-lg-1
               figure
-                img(src='@/assets/curso/tema4/img17.svg')
+                img.img-t.img-a(src='@/assets/curso/tema4/img17.svg')
             .col-lg-9
               p.mb-2 <b>Alcalinidad:</b>
-              p.mb-4 La determinación de la alcalinidad de una muestra de agua se logra por titulación con una solución de ácido sulfúrico de normalidad conocida y se hace por medio de la fenolftaleína como indicador dependiendo del pH iniciar de la muestra. 
+              p.mb-4 La determinación de la alcalinidad de una muestra de agua se logra por titulación con una solución de ácido sulfúrico de normalidad conocida y se hace por medio de la fenolftaleína como indicador dependiendo del pH iniciar de la muestra.
+        .row.justify-content-center.align-items-center               
           <hr> 
             .col-lg-1
               figure
-                img(src='@/assets/curso/tema4/img18.svg')
+                img.img-t.img-a(src='@/assets/curso/tema4/img18.svg')
             .col-lg-9
               p.mb-2 <b>Carbono orgánico total:</b>
               p.mb-4 Se utilizan diversos métodos instrumentales los cuales arrojan resultados en pocos minutos y requieren de 1mL de muestra. El procedimiento se realiza introduciendo la muestra en un tubo de combustión a 960ºC lo cual vaporiza el agua. La cantidad de CO2 registrada es proporcional al contenido de carbono de la muestra.
+        .row.justify-content-center.align-items-center              
           <hr> 
             .col-lg-1
               figure
-                img(src='@/assets/curso/tema4/img19.svg')
+                img.img-t.img-a(src='@/assets/curso/tema4/img19.svg')
             .col-lg-9
               p.mb-2 <b>Oxígeno disuelto:</b>
               p.mb-4 El método más utilizado es el de Alsterberg, el cual fija el oxígeno en la muestra utilizando la adición de nitruro y sulfato de manganeso, luego se añade ácido sulfúrico el cual libera iodo y se valora utilizando almidón como indicador.  

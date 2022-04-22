@@ -34,11 +34,13 @@
       .col-lg-10
         .row.justify-content-center
           .col-md-5.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.text-center.tarjeta_t5.p-4
+            .tarjeta-numerada.text-center.tarjeta_t5.p-4.indicador__container(@click="modal1 = true")
               img.mb-4(src='@/assets/curso/tema5/img03.svg')
               h4 Formato para captura de datos en campo
               .tarjeta-numerada__contenido
                 p.mb-0 Se registra de inmediato toda la información que se obtiene en campo, las observaciones y los datos de la toma de muestra en un formato destinado para dicha actividad; este incluye aspectos como: propósito del muestreo; localización del sitio de muestreo, datos de la medición del caudal; descripción del punto; método de muestreo; fecha y hora de recolección; identificación del recolector; observaciones y mediciones de parámetros en campo. 
+                .indicador--click(v-if="mostrarIndicador")
+
           .col-md-5.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.text-center.tarjeta_t5.p-4(@mouseover="mostrarIndicador = false")
               .indicador--hover(v-if="mostrarIndicador")
@@ -50,12 +52,15 @@
     .bg_img15_t5
       p.mb-5.mx-5.px-5 Requisitos de identificación, etiquetado e información de la muestra. Al hacer toma de muestras de agua es importante registrar información sobre el sitio de muestreo y las observaciones realizadas allí, pues servirán para la interpretación de los resultados. La información requerida es la siguiente: 
       .row.justify-content-center.align-items-center.mb-5.mt-4           
-        .col-lg-10 
+        .col-lg-11 
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="flip-down")
             .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/tema5/img05.svg')})`}"
+              :style="{'background-image': `url(${require('@/assets/curso/tema5/img5.jpg')})`}"
             )
-            .bloque-texto-g__texto.p-3
+            .bloque-texto-g__texto.p-4
+              p Además, un plan de muestreo debe tener en cuenta lo siguiente: 
+              br
+              br
               ul.lista-ul--color.mt-4(data-aos="fade-down")
                 li  
                   i.lista-ul__vineta
@@ -81,14 +86,16 @@
                 li  
                   i.lista-ul__vineta
                   p.mb-0 Cualquier otra observación que considere significativa. 
-                    br         
+      
 
 </template>
 <script>
 export default {
   name: 'Tema5',
   components: {},
-  data: () => ({}),
+  data: () => ({
+    mostrarIndicador: true,
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
