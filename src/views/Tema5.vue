@@ -21,11 +21,11 @@
         p.mb-2 Para poder utilizar de manera efectiva los datos se debe realizar un tratamiento, control, validación, difusión y una posterior publicación de los datos. Dentro de este proceso está la digitalización de los datos manuales. 
         p.mb-2 Antes de que pueda utilizar los datos y a pesar de que están en un formato adecuado, es importante comprobar la fiabilidad y exactitud de éstos. Algunos errores de transcripción y tratamiento podrían no ser evidentes hasta que los examinen los usuarios. 
         figure
-          img.px-4(src='@/assets/curso/tema5/img01.svg')
+          img.px-4(src='@/assets/curso/tema5/img01.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Uso de la información")
         p.mb-2 Una vez realizada la recopilación de los datos hidrológicos se obtendrá una serie de información que será de utilidad para la toma de decisiones las cuales derivarán en estadísticas que serán de beneficio para la elaboración de futuros proyectos de desarrollo. 
         figure
-          img.px-4(src='@/assets/curso/tema5/img02.svg')
+          img.px-4(src='@/assets/curso/tema5/img02.png')
 
     p.mb-4 Por tanto, finalmente la publicación de la información ya sea en sistemas de información hidrológica, boletines, estudios, informes, investigaciones, entre otros, es la manera de transmitir la información para la toma de decisiones. 
     p.mb-4 Los formatos utilizados al tomar la muestra son:

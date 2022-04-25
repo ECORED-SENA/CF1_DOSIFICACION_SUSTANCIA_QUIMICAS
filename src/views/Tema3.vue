@@ -50,7 +50,7 @@
                 h5 Turbidímetro:
                 p.pt-3 Los turbidímetros son productos de laboratorio para medir la turbidez, un indicador que permite evaluar la calidad de las aguas y determinar el nivel de la transparencia de diferentes líquidos.
               .col-lg-5
-                img(src='@/assets/curso/tema3/img18.svg')
+                img(src='@/assets/curso/tema3/img18.png')
 
           div(x="34.3%" y="39%" tooltip="Colorímetro")
             .row.justify-content-center.align-items-center
@@ -58,7 +58,7 @@
                 h5.mb-2 Colorímetro:
                 p.pt-3 Estos instrumentos son utilizados para medir los colores de los objetos y hacer comparaciones entre ellos. Con esta opción es posible diferenciar productos que se producen masivamente en las industrias. 
               .col-lg-5  
-                img(src='@/assets/curso/tema3/img19.svg')
+                img(src='@/assets/curso/tema3/img19.png')
 
           div(x="50%" y="62%" tooltip="pHmetro")
             .row.justify-content-center.align-items-center
@@ -66,7 +66,7 @@
                 h5.mb-2 pHmetro:
                 p.pt-3 Es un instrumento científico que mide la actividad del ion hidrógeno en soluciones acuosas, indicando su grado de acidez o alcalinidad expresada como pH. El medidor de pH mide la diferencia de potencial eléctrico entre un electrodo de pH y un electrodo de referencia.
               .col-lg-5  
-                img(src='@/assets/curso/tema3/img20.svg')
+                img(src='@/assets/curso/tema3/img20.png')
 
           div(x="65.5%" y="39%" tooltip="Conductímetro")
             .row.justify-content-center.align-items-center
@@ -74,7 +74,7 @@
                 h5.mb-2 Conductímetro:
                 p.pt-3 Es un instrumento que se utiliza para medir la conductividad eléctrica de los iones en una disolución. Para ello aplica un campo eléctrico entre dos electrodos y mide la resistencia eléctrica de la disolución. 
               .col-lg-5  
-                img(src='@/assets/curso/tema3/img21.svg')
+                img(src='@/assets/curso/tema3/img21.png')
 
           div(x="81.4%" y="62.5%" tooltip="Termómetro")
             .row.justify-content-center.align-items-center
@@ -82,7 +82,7 @@
                 h5.mb-2 Termómetro:
                 p.pt-3 Es el instrumento que se usa para medir la temperatura del aire. Los termómetros más comunes son tubos de vidrio huecos. En la parte inferior del tubo se encuentra la ampolleta que contiene un líquido como alcohol o mercurio. Cuando el calor aumenta, el líquido dentro de la ampolleta se expande y sube por el tubo.
               .col-lg-5  
-                img(src='@/assets/curso/tema3/img22.svg')
+                img(src='@/assets/curso/tema3/img22.png')
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7
@@ -123,7 +123,7 @@
       .col-lg-10 
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="flip-down")
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/img07.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/img07.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             ul.lista-ul--color.mt-4
@@ -217,7 +217,7 @@
           p.mb-4 Así mismo, el instructor debe hacer un recorrido con sus aprendices por todas las instalaciones, mostrando y ubicando los diversos dispositivos relacionados con la seguridad, tales como salida de emergencia, ruta de evacuación, ubicación de extintores, botiquines de primeros auxilios, duchas de emergencia y fuente lavaojos.
           p.mb-4 Antes de las prácticas de campo o de laboratorio su instructor socializará las normas adecuadas para las actividades.
         .col-lg-5
-          img(data-aos="zoom-in")(src='@/assets/curso/tema3/img16.svg', alt='')  
+          img(data-aos="zoom-in")(src='@/assets/curso/tema3/img16.png', alt='')  
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7.up
@@ -234,7 +234,7 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-3.up
-        img(data-aos="zoom-in")(src='@/assets/curso/tema3/img17.svg', alt='')  
+        img(data-aos="zoom-in")(src='@/assets/curso/tema3/img17.png', alt='')  
       .col-lg-7.up
         p.mb-4 Sin embargo, existen sustancias que cuentan con más de un peligro, por lo cual se considera que el grado de peligrosidad de las sustancias químicas puede variar, por ello siempre trabajar de forma segura es la manera correcta de desarrollar actividades con estos implementos.
         p Se recomienda ampliar la información en sesiones en línea con su instructor y con el material de apoyo, pero se dejan las siguientes acciones como tips necesarios para contrarrestar los peligros químicos:

@@ -29,7 +29,7 @@
 
     .row.justify-content-start.align-items-center     
       .col-lg-4.margin_top.d-none.d-lg-block
-          img.grandor_img.margin_img(src='@/assets/curso/tema1/img01.svg' alt='')(data-aos="zoom-in") 
+          img.grandor_img.margin_img(src='@/assets/curso/tema1/img01.png' alt='')(data-aos="zoom-in") 
 
     p.mt-5 Los planes de muestreo están diseñados para determinar las características físicas, químicas y microbiológicas de algún cuerpo de agua específico, con el uso de este plan se proporciona un modelo de guía para las personas que van a realizar la muestra y de esta manera reducir errores en ella, además de que minimiza la posibilidad de que los resultados salgan mal.
 
@@ -210,7 +210,7 @@
             p.mb-4 El muestreo de aguas puede tener diferentes fines que van desde conocer las características de la fuente de suministro, hasta determinar las condiciones que presenta un vertimiento. Para localizar el sitio de muestreo debe especificarse concretamente el fin de la muestra y el tipo de agua que se quiere muestrear, ya dependiendo de esto se especifica el lugar exacto y protocolo aplicable para la actividad.
             p En cualquier caso, siempre es necesario dejar registro detallado del lugar de la toma, incluso si se dispone de GPS se puede posicionar satelitalmente la ubicación.   
           .col-lg-4.d-none.d-lg-block
-            img.mb-4(data-aos="zoom-in")(src='@/assets/curso/tema1/img19.svg', alt='')  
+            img.mb-4(data-aos="zoom-in")(src='@/assets/curso/tema1/img19.png', alt='')  
     
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-8

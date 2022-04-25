@@ -16,13 +16,13 @@
             .row.justify-content-center.align-items-center.pb-1(titulo="Es incolora:") 
               .col-lg-10 
                 p en algunas ocasiones cuando observamos el mar o algún rio parece que el agua tuviera un color azul – verde, esto se debe a la forma en que el agua refleja la luz y también a la manera en que absorbe más fácilmente las longitudes de onda cortas. Sin embargo, no se percibe ningún color en ella a no ser que este mezclada con alguna otra sustancia, de no ser así es totalmente transparente para nuestra vista. 
-                img(src='@/assets/curso/tema4/img01.svg', alt='') 
+                img(src='@/assets/curso/tema4/img01.png', alt='') 
               
             .row.justify-content-center.align-items-center.pb-1(titulo="No tiene sabor ni olor:") 
               .col-lg-10 
                 p el agua a diferencia de otras sustancias, no tiene un sabor u olor característico, cuando esto sucede es porque ha sido alterado de alguna manera o porque al momento de consumirla ha traído consigo partículas de otros elementos. 
                   figure
-                    img(src='@/assets/curso/tema4/img02.svg', alt='') 
+                    img(src='@/assets/curso/tema4/img02.png', alt='') 
 
             .row.justify-content-center.align-items-center.pb-1(titulo="Los tres estados del agua:") 
               .col-lg-10 
@@ -38,23 +38,23 @@
                     i.lista-ul__vineta
                     p.mb-0 <b>Estado gaseoso:</b> cuando el agua se somete a determinadas temperaturas se produce el fenómeno de la evaporación y se condensa en la atmósfera. Así es como surgen las nubes, las cuales se componen por partículas de agua acumuladas.
                   figure
-                    img(src='@/assets/curso/tema4/img03.svg', alt='') 
+                    img(src='@/assets/curso/tema4/img03.png', alt='') 
             .row.justify-content-center.align-items-center.pb-1(titulo="pH:") 
               .col-lg-10 
                 p una de las principales características del agua es que por lo general tiene un pH neutro el cual oscila entre los 6,5 y 8,5; esto implica que por lo general el agua puede ser medianamente acida o medianamente básica. 
-                img(src='@/assets/curso/tema4/img04.svg', alt='') 
+                img(src='@/assets/curso/tema4/img04.png', alt='') 
               
             .row.justify-content-center.align-items-center.pb-1(titulo="Conductividad:") 
               .col-lg-10 
                 p el agua destilada o pura no es conductora de la electricidad sino aislante, dado que no posee electrones libres que puedan conducirla. Pero esto solo sucede cuando es agua destilada ya que solo está conformada por moléculas de agua, en cambio que el agua que utilizamos diariamente si es conductora de electricidad ya que está compuesta por una gran cantidad de minerales y otros conductores. 
                   figure
-                    img(src='@/assets/curso/tema4/img05.svg', alt='') 
+                    img(src='@/assets/curso/tema4/img05.png', alt='') 
 
             .row.justify-content-center.align-items-center.pb-1(titulo="Temperatura:") 
               .col-lg-10 
                 p el agua tiene la capacidad de retener el calor, por lo que se enfría más lentamente que otras sustancias y también tarda en calentarse.  
                 figure
-                  img(src='@/assets/curso/tema4/img06.svg', alt='') 
+                  img(src='@/assets/curso/tema4/img06.png', alt='') 
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7
@@ -72,7 +72,7 @@
         p.mb-0 Estas mediciones se realizan generalmente haciendo uso de equipos portátiles como sondas multiparamétricas, pHmetros y conductímetros, sin embargo, se debe resaltar que para hacer estos análisis siempre se debe llevar a cabo bajo las indicaciones de revisión y calibración de los equipos. 
     .row.justify-content-start.align-items-center     
       .col-lg-4.margin_top6.d-none.d-lg-block
-          img.grandor_img.margin_img(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.svg',alt='')
+          img.grandor_img.margin_img(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.png',alt='')
 
     .titulo-quinto.color-acento-contenido.pt-5
       h4 Explicación de algunos parámetros medidos in situ:
@@ -83,7 +83,7 @@
          p.pt-4 Este parámetro proporciona una medida de la cantidad de oxígeno disuelto en el agua. Mantener una concentración adecuada de oxígeno disuelto en el agua es importante para la supervivencia de los peces y otros organismos de vida acuática. La temperatura, el material orgánico disuelto, los oxidantes inorgánicos, etc. afectan sus niveles. La baja concentración de oxígeno disuelto puede ser un indicador de que el agua tiene una alta carga orgánica provocada por aguas residuales.
         .col-md-5
           figure
-            img.pt-4(src='@/assets/curso/tema4/img08.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema4/img08.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-lg-10
             .tarjeta-color.bg_color8 
@@ -94,7 +94,7 @@
           p.pt-4 La temperatura juega un papel muy importante en la solubilidad de los gases, en la disolución de las sales y por lo tanto en la conductividad eléctrica, en la determinación de pH, en el conocimiento del origen de agua y de las eventuales mezclas, etc. Las descargas de agua a altas temperaturas pueden causar daños a la flora y fauna de las aguas receptoras al interferir con la reproducción de las especies, incrementar el crecimiento de bacterias y otros organismos, acelerar las reacciones químicas, reducir los niveles de oxígeno y acelerar la eutrofización.
         .col-md-5
           figure.flex-end
-            img.pt-4(src='@/assets/curso/tema4/img09.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema4/img09.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-lg-10
             .tarjeta-color.bg_color8 
@@ -106,14 +106,14 @@
           p.pt-4 La conductividad de una muestra de agua es una medida de la capacidad que tiene la solución para transmitir corriente eléctrica. Esta capacidad depende de la presencia, movilidad, valencia y concentración de iones, así como de la temperatura del agua. Se debe tener en cuenta que las sales minerales son buenas conductoras y que las materias orgánicas y coloidales tienen poca conductividad. (INVEMAR, 2013, p.24)
         .col-md-5
           figure
-            img.pt-4(src='@/assets/curso/tema4/img10.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema4/img10.png', alt='Texto que describa la imagen')
 
       .row(numero="4" titulo="pH").justify-content-center.align-items-center
         .col-md-5.mb-4.mb-md-0
           p.pt-4 El pH es una medida de la concentración de iones de hidrógeno en el agua. Aguas fuera del rango normal de 6 a 9 pueden ser dañinas para la vida acuática. Estos niveles de pH pueden causar perturbaciones celulares y la eventual destrucción de la flora y fauna acuática. En el campo de abastecimiento de agua el pH tiene importancia en la coagulación química, desinfección, ablandamiento del agua y control de corrosión. (INVEMAR, 2013, p.22)
         .col-md-5
           figure
-            img.pt-4(src='@/assets/curso/tema4/img11.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema4/img11.png', alt='Texto que describa la imagen')
 
       .row(numero="5" titulo="Turbidez").justify-content-center.align-items-center.mb-5
         .col-md-5.mb-4.mb-md-0
@@ -121,7 +121,7 @@
           p.mb-4 En caso de requerirse la extracción de una muestra para la medición de los parámetros in situ, es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos (INVEMAR, 2013, p.26).
         .col-md-5
           figure
-            img.pt-4(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen')
+            img.pt-4(src='@/assets/curso/tema4/img12.png', alt='Texto que describa la imagen')
 
     .row.justify-content-start.align-items-center.mt-5.ms-1.pt-5           
       .col-lg-7

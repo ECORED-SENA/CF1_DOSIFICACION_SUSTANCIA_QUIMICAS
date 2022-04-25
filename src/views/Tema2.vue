@@ -50,12 +50,12 @@
                 p.text-start En primer lugar, están las muestras simples, que son aquellas que son obtenidas en el lugar y momento preestablecido para su análisis de manera individual, estas muestras se obtienen en su mayoría cuando son aguas de suministro o efluentes residuales. 
               .col-md-5
                 figure
-                  img(src='@/assets/curso/tema2/img02.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema2/img02.png', alt='Texto que describa la imagen')
 
             .row.justify-content-center
               .col-md-5.mb-md-0
                 figure
-                  img(src='@/assets/curso/tema2/img03.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')
               .col-md-5
                 p.text-start Segundo, encontramos las muestras compuestas que están determinadas por la mezcla y homogeneización de muestras simples que fueron recolectadas en el mismo lugar, pero en diferentes momentos. Estas muestras son utilizadas para calcular, por ejemplo, el funcionamiento eficaz de una planta de tratamiento de aguas. 
                 
@@ -64,7 +64,7 @@
                 p Por tercer y último, encontramos las muestras integradas, que son aquellas que se obtienen por mezclar y homogeneizar muestras simples que han sido obtenidas en diferentes puntos, pero simultáneamente. 
               .col-md-5
                 figure
-                  img(src='@/assets/curso/tema2/img04.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema2/img04.png', alt='Texto que describa la imagen')
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7.up
@@ -150,13 +150,13 @@
               p.mb-0 Para muestras microbiológicas aparte de los mencionado anteriormente se debe complementar la información con la preservación realizada (se debe consignar en el momento del alistamiento de los recipientes en el laboratorio, ya que la adición del preservante se adiciona antes del proceso de esterilización de los frascos).
         .col-lg-2.d-none.d-lg-block
           figure
-            img.pe-2(src='@/assets/curso/tema2/img10.svg', alt='')
+            img.pe-2(src='@/assets/curso/tema2/img10.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-5.mt-4           
       .col-lg-10 
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="flip-down")
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/img11.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img11.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-5 Una vez aclarados los conceptos anteriormente vistos; es necesario proceder con la integración de estos conocimientos en el desarrollo teórico-práctico que permita afianzarlos y dar inicio a su aplicación en el desarrollo del muestreo.
@@ -174,7 +174,7 @@
           .row.justify-content-center.align-items-center.pb-1(titulo="Práctica de reconocimiento de materiales y equipos de laboratorio:") 
             .col-lg-10 
               p En esta práctica se realizará todo un recorrido por el espacio de laboratorio donde podrá interactuar con los diferentes materiales (vidrio, plástico), los diferentes instrumentos y equipos con los que se puede trabajar en el mismo y los riesgos que debe tener claros antes de realizar cualquier práctica. A continuación podrá profundizar dicha información.
-              img(src='@/assets/curso/tema2/img12.svg', alt='') 
+              img(src='@/assets/curso/tema2/img12.png', alt='') 
             .row.justify-content-center.align-items-center.mt-5    
               .col-lg-5 
                 a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
@@ -193,13 +193,13 @@
             .col-lg-10 
               p Con base en el material teórico se iniciará su aplicación en laboratorio. Su finalidad es aprender a utilizar los equipos e instrumentos del laboratorio que son requeridos para la determinación de masa y volumen de diferentes elementos según indicaciones de su instructor.
                 figure
-                  img(src='@/assets/curso/tema2/img13.svg', alt='') 
+                  img(src='@/assets/curso/tema2/img13.png', alt='') 
 
           .row.justify-content-center.align-items-center.pb-1(titulo="Práctica de preparación de soluciones:") 
             .col-lg-10 
               p Su instructor le brindara el apoyo requerido para que pueda realizar diferentes soluciones en el laboratorio.
                 figure
-                  img(src='@/assets/curso/tema2/img14.svg', alt='') 
+                  img(src='@/assets/curso/tema2/img14.png', alt='') 
               .row.justify-content-center
                 .col-lg-6
                   a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
@@ -224,43 +224,43 @@
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema2/img15.svg')
+            img(src='@/assets/curso/tema2/img15.png')
         p La nevera debe estar marcada con firma, sello de quien toma la muestra, fecha y hora. 
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema2/img16.svg')
+            img(src='@/assets/curso/tema2/img16.png')
         p La nevera de tener la cantidad suficiente de hielo asegurado que se mantenga la temperatura 4°C hasta su llegada al laboratorio.
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema2/img17.svg')
+            img(src='@/assets/curso/tema2/img17.png')
         p Asegurar la tapa de la nevera para que en su recorrido no se altere el resultado de la muestra.
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema2/img18.svg')
+            img(src='@/assets/curso/tema2/img18.png')
         p Que el vehículo cumpla con las condiciones seguras para el transporte de la muestra.
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema2/img19.svg')
+            img(src='@/assets/curso/tema2/img19.png')
         p La nevera se de cuidar de no ser maltratada y conservar su posición horizontal, mantener la nevera   lejos de calor para evitar su alteración.
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema2/img20.svg')
+            img(src='@/assets/curso/tema2/img20.png')
         p Vigilar la nevera para evitar ser manipuladas por personas extrañas al muestreo.
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema2/img21.svg')
+            img(src='@/assets/curso/tema2/img21.png')
         p Cuando las neveras se envíen por mensajería o con personal que no participó en la toma de la muestra se debe marcar y sellar conservando su contenido original. Debemos utilizar el transporte de menor tiempo posible para garantizar su llegada al laboratorio.  
 
 
@@ -279,7 +279,6 @@
       .col-lg-10   
         .bg_img22_t2.p-5    
           LineaTiempoB.color-secundario(:datos="datosLineaTiempoB")
-
 
 
 </template>
