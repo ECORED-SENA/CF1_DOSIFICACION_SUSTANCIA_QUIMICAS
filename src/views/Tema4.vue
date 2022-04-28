@@ -33,7 +33,7 @@
                     p.mb-0 <b>Estado sólido:</b> este estado se produce cuando el agua es sometida a temperaturas inferiores a los 0ºC y se congela. Este fenómeno en específico tiene el nombre de solidificación, y se genera cuando las moléculas que forman el agua están unidas. Cuando esto sucede encontramos el agua en los glaciares o en zonas de montaña con nieve. 
                   li  
                     i.lista-ul__vineta
-                    p.mb-0 <b>Estado líquido:</b> este es el estado del agua más predominante en el planeta Tierra ya que se encuentra en ríos, lagos, mares, océanos y aguas subterráneas, una vez el agua pasa de estado sólido a estado líquido tiene el nombre de fusión, allí la mayoría de las moléculas permanecen unidas, esto sucede entre los 0º y 100º. 
+                    p.mb-0 <b>Estado líquido:</b> este es el estado del agua más predominante en el planeta tierra ya que se encuentra en ríos, lagos, mares, océanos y aguas subterráneas, una vez el agua pasa de estado sólido a estado líquido tiene el nombre de fusión, allí la mayoría de las moléculas permanecen unidas, esto sucede entre los 0º y 100º. 
                   li  
                     i.lista-ul__vineta
                     p.mb-0 <b>Estado gaseoso:</b> cuando el agua se somete a determinadas temperaturas se produce el fenómeno de la evaporación y se condensa en la atmósfera. Así es como surgen las nubes, las cuales se componen por partículas de agua acumuladas.
@@ -61,21 +61,21 @@
         .row.justify-content-start.align-items-center.title-color.p-2(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block             
           .col-lg-11.ps-2
-            h5.mb-0 Tipos de ensayos: ensayos in situ
+            h5.mb-0 Tipos de ensayos: ensayos <em>in situ</em>
         .row.justify-content-start.align-items-center.mb-4(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block.margin_top2
             img(src='@/assets/curso/tema1/img05.svg',alt='')
 
     .row.justify-content-end.align-items-center.mt-4
       .col-lg-8.index_img
-        p.mb-4 Los ensayos in situ, son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46), sin embargo para otro tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones in situ incluyendo conductividad, turbidez y oxígeno disuelto, la medición de estos se realiza con el equipo multiparamétrico.
+        p.mb-4 Los ensayos <em>in situ</em>, son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46), sin embargo para otro tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones in situ incluyendo conductividad, turbidez y oxígeno disuelto, la medición de estos se realiza con el equipo multiparamétrico.
         p.mb-0 Estas mediciones se realizan generalmente haciendo uso de equipos portátiles como sondas multiparamétricas, pHmetros y conductímetros, sin embargo, se debe resaltar que para hacer estos análisis siempre se debe llevar a cabo bajo las indicaciones de revisión y calibración de los equipos. 
     .row.justify-content-start.align-items-center     
       .col-lg-4.margin_top6.d-none.d-lg-block
           img.grandor_img.margin_img(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.png',alt='')
 
     .titulo-quinto.color-acento-contenido.pt-5
-      h4 Explicación de algunos parámetros medidos in situ:
+      h4 Explicación de algunos parámetros medidos <em>in situ</em>:
 
     LineaTiempoD.color-acento-contenido.mb-5
       .row(numero="1" titulo="Oxígeno disuelto").justify-content-center.align-items-center
@@ -87,7 +87,7 @@
         .row.justify-content-center
           .col-lg-10
             .tarjeta-color.bg_color8 
-              p.m-4.p-4 Las fuentes de oxígeno en el agua son la aireación y la fotosíntesis de las algas, su concentración depende fundamentalmente de la temperatura, presión y salinidad. (INVEMAR, 2013, p.14)
+              p.m-4.p-4 Las fuentes de oxígeno en el agua son la aireación y la fotosíntesis de las algas, su concentración depende fundamentalmente de la temperatura, presión y salinidad. (INVEMAR, 2013, p.14).
 
       .row(numero="2" titulo="Temperatura").justify-content-center.align-items-center
         .col-md-5.mb-4.mb-md-0
@@ -99,18 +99,18 @@
           .col-lg-10
             .tarjeta-color.bg_color8 
               p.m-4.p-4 La medición de temperatura en muestras ambientales debe ser una labor realizada in situ, y no aplica por ello los procedimientos de almacenamiento y preservación. El mejor método para la lectura de este parámetro es introducir directamente los equipos de medición (termómetro o sonda) en el cuerpo de agua.
-        p.mb-4 Las muestras en campo deben medirse directamente en la columna de agua introduciendo la sonda y procurando mantenerla siempre a la misma profundidad (25 cm por debajo de la superficie). Para tomar la temperatura en el fondo de la columna de agua es conveniente el uso de botellas que posean termómetros invertidos, o el uso de sondas que puedan bajar hasta el lugar donde se necesita leer. Si no se dispone de estos materiales, se toma la muestra con una de las botellas de muestreo (Nansen o Niskin) y se transfiere la mayor cantidad de agua a un recipiente grande (balde, con el fin de minimizar los errores por la transferencia de calor con el ambiente), y se introduce la sonda o termómetro, se mantiene una agitación constante con movimientos circulares y se registra el valor de temperatura; esta operación debe hacerse lo más rápido posible (INVEMAR, 2013, p.21).
+        p.mb-4 Las muestras en campo deben medirse directamente en la columna de agua introduciendo la sonda y procurando mantenerla siempre a la misma profundidad (25 cm por debajo de la superficie). Para tomar la temperatura en el fondo de la columna de agua es conveniente el uso de botellas que posean termómetros invertidos, o el uso de sondas que puedan bajar hasta el lugar donde se necesita leer. Si no se dispone de estos materiales, se toma la muestra con una de las botellas de muestreo (<em>Nansen o Niskin</em>) y se transfiere la mayor cantidad de agua a un recipiente grande (balde, con el fin de minimizar los errores por la transferencia de calor con el ambiente), y se introduce la sonda o termómetro, se mantiene una agitación constante con movimientos circulares y se registra el valor de temperatura; esta operación debe hacerse lo más rápido posible (INVEMAR, 2013, p.21).
 
       .row(numero="3" titulo="Conductividad").justify-content-center.align-items-center
         .col-md-5.mb-4.mb-md-0
-          p.pt-4 La conductividad de una muestra de agua es una medida de la capacidad que tiene la solución para transmitir corriente eléctrica. Esta capacidad depende de la presencia, movilidad, valencia y concentración de iones, así como de la temperatura del agua. Se debe tener en cuenta que las sales minerales son buenas conductoras y que las materias orgánicas y coloidales tienen poca conductividad. (INVEMAR, 2013, p.24)
+          p.pt-4 La conductividad de una muestra de agua es una medida de la capacidad que tiene la solución para transmitir corriente eléctrica. Esta capacidad depende de la presencia, movilidad, valencia y concentración de iones, así como de la temperatura del agua. Se debe tener en cuenta que las sales minerales son buenas conductoras y que las materias orgánicas y coloidales tienen poca conductividad. (INVEMAR, 2013, p.24).
         .col-md-5
           figure
             img.pt-4(src='@/assets/curso/tema4/img10.png', alt='Texto que describa la imagen')
 
       .row(numero="4" titulo="pH").justify-content-center.align-items-center
         .col-md-5.mb-4.mb-md-0
-          p.pt-4 El pH es una medida de la concentración de iones de hidrógeno en el agua. Aguas fuera del rango normal de 6 a 9 pueden ser dañinas para la vida acuática. Estos niveles de pH pueden causar perturbaciones celulares y la eventual destrucción de la flora y fauna acuática. En el campo de abastecimiento de agua el pH tiene importancia en la coagulación química, desinfección, ablandamiento del agua y control de corrosión. (INVEMAR, 2013, p.22)
+          p.pt-4 El pH es una medida de la concentración de iones de hidrógeno en el agua. Aguas fuera del rango normal de 6 a 9 pueden ser dañinas para la vida acuática. Estos niveles de pH pueden causar perturbaciones celulares y la eventual destrucción de la flora y fauna acuática. En el campo de abastecimiento de agua el pH tiene importancia en la coagulación química, desinfección, ablandamiento del agua y control de corrosión. (INVEMAR, 2013, p.22).
         .col-md-5
           figure
             img.pt-4(src='@/assets/curso/tema4/img11.png', alt='Texto que describa la imagen')
@@ -213,7 +213,7 @@
                 img.img-t.img-a(src='@/assets/curso/tema4/img16.svg')
             .col-lg-9
               p.mb-2 <b>pH:</b>
-              p.mb-4 El método de medida más común es usar una celda electroquímica, consistente en un electrodo indicador sensible a la concentración de protones, esto se realiza mediante el uso de un pHmetro.
+              p.mb-4 el método de medida más común es usar una celda electroquímica, consistente en un electrodo indicador sensible a la concentración de protones, esto se realiza mediante el uso de un pHmetro.
         .row.justify-content-center.align-items-center               
           <hr> 
             .col-lg-1
@@ -221,7 +221,7 @@
                 img.img-t.img-a(src='@/assets/curso/tema4/img17.svg')
             .col-lg-9
               p.mb-2 <b>Alcalinidad:</b>
-              p.mb-4 La determinación de la alcalinidad de una muestra de agua se logra por titulación con una solución de ácido sulfúrico de normalidad conocida y se hace por medio de la fenolftaleína como indicador dependiendo del pH iniciar de la muestra.
+              p.mb-4 la determinación de la alcalinidad de una muestra de agua se logra por titulación con una solución de ácido sulfúrico de normalidad conocida y se hace por medio de la fenolftaleína como indicador dependiendo del pH iniciar de la muestra.
         .row.justify-content-center.align-items-center               
           <hr> 
             .col-lg-1
@@ -229,7 +229,7 @@
                 img.img-t.img-a(src='@/assets/curso/tema4/img18.svg')
             .col-lg-9
               p.mb-2 <b>Carbono orgánico total:</b>
-              p.mb-4 Se utilizan diversos métodos instrumentales los cuales arrojan resultados en pocos minutos y requieren de 1mL de muestra. El procedimiento se realiza introduciendo la muestra en un tubo de combustión a 960ºC lo cual vaporiza el agua. La cantidad de CO2 registrada es proporcional al contenido de carbono de la muestra.
+              p.mb-4 se utilizan diversos métodos instrumentales los cuales arrojan resultados en pocos minutos y requieren de 1mL de muestra. El procedimiento se realiza introduciendo la muestra en un tubo de combustión a 960ºC lo cual vaporiza el agua. La cantidad de CO2 registrada es proporcional al contenido de carbono de la muestra.
         .row.justify-content-center.align-items-center              
           <hr> 
             .col-lg-1
@@ -237,7 +237,7 @@
                 img.img-t.img-a(src='@/assets/curso/tema4/img19.svg')
             .col-lg-9
               p.mb-2 <b>Oxígeno disuelto:</b>
-              p.mb-4 El método más utilizado es el de Alsterberg, el cual fija el oxígeno en la muestra utilizando la adición de nitruro y sulfato de manganeso, luego se añade ácido sulfúrico el cual libera iodo y se valora utilizando almidón como indicador.  
+              p.mb-4 el método más utilizado es el de Alsterberg, el cual fija el oxígeno en la muestra utilizando la adición de nitruro y sulfato de manganeso, luego se añade ácido sulfúrico el cual libera iodo y se valora utilizando almidón como indicador.  
           <hr>
 
 

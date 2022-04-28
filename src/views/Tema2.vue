@@ -22,7 +22,7 @@
               caption Nota. SENA, (2021).            
               tr.bg-table
                 th.br-tabla-r.w-25.text-center PUNTOS DE MUESTREO
-                th TÉCNICAS DE MUESTREO
+                th.text-center TÉCNICAS DE MUESTREO
 
               tr.bg-tabla
                 td.br-tabla-r.text-center <b>Grifos</b>
@@ -144,7 +144,7 @@
               p.mb-0 Debe ser totalmente legible (no realizar tachones).
             li  
               i.lista-ul__vineta
-              p.mb-0 La información mínima que debe contener según el ICONTEC GTC 100 es: si aplica, se debe especificar el código del proyecto, las consideraciones de seguridad y el código del cronograma, por otro lado siempre debe contener, el nombre de identificación de la muestra, la identificación de la ubicación del muestreo, el punto de muestreo y el intervalo de tiempo del mismo (fecha y hora), tipo de muestreo, la empresa o nombre de la persona que realiza la toma, parámetros medidos in situ (p.5)
+              p.mb-0 La información mínima que debe contener según el ICONTEC GTC 100 es: si aplica, se debe especificar el código del proyecto, las consideraciones de seguridad y el código del cronograma, por otro lado siempre debe contener, el nombre de identificación de la muestra, la identificación de la ubicación del muestreo, el punto de muestreo y el intervalo de tiempo del mismo (fecha y hora), tipo de muestreo, la empresa o nombre de la persona que realiza la toma, parámetros medidos in situ (p.5).
             li  
               i.lista-ul__vineta
               p.mb-0 Para muestras microbiológicas aparte de los mencionado anteriormente se debe complementar la información con la preservación realizada (se debe consignar en el momento del alistamiento de los recipientes en el laboratorio, ya que la adición del preservante se adiciona antes del proceso de esterilización de los frascos).
@@ -177,13 +177,13 @@
               img(src='@/assets/curso/tema2/img12.png', alt='') 
             .row.justify-content-center.align-items-center.mt-5    
               .col-lg-5 
-                a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+                a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://drive.google.com/file/d/1aTl4ycZqWgZXl1u-s6kcmXfOz0qj22Je/view" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
                     p.text-blue.text-small Enlace web. Practica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI).
               .col-lg-5 
-                a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+                a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://drive.google.com/file/d/1E4WsPLBqEPk24xKjkT-y04iMnOhhWXfU/view" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
@@ -202,7 +202,7 @@
                   img(src='@/assets/curso/tema2/img14.png', alt='') 
               .row.justify-content-center
                 .col-lg-6
-                  a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+                  a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://drive.google.com/file/d/1hBjJof2Xd6pV9b5cPnSCJlA2g4HjeOlQ/view" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
