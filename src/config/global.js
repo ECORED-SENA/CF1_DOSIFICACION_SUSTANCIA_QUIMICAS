@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Planes y técnicas de muestreo.',
+    componenteFormativo: 'Planes y técnicas de muestreo',
     descripcionCurso:
       'En este componente formativo se abordan temas que le permitirán tomar muestras de agua adecuadamente y procesarlas para su análisis fisicoquímico para una acertada dosificación de sustancias que permitan su potabilización.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

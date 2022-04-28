@@ -1,1 +1,1 @@
-module.exports = 'CF1_DOSIFICACION_SUSTANCIA_QUIMICAS'
+module.exports = 'Planes y técnicas de muestreo'
