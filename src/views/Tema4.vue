@@ -68,7 +68,7 @@
 
     .row.justify-content-center.align-items-center.mt-4
       .col-lg-4
-          img.grandor_img.margin_img(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.png',alt='')    
+          img(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.png',alt='')    
       .col-lg-8
         p Los ensayos <i>in situ</i>, son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46), sin embargo para otro tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones <i>in situ</i> incluyendo conductividad, turbidez y oxígeno disuelto, la medición de estos se realiza con el equipo multiparamétrico.
         p.mb-0 Estas mediciones se realizan generalmente haciendo uso de equipos portátiles como sondas multiparamétricas, pHmetros y conductímetros, sin embargo, se debe resaltar que para hacer estos análisis siempre se debe llevar a cabo bajo las indicaciones de revisión y calibración de los equipos. 
