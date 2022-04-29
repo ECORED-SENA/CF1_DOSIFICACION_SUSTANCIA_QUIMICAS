@@ -181,13 +181,13 @@
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p.text-blue.text-small #[b Anexo.] Practica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI).
+                    p.text-blue.text-small #[b Anexo.] Práctica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI).
               .col-lg-5 
                 a.anexo.mb-4.mb-lg-0.bg_enlace(:href="obtenerLink('/downloads/alistamiento_y_esterilizacion_de_materiales.pdf')" target="_blank" type="application/pdf")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p.text-blue.text-small #[b Anexo.] Practica de laboratorio alistamiento y esterilización de materiales para el muestreo de agua para análisis microbiológico. Centro de gestión industrial (CGI).
+                    p.text-blue.text-small #[b Anexo.] Práctica de laboratorio alistamiento y esterilización de materiales para el muestreo de agua para análisis microbiológico. Centro de gestión industrial (CGI).
 
           .row.justify-content-center.align-items-center.pb-1(titulo="Práctica de medición de masa y volumen:") 
             .col-lg-10 
@@ -206,7 +206,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
-                      p.text-blue.text-small #[b Anexo.] Practica de laboratorio de soluciones. Centro de gestión industrial (CGI).
+                      p.text-blue.text-small #[b Anexo.] Práctica de laboratorio de soluciones. Centro de gestión industrial (CGI).
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7
