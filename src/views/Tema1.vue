@@ -9,7 +9,7 @@
 
     .row.justify-content-end.align-items-center.mt-5 
       .col-lg-9.ps-5.index_img(data-aos="fade-left") 
-        p.mt-5.mb-4 Para iniciar el monitoreo de agua por medio de la toma de muestras, se deben de tener en cuenta ciertos parámetros o consideraciones previas a iniciar el muestreo, estas son algunas de ellas:
+        p.mt-5.mb-4 Para iniciar el monitoreo de agua por medio de la toma de muestras, se deben tener en cuenta ciertos parámetros o consideraciones previas a iniciar el muestreo, estas son algunas de ellas:
         ul.lista-ul--color
           li 
             i.fas.fa-regular.fa-flask
@@ -55,7 +55,7 @@
             .p-4
               p Las cuales deben estar sometidas a las diferentes leyes establecidas por los organismos estatales.
 
-    p.mb-4 Para el muestreo de aguas se manejan una diversa cantidad de equipos, pero estos se pueden clasificar según el lugar en donde se necesite tomar la muestra, A continuación, se verán algunos de estos equipos según su lugar de uso, ver tabla 1.
+    p.mb-4 Para el muestreo de aguas se maneja una diversa cantidad de equipos, pero estos se pueden clasificar según el lugar en donde se necesite tomar la muestra. A continuación, se verán algunos de estos equipos según su lugar de uso, ver tabla 1.
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7
@@ -72,7 +72,7 @@
     .row.mt-4.mb-4           
       .col-lg-12
         .cajon.color-primario.bg_color2.p-4.mb-4(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0.px-4 Debido a que el recurso hídrico tiene gran cantidad de usos, el alistamiento debe reflejar no solo las necesidades de equipos, instrumentación y reactivos sino también incluir información de los diferentes usuarios involucrados, dentro de esa información se sugiere de acuerdo al Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], (2017):
+          p(data-aos="fade-down").mb-0.px-4 Debido a que el recurso hídrico tiene gran cantidad de usos, el alistamiento debe reflejar no solo las necesidades de equipos, instrumentación y reactivos sino también incluir información de los diferentes usuarios involucrados, dentro de esa información se sugiere de acuerdo con el Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], (2017):
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -214,9 +214,8 @@
     
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-8
-        p(data-aos="fade-down").mt-5.bg_cajon.p-3.text-center De manera general la Información requerida al momento del muestreo debe ser como mínimo, la siguiente (Instituto Nacional de Tecnología Agropecuaria [INTA], 2011, p. 3):
-    img.img-a.img-t.mt-5(data-aos="slide-left")(src='@/assets/curso/tema1/img20.svg', alt='')
-
+        p(data-aos="fade-down").mt-5.bg_cajon.p-3.text-center De manera general la información requerida al momento del muestreo debe ser como mínimo, la siguiente (Instituto Nacional de Tecnología Agropecuaria [INTA], 2011, p. 3):
+      img.img-a.img-t.mt-5(data-aos="slide-left")(src='@/assets/curso/tema1/img20.svg', alt='')
     .row.mb-5.justify-content-center.mt-5
       .col-lg-10
         .bloque-texto-c.color.bg_color2.p-4

@@ -26,7 +26,7 @@
 
               tr.bg-tabla
                 td.br-tabla-r.text-center <b>Grifos</b>
-                td Cuando se trata de grifos de agua es necesario retirar los filtros que tenga, posteriormente se limpia con alcohol y se flamea el grifo mientras está cerrado, antes de tomar la muestra se debe dejar correr el agua por al menos cinco (5) minutos, luego se destapa el frasco se llena se cierra.
+                td Cuando se trata de grifos de agua es necesario retirar los filtros que tenga, posteriormente se limpia con alcohol y se flamea el grifo mientras está cerrado, antes de tomar la muestra se debe dejar correr el agua por al menos cinco (5) minutos, luego se destapa el frasco, se llena y se cierra.
               tr.bg-tabla2
                 td.br-tabla-r.text-center <b>Pozos y depósitos</b> 
                 td Se introduce en el agua el frasco de muestreo sostenido con una cuerda y se toma la muestra luego de haber agitado la superficie del cuerpo de agua. 
@@ -177,13 +177,13 @@
               img(src='@/assets/curso/tema2/img12.png', alt='') 
             .row.justify-content-center.align-items-center.mt-5    
               .col-lg-5 
-                a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://drive.google.com/file/d/1aTl4ycZqWgZXl1u-s6kcmXfOz0qj22Je/view" target="_blank")
+                a.anexo.mb-4.mb-lg-0.bg_enlace(:href="obtenerLink('/downloads/reconocimiento_de_material_de_laboratorio.pdf')" target="_blank" type="application/pdf")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
                     p.text-blue.text-small Enlace web. Practica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI).
               .col-lg-5 
-                a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://drive.google.com/file/d/1E4WsPLBqEPk24xKjkT-y04iMnOhhWXfU/view" target="_blank")
+                a.anexo.mb-4.mb-lg-0.bg_enlace(:href="obtenerLink('/downloads/alistamiento_y_esterilizacion_de_materiales.pdf')" target="_blank" type="application/pdf")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
@@ -202,7 +202,7 @@
                   img(src='@/assets/curso/tema2/img14.png', alt='') 
               .row.justify-content-center
                 .col-lg-6
-                  a.anexo.mb-4.mb-lg-0.bg_enlace(href="https://drive.google.com/file/d/1hBjJof2Xd6pV9b5cPnSCJlA2g4HjeOlQ/view" target="_blank")
+                  a.anexo.mb-4.mb-lg-0.bg_enlace(:href="obtenerLink('/downloads/laboratorio_soluciones.pdf')" target="_blank" type="application/pdf")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
@@ -231,7 +231,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/img16.png')
-        p La nevera de tener la cantidad suficiente de hielo asegurado que se mantenga la temperatura 4°C hasta su llegada al laboratorio.
+        p La nevera de tener la cantidad suficiente de hielo asegurando que se mantenga la temperatura 4°C hasta su llegada al laboratorio.
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
@@ -249,13 +249,13 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/img19.png')
-        p La nevera se de cuidar de no ser maltratada y conservar su posición horizontal, mantener la nevera   lejos de calor para evitar su alteración.
+        p La nevera se debe cuidar de no ser maltratada y conservar su posición horizontal, mantener la nevera   lejos de calor para evitar su alteración.
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/img20.png')
-        p Vigilar la nevera para evitar ser manipuladas por personas extrañas al muestreo.
+        p Vigilar la nevera para evitar ser manipulada por personas extrañas al muestreo.
 
       .tarjeta.color.bg_slyder_t2.p-4
         .row.justify-content-center.mb-3
