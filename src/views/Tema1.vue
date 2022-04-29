@@ -160,7 +160,7 @@
                   td <b>Pluviógrafo:</b> en este dispositivo se registra gráficamente la cantidad de agua que se precipita en un periodo de tiempo específico lo cual permite conocer la distribución e intensidad de las lluvias. 
                 tr
                   td <b>Conjunto de bomba sumergible:</b> la gran capacidad de esta bomba permite bombear un punto de medición rápidamente.
-                  td <b>Muestreador continuo portátil automático:</b> este muestreador puede ser utilizado de manera continua o en intervalos en arroyos, ríos y lagos. 	Dragas Van Veen: Son utilizadas para tomar muestras de los fondos de lagos, ríos y demás cuerpos de agua. Se compone de una draga la cual desciende abierta y al tomar el fondo se cierra permitiendo así la toma de la muestra.
+                  td <b>Muestreador continuo portátil automático:</b> este muestreador puede ser utilizado de manera continua o en intervalos en arroyos, ríos y lagos.
                   td <b>Dragas Van Veen:</b> son utilizadas para tomar muestras de los fondos de lagos, ríos y demás cuerpos de agua. Se compone de una draga la cual desciende abierta y al tomar el fondo se cierra permitiendo así la toma de la muestra.
                   td
 

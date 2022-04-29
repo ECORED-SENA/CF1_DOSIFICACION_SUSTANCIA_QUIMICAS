@@ -7,7 +7,7 @@
         span 3
       h1 Buenas prácticas de laboratorio
 
-    p.mb-4 Las <em>buenas prácticas de laboratorio</em> (BPL) están definidas como un conjunto de reglas, procedimientos operativos y operacionales que están determinados por la <em>organization for economic cooperation and development</em> (OCDE), y se consideran como obligatorias para asegurar la calidad e integridad de los datos producidos en los procesos del laboratorio, esto con la finalidad de armonizar los protocolos, la información y la documentación de los procedimientos operativos del laboratorio. 
+    p.mb-4 Las <em>buenas prácticas de laboratorio</em> (BPL) están definidas como un conjunto de reglas, procedimientos operativos y operacionales que están determinados por la <em>Organization for Economic Cooperation and Development</em> (OCDE), y se consideran como obligatorias para asegurar la calidad e integridad de los datos producidos en los procesos del laboratorio, esto con la finalidad de armonizar los protocolos, la información y la documentación de los procedimientos operativos del laboratorio. 
 
     .row.mt-4.mb-4.justify-content-center           
       .col-lg-10.align-self-center
@@ -94,7 +94,7 @@
           .col-1.p-0.d-none.d-lg-block.margin_top2
             img(src='@/assets/curso/tema1/img05.svg',alt='') 
 
-    p.mt-4.mb-4 De acuerdo a la sociedad americana de química (2003), en su publicación seguridad en los laboratorios químicos académicos, prevenir accidentes de cualquier tipo en un laboratorio, es responsabilidad de todos los que usan este espacio de trabajo, por lo cual es necesario siempre una actitud cooperativa activa, es importante recordar que los accidentes que se pueden dar cuando se trabaja con insumos químicos bien sea dentro de un laboratorio o en pruebas de campo, suelen ser asociadas a:
+    p.mt-4.mb-4 De acuerdo con la Sociedad Americana de Química (2003), en su publicación seguridad en los laboratorios químicos académicos, prevenir accidentes de cualquier tipo en un laboratorio, es responsabilidad de todos los que usan este espacio de trabajo, por lo cual es necesario siempre una actitud cooperativa activa, es importante recordar que los accidentes que se pueden dar cuando se trabaja con insumos químicos bien sea dentro de un laboratorio o en pruebas de campo, suelen ser asociadas a:
     .row.justify-content-center.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -138,7 +138,7 @@
                 p.mb-0 Familiarizarse con los equipos de seguridad.
               li  
                 i.lista-ul__vineta
-                p.mb-0 Siempre indagar antes sobre los peligrosos si va a manejar sustancias químicas (p.3). 
+                p.mb-0 Siempre indagar antes sobre los peligrosos si va a manejar sustancias químicas. 
                 br
                 br
     
@@ -159,7 +159,7 @@
 
       .row(numero="3" titulo="Protección de ojos")
         .col-md-6.mb-4.mb-md-0
-          p.pt-4 Es obligatorio que todo el personal que permanezca en el laboratorio use permanentemente las gafas de seguridad, aun cuando no estén realizando prácticas. Las personas que utilizan gafas de manera permanente deben disponer de unas gafas de seguridad suplementarias. No utilice lentes de contacto dentro del laboratorio, ya que su uso facilita la acumulación de sustancias tóxicas en los ojos. Los lentes blandos absorben los vapores de sustancias tóxicas, ocasionando la irritación, además de interferir con los procedimientos de lavado de emergencia (sociedad americana de química, 2003, p.3).
+          p.pt-4 Es obligatorio que todo el personal que permanezca en el laboratorio use permanentemente las gafas de seguridad, aun cuando no estén realizando prácticas. Las personas que utilizan gafas de manera permanente deben disponer de unas gafas de seguridad suplementarias. No utilice lentes de contacto dentro del laboratorio, ya que su uso facilita la acumulación de sustancias tóxicas en los ojos. Los lentes blandos absorben los vapores de sustancias tóxicas, ocasionando la irritación, además de interferir con los procedimientos de lavado de emergencia (Sociedad Americana de Química, 2003, p.3).
         .col-md-3
           figure
             img.pt-4(src='@/assets/curso/tema3/img10.svg', alt='Texto que describa la imagen')
@@ -173,7 +173,7 @@
 
       .row(numero="5" titulo="Instrumental de campo o vestimenta (Guardapolvo blanco)")
         .col-md-6.mb-4.mb-md-0
-          p.pt-4 Primero se debe aclarar que la ropa utilizada en laboratorio o en campo, debe proteger tanto de salpicaduras como de derrames, preferiblemente un guardapolvo blanco, si es para uno de cuencas de agua contaminadas este debe ser impermeable (sociedad americana de química, 2003, p.4).
+          p.pt-4 Primero se debe aclarar que la ropa utilizada en laboratorio o en campo, debe proteger tanto de salpicaduras como de derrames, preferiblemente un guardapolvo blanco, si es para uno de cuencas de agua contaminadas este debe ser impermeable (Sociedad Americana de Química, 2003, p.4).
         .col-md-3
           figure
             img.pt-4(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
@@ -194,7 +194,7 @@
 
       .row(numero="8" titulo="Guantes de nitrilo, de neopreno, gruesos y delgados")
         .col-md-6.mb-4.mb-md-0
-          p.pt-4 Cualquier manipulación de sustancias corrosivas, irritantes, de elevada toxicidad o de elevado poder de penetración a través de la piel, debe ser llevada a cabo empleando guantes adecuados y limpios. Finalizada la práctica, lave los guantes con abundante agua y jabón. Haga lo propio con sus manos. (Sociedad americana de química, 2003, p.5).
+          p.pt-4 Cualquier manipulación de sustancias corrosivas, irritantes, de elevada toxicidad o de elevado poder de penetración a través de la piel, debe ser llevada a cabo empleando guantes adecuados y limpios. Finalizada la práctica, lave los guantes con abundante agua y jabón. Haga lo propio con sus manos. (Sociedad Americana de Química, 2003, p.5).
         .col-md-3          
           figure
             img.pt-4(src='@/assets/curso/tema3/img15.svg', alt='Texto que describa la imagen')
@@ -204,11 +204,11 @@
         .col-lg-10
           p(data-aos="fade-down").text-center.mb-0.p-4  Por favor diríjase al documento seguridad en laboratorios químicos académicos, volumen 1, séptima edición, que encuentra en material de apoyo y amplíe la información acá presentada. 
         .col-lg-5 
-          a.anexo.mb-4.mb-lg-4.bg_enlace(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+          a.anexo.mb-4.mb-lg-4.bg_enlace(:href="obtenerLink('/downloads/seguridad_en_los_laboratorios_quimicos_academico.pdf')" target="_blank" type="application/pdf")
             .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
+              img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
-              p.text-blue.text-small Enlace web. Seguridad en laboratorios químicos académicos.
+              p.text-blue.text-small #[b Anexo.] Seguridad en laboratorios químicos académicos.
 
     .bg_img15_t3
       .row.justify-content-start.align-items-center.mb-4(data-aos="fade-left")
@@ -253,7 +253,7 @@
                   p.mb-0 Siga las recomendaciones dadas en las hojas de seguridad de los productos.
                 li  
                   i.lista-ul__vineta
-                  p.mb-0 Siempre siga las recomendaciones de su instructor. (Sociedad Americana de química, 2003, p.10).
+                  p.mb-0 Siempre siga las recomendaciones de su instructor. (Sociedad Americana de Química, 2003, p.10).
               
 
 </template>

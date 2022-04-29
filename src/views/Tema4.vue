@@ -61,7 +61,7 @@
         .row.justify-content-start.align-items-center.title-color.p-2(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block             
           .col-lg-11.ps-2
-            h5.mb-0 Tipos de ensayos: ensayos <em>in situ</em>
+            h5.mb-0 Tipos de ensayos: ensayos <i>in situ</i>
         .row.justify-content-start.align-items-center.mb-4(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block.margin_top2
             img(src='@/assets/curso/tema1/img05.svg',alt='')
@@ -70,13 +70,13 @@
       .col-lg-4
           img.grandor_img.margin_img(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.png',alt='')    
       .col-lg-8
-        p Los ensayos <em>in situ</em>, son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46), sin embargo para otro tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones in situ incluyendo conductividad, turbidez y oxígeno disuelto, la medición de estos se realiza con el equipo multiparamétrico.
+        p Los ensayos <i>in situ</i>, son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46), sin embargo para otro tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones <i>in situ</i> incluyendo conductividad, turbidez y oxígeno disuelto, la medición de estos se realiza con el equipo multiparamétrico.
         p.mb-0 Estas mediciones se realizan generalmente haciendo uso de equipos portátiles como sondas multiparamétricas, pHmetros y conductímetros, sin embargo, se debe resaltar que para hacer estos análisis siempre se debe llevar a cabo bajo las indicaciones de revisión y calibración de los equipos. 
  
 
 
     .titulo-quinto.color-acento-contenido.pt-5
-      h4 Explicación de algunos parámetros medidos <em>in situ</em>:
+      h4 Explicación de algunos parámetros medidos <i>in situ</i>:
 
     LineaTiempoD.color-acento-contenido.mb-5
       .row(numero="1" titulo="Oxígeno disuelto").justify-content-center.align-items-center
@@ -99,7 +99,7 @@
         .row.justify-content-center
           .col-lg-10
             .tarjeta-color.bg_color8 
-              p.m-4.p-4 La medición de temperatura en muestras ambientales debe ser una labor realizada in situ, y no aplica por ello los procedimientos de almacenamiento y preservación. El mejor método para la lectura de este parámetro es introducir directamente los equipos de medición (termómetro o sonda) en el cuerpo de agua.
+              p.m-4.p-4 La medición de temperatura en muestras ambientales debe ser una labor realizada <i>in situ</i>, y no aplica por ello los procedimientos de almacenamiento y preservación. El mejor método para la lectura de este parámetro es introducir directamente los equipos de medición (termómetro o sonda) en el cuerpo de agua.
         p.mb-4 Las muestras en campo deben medirse directamente en la columna de agua introduciendo la sonda y procurando mantenerla siempre a la misma profundidad (25 cm por debajo de la superficie). Para tomar la temperatura en el fondo de la columna de agua es conveniente el uso de botellas que posean termómetros invertidos, o el uso de sondas que puedan bajar hasta el lugar donde se necesita leer. Si no se dispone de estos materiales, se toma la muestra con una de las botellas de muestreo (<em>Nansen o Niskin</em>) y se transfiere la mayor cantidad de agua a un recipiente grande (balde, con el fin de minimizar los errores por la transferencia de calor con el ambiente), y se introduce la sonda o termómetro, se mantiene una agitación constante con movimientos circulares y se registra el valor de temperatura; esta operación debe hacerse lo más rápido posible (INVEMAR, 2013, p.21).
 
       .row(numero="3" titulo="Conductividad").justify-content-center.align-items-center
@@ -118,8 +118,8 @@
 
       .row(numero="5" titulo="Turbidez").justify-content-center.align-items-center.mb-5
         .col-md-5.mb-4.mb-md-0
-          p.pt-4.mb-4 la turbidez del agua es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión.
-          p.mb-4 En caso de requerirse la extracción de una muestra para la medición de los parámetros in situ, es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos (INVEMAR, 2013, p.26).
+          p.pt-4.mb-4 La turbidez del agua es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión.
+          p.mb-4 En caso de requerirse la extracción de una muestra para la medición de los parámetros <i>in situ</i>, es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos (INVEMAR, 2013, p.26).
         .col-md-5
           figure
             img.pt-4(src='@/assets/curso/tema4/img12.png', alt='Texto que describa la imagen')

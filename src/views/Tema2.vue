@@ -78,7 +78,7 @@
     
     .row.justify-content-end.align-items-center.mt-5     
       .col-lg-8.up
-        p.mb-4 Para el almacenamiento de la muestra es necesario utilizar recipientes plásticos o de vidrio según los parámetros que se vayan a analizar para evitar la contaminación con microorganismos ajenos a la muestra. Los recipientes de vidrio se deben ser utilizados cuando se trata de muestras destinadas al análisis de metales traza ya que el vidrio libera silicio y además puede absorber trazas de metales que se encuentren en la muestra.  Por otra parte, los recipientes plásticos deberán ser descartados cuando las muestras contengan compuestos orgánicos ya que estos liberan sustancias del plástico y pueden disolver algunos compuestos orgánicos que se encuentren en la muestra. 
+        p.mb-4 Para el almacenamiento de la muestra es necesario utilizar recipientes plásticos o de vidrio según los parámetros que se vayan a analizar para evitar la contaminación con microorganismos ajenos a la muestra. Los recipientes de vidrio deben ser utilizados cuando se trata de muestras destinadas al análisis de metales traza ya que el vidrio libera silicio y además puede absorber trazas de metales que se encuentren en la muestra.  Por otra parte, los recipientes plásticos deberán ser descartados cuando las muestras contengan compuestos orgánicos ya que estos liberan sustancias del plástico y pueden disolver algunos compuestos orgánicos que se encuentren en la muestra. 
         p.mb-0 Es necesario que la muestra se almacene a una temperatura de 4ºC y en ausencia de luz, esto debe realizarse en el momento de la toma de la muestra.  
     .row.justify-content-start.align-items-center     
       .col-lg-4.margin_top4.d-none.d-lg-block
@@ -144,10 +144,10 @@
               p.mb-0 Debe ser totalmente legible (no realizar tachones).
             li  
               i.lista-ul__vineta
-              p.mb-0 La información mínima que debe contener según el ICONTEC GTC 100 es: si aplica, se debe especificar el código del proyecto, las consideraciones de seguridad y el código del cronograma, por otro lado siempre debe contener, el nombre de identificación de la muestra, la identificación de la ubicación del muestreo, el punto de muestreo y el intervalo de tiempo del mismo (fecha y hora), tipo de muestreo, la empresa o nombre de la persona que realiza la toma, parámetros medidos in situ (p.5).
+              p.mb-0 La información mínima que debe contener según el ICONTEC GTC 100 es: si aplica, se debe especificar el código del proyecto, las consideraciones de seguridad y el código del cronograma, por otro lado siempre debe contener, el nombre de identificación de la muestra, la identificación de la ubicación del muestreo, el punto de muestreo y el intervalo de tiempo del mismo (fecha y hora), tipo de muestreo, la empresa o nombre de la persona que realiza la toma, parámetros medidos <i>in situ</i> (p.5).
             li  
               i.lista-ul__vineta
-              p.mb-0 Para muestras microbiológicas aparte de los mencionado anteriormente se debe complementar la información con la preservación realizada (se debe consignar en el momento del alistamiento de los recipientes en el laboratorio, ya que la adición del preservante se adiciona antes del proceso de esterilización de los frascos).
+              p.mb-0 Para muestras microbiológicas aparte de los mencionados anteriormente se debe complementar la información con la preservación realizada (se debe consignar en el momento del alistamiento de los recipientes en el laboratorio, ya que la adición del preservante se adiciona antes del proceso de esterilización de los frascos).
         .col-lg-2.d-none.d-lg-block
           figure
             img.pe-2(src='@/assets/curso/tema2/img10.png', alt='')
@@ -179,15 +179,15 @@
               .col-lg-5 
                 a.anexo.mb-4.mb-lg-0.bg_enlace(:href="obtenerLink('/downloads/reconocimiento_de_material_de_laboratorio.pdf')" target="_blank" type="application/pdf")
                   .anexo__icono
-                    img(src="@/assets/template/icono-link.svg")
+                    img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p.text-blue.text-small Enlace web. Practica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI).
+                    p.text-blue.text-small #[b Anexo.] Practica de laboratorio Reconocimiento de material de laboratorio. Centro de gestión industrial (CGI).
               .col-lg-5 
                 a.anexo.mb-4.mb-lg-0.bg_enlace(:href="obtenerLink('/downloads/alistamiento_y_esterilizacion_de_materiales.pdf')" target="_blank" type="application/pdf")
                   .anexo__icono
-                    img(src="@/assets/template/icono-link.svg")
+                    img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p.text-blue.text-small Enlace web. Practica de laboratorio alistamiento y esterilización de materiales para el muestreo de agua para análisis microbiológico. Centro de gestión industrial (CGI).
+                    p.text-blue.text-small #[b Anexo.] Practica de laboratorio alistamiento y esterilización de materiales para el muestreo de agua para análisis microbiológico. Centro de gestión industrial (CGI).
 
           .row.justify-content-center.align-items-center.pb-1(titulo="Práctica de medición de masa y volumen:") 
             .col-lg-10 
@@ -204,9 +204,9 @@
                 .col-lg-6
                   a.anexo.mb-4.mb-lg-0.bg_enlace(:href="obtenerLink('/downloads/laboratorio_soluciones.pdf')" target="_blank" type="application/pdf")
                     .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
+                      img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
-                      p.text-blue.text-small Enlace web. Practica de laboratorio de soluciones. Centro de gestión industrial (CGI).
+                      p.text-blue.text-small #[b Anexo.] Practica de laboratorio de soluciones. Centro de gestión industrial (CGI).
 
     .row.justify-content-start.align-items-center.mt-5.ms-1           
       .col-lg-7

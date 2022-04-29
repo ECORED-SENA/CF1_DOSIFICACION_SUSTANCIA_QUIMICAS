@@ -145,7 +145,7 @@ export default {
   complementario: [
     {
       texto:
-        'B@UNAM, (2017). Propiedades físicas y químicas del agua. [video]. YouTube. https://www.youtube.com/watch?v=trA2dOF9eOo',
+        'B@UNAM, (2017). Propiedades físicas y químicas del agua. [video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=trA2dOF9eOo',
     },
